@@ -52,19 +52,19 @@ REST is just a particular description of how an interface should work: all of th
       -	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
       -	Extrinsic state, or application state, is stored on each client and consists of info that is dependent on the server’s context and therefore cannot be shared
 -	Clients	are responsible for passing application state to the server when it needs it, by storing application state on the client rather than on the server makes the communication stateless
-3.	###**Cacheability**
+### 3.	**Cacheability**
       -	TL;DR: Responses must be defined as cacheable or non-cacheable
 -	Clients and intermediaries can cache responses (responses must define themselves as either cacheable or non-cacheable to prevent clients from providing stale or inappropriate data
 -	Well-managed caching can eliminate some client-server interactions, thus improving scalability and performance.
-4.	###**Layered System**
+### 4.	**Layered System**
       -	TL;DR: The API can be made up of several other APIs and servers but this information must be hidden to the client
 -	A client can’t ordinarily tell if it is connected directly to the end server or to an intermediary, so if a proxy or load balancer is placed between the client and server, it won’t affect their communications.
       -	Servers can call multiple other servers to generate a response to the client
 -	Intermediary servers can improve system scalability by enabling load balancing and providing shared caches. Security can also be added as a layer to separate business logic from security logic. 
-5.	###**Code on demand** (optional)
+### 5.	**Code on demand** (optional)
       -	TL;DR: The API can be used to retrieve code/logic
 -   Servers can temporarily extend or customize the functionality of a client by transferring executable code (compiled components such as Java applets, or client-side scripts such as JavaScript
-6.	###**Uniform Interface**
+### 6.	**Uniform Interface**
       -	TL;DR: Manipulation and identification of resources using URIs (I can PATCH request   API/user/user_id to update a specific user in one of my APIs)
 -	It simplifies and decouples the architecture, enabling each to part evolve independently
 -	**4 constraints that make up a uniform interface:
