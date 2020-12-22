@@ -37,7 +37,7 @@ In general, created resources return an ID (resource identifier) for you
 
 REST is just a particular description of how an interface should work: all of the requests and operations that a program should be able to make when it’s using your site, how they ideally should work.
 
-6 guiding constraints that restrict the way the server can process and respond to client requests
+**6 guiding constraints** that restrict the way the server can process and respond to client requests
 •	By doing this, the system gains desirable non-functional properties (performance, scalability, simplicity, modifiability, portability, reliability, & visibility)
 
 1.	Client-Server Architecture:
@@ -49,13 +49,13 @@ REST is just a particular description of how an interface should work: all of th
 2.	Statelessness
 -	TL;DR: the API cannot hold state
 -	In a client-server interaction, state is made up of intrinsic state and extrinsic state. 
-  -	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
-  -	Extrinsic state, or application state, is stored on each client and consists of info that is dependent on the server’s context and therefore cannot be shared
+      -	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
+      -	Extrinsic state, or application state, is stored on each client and consists of info that is dependent on the server’s context and therefore cannot be shared
 -	Clients	are responsible for passing application state to the server when it needs it, by storing application state on the client rather than on the server makes the communication stateless
 3.	Cacheability
 -	TL;DR: Responses must be defined as cacheable or non-cacheable
-  -	Clients and intermediaries can cache responses (responses must define themselves as either cacheable or non-cacheable to prevent clients from providing stale or inappropriate data
-  -	Well-managed caching can eliminate some client-server interactions, thus improving scalability and performance.
+-	Clients and intermediaries can cache responses (responses must define themselves as either cacheable or non-cacheable to prevent clients from providing stale or inappropriate data
+-	Well-managed caching can eliminate some client-server interactions, thus improving scalability and performance.
 4.	Layered System
 -	The API can be made up of several other APIs and servers but this information must be hidden to the client
 •	A client can’t ordinarily tell if it is connected directly to the end server or to an intermediary, so if a proxy or load balancer is placed between the client and server, it won’t affect their communications.
