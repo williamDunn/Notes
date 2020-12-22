@@ -40,13 +40,13 @@ REST is just a particular description of how an interface should work: all of th
 **6 guiding constraints that restrict the way the server can process and respond to client requests**
 •	By doing this, the system gains desirable non-functional properties (performance, scalability, simplicity, modifiability, portability, reliability, & visibility)
 
-###1.	**Client-Server Architecture**
+### 1.	**Client-Server Architecture**
       -	TL;DR: Server manages the data, client accesses it
 -	Main principle = separation of concerns between client and server
       -	Separating the UI concerns from the data storage concerns improves portability of the UI across multiple platforms
       -	Improves scalability by simplifying the server components
       -	Most significant to the Web is that the separation allows the components to evolve independently – thus supporting the internet scale requirement of multiple organizational domains
-###2.	**Statelessness**
+### 2.	**Statelessness**
       -	TL;DR: the API cannot hold state
 -	In a client-server interaction, state is made up of intrinsic state and extrinsic state. 
       -	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
