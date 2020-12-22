@@ -63,20 +63,20 @@ REST is just a particular description of how an interface should work: all of th
 -	Intermediary servers can improve system scalability by enabling load balancing and providing shared caches. Security can also be added as a layer to separate business logic from security logic. 
 5.	**Code on demand** (optional)
       -	TL;DR: The API can be used to retrieve code/logic
--   	Servers can temporarily extend or customize the functionality of a client by transferring executable code (compiled components such as Java applets, or client-side scripts such as JavaScript
+-   Servers can temporarily extend or customize the functionality of a client by transferring executable code (compiled components such as Java applets, or client-side scripts such as JavaScript
 6.	**Uniform Interface**
--	TL;DR: Manipulation and identification of resources using URIs (I can PATCH request   API/user/user_id to update a specific user in one of my APIs)
-•	It simplifies and decouples the architecture, enabling each to part evolve independently
-•	4 constraints that make up a uniform interface:
+      -	TL;DR: Manipulation and identification of resources using URIs (I can PATCH request   API/user/user_id to update a specific user in one of my APIs)
+-	It simplifies and decouples the architecture, enabling each to part evolve independently
+-	4 constraints that make up a uniform interface:
 1.	Resource Identification in requests (i.e. URIs in RESTful web services)
-	The resources themselves are conceptually separate from the representations returned to the client
-	For example, the server could send data from its database as HTML, XML, or JSON – none of which are the server’s internal representation
+      -	The resources themselves are conceptually separate from the representations returned to the client
+      - For example, the server could send data from its database as HTML, XML, or JSON – none of which are the server’s internal representation
 2.	Resource manipulation through representations
-	When a client holds a representation of a resource, including any metadata attached, it has enough info to modify or delete the resource’s state
+      -	When a client holds a representation of a resource, including any metadata attached, it has enough info to modify or delete the resource’s state
 3.	Self-descriptive messages
-	Each message includes enough info to describe how to process the message (i.e. which parser to invoke can be specified by a media type)
+      -	Each message includes enough info to describe how to process the message (i.e. which parser to invoke can be specified by a media type)
 4.	Hypermedia as the engine of application state (HATEOAS)
-	Having accessed an initial URI for the REST app- like a human Web user accessing the home page of a website – a REST client should then be able to use server provided links dynamically to discover all the available resources it needs
-	As access proceeds, the server responds with text that includes hyperlinks to other resources that are currently available
-	There is no need for the client to be hard coded with information regarding the structure or dynamics of the application
+      -	Having accessed an initial URI for the REST app- like a human Web user accessing the home page of a website – a REST client should then be able to use server provided links dynamically to discover all the available resources it needs
+      -	As access proceeds, the server responds with text that includes hyperlinks to other resources that are currently available
+      -	There is no need for the client to be hard coded with information regarding the structure or dynamics of the application
 
