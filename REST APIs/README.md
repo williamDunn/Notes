@@ -35,8 +35,11 @@ In general, created resources return an ID (resource identifier) for you
 --------------------------
 ## RESTful System
 
-**What is REST?** (Representational state transfer)
--   REST is just a particular description of how an interface should work: all of the requests and operations that a program should be able to make when it’s using your site, how they ideally should work.
+**What is REST(Representational state transfer)?**
+-   REST is just a particular description of how an interface should work: all of the requests and operations that a program should be able to make when it’s using your site, how they ideally should work
+
+**How do programs utilize REST APIs?**
+-   REST APIs commonly communicate with either JSON or XML, mostly JSON nowadays
 
 **6 guiding constraints that restrict the way the server can process and respond to client requests**
 •	By doing this, the system gains desirable non-functional properties (performance, scalability, simplicity, modifiability, portability, reliability, & visibility)
