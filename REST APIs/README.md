@@ -67,7 +67,7 @@ REST is just a particular description of how an interface should work: all of th
 ### 6.	**Uniform Interface**
       -	TL;DR: Manipulation and identification of resources using URIs (I can PATCH request   API/user/user_id to update a specific user in one of my APIs)
 -	It simplifies and decouples the architecture, enabling each to part evolve independently
--	**4 constraints that make up a uniform interface:
+-	4 constraints that make up a uniform interface:
 1.	Resource Identification in requests (i.e. URIs in RESTful web services)
       -	The resources themselves are conceptually separate from the representations returned to the client
       - For example, the server could send data from its database as HTML, XML, or JSON – none of which are the server’s internal representation
