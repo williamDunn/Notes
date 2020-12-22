@@ -18,7 +18,7 @@
     -	PUT /user/1 or PUT /user if it’s an insert
 -	PATCH:
     -	Updates a resource (only for existent resources, unlike PUT it won’t create if there’s no such resource)
-    -	POST /user/1
+    -	PATCH /user/1
 -	POST:
     -	Create a resource
     -	POST /user
