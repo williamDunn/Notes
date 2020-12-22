@@ -25,3 +25,11 @@
 -	DELETE:
     -	Deletes a resource
     -	DELETE /user/1
+
+CRUD – Create (POST or PUT), Read(GET), Update(PUT or PATCH), Delete(DELETE)
+
+In general, created resources return an ID (resource identifier) for you
+-	Update and delete operations require such an ID
+-	For listing it can be optional (GET a specific resource or refer to it’s container to get all resources)
+
+REST is just a particular description of how an interface should work: all of the requests and operations that a program should be able to make when it’s using your site, how they ideally should work.
