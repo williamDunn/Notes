@@ -1,6 +1,6 @@
 # REST APIs
 --------------------------------
-API – Application Programming Interface
+## API – Application Programming Interface
 -	Application: Any one or many “programs” or functionality coming together to be used by an end-user towards a need or a purpose 
 -	Interface: An endpoint of an application that an end-user can interact with
   -	human – software interaction
