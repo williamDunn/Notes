@@ -43,9 +43,9 @@ REST is just a particular description of how an interface should work: all of th
 1.	Client-Server Architecture:
 -	TL;DR: Server manages the data, client accesses it
 -	Main principle = separation of concerns between client and server
-  -	Separating the UI concerns from the data storage concerns improves portability of the UI across multiple platforms
-  -	Improves scalability by simplifying the server components
-  -	Most significant to the Web is that the separation allows the components to evolve independently – thus supporting the internet scale requirement of multiple organizational domains
+      -	Separating the UI concerns from the data storage concerns improves portability of the UI across multiple platforms
+      -	Improves scalability by simplifying the server components
+      -	Most significant to the Web is that the separation allows the components to evolve independently – thus supporting the internet scale requirement of multiple organizational domains
 2.	Statelessness
 -	TL;DR: the API cannot hold state
 -	In a client-server interaction, state is made up of intrinsic state and extrinsic state. 
