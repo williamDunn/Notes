@@ -48,14 +48,14 @@ o	Improves scalability by simplifying the server components
 o	Most significant to the Web is that the separation allows the components to evolve independently – thus supporting the internet scale requirement of multiple organizational domains
 2.	Statelessness
 -	TL;DR: the API cannot hold state
-•	In a client-server interaction, state is made up of intrinsic state and extrinsic state. 
-o	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
-o	Extrinsic state, or application state, is stored on each client and consists of info that is dependent on the server’s context and therefore cannot be shared
-•	Clients	are responsible for passing application state to the server when it needs it, by storing application state on the client rather than on the server makes the communication stateless
+-	In a client-server interaction, state is made up of intrinsic state and extrinsic state. 
+  -	Intrinsic state, or resource state, is stored on the server and consists of information that is independent of the server’s context, thereby making it sharable to all clients of the server
+  -	Extrinsic state, or application state, is stored on each client and consists of info that is dependent on the server’s context and therefore cannot be shared
+-	Clients	are responsible for passing application state to the server when it needs it, by storing application state on the client rather than on the server makes the communication stateless
 3.	Cacheability
 -	TL;DR: Responses must be defined as cacheable or non-cacheable
-•	Clients and intermediaries can cache responses (responses must define themselves as either cacheable or non-cacheable to prevent clients from providing stale or inappropriate data
-•	Well-managed caching can eliminate some client-server interactions, thus improving scalability and performance.
+  -	Clients and intermediaries can cache responses (responses must define themselves as either cacheable or non-cacheable to prevent clients from providing stale or inappropriate data
+  -	Well-managed caching can eliminate some client-server interactions, thus improving scalability and performance.
 4.	Layered System
 -	The API can be made up of several other APIs and servers but this information must be hidden to the client
 •	A client can’t ordinarily tell if it is connected directly to the end server or to an intermediary, so if a proxy or load balancer is placed between the client and server, it won’t affect their communications.
