@@ -26,7 +26,7 @@
     -	Deletes a resource
     -	DELETE /user/1
 
-CRUD – Create (POST or PUT), Read(GET), Update(PUT or PATCH), Delete(DELETE)
+**CRUD** – **C**reate (POST or PUT), **R**ead(GET), **U**pdate(PUT or PATCH), **D**elete(DELETE)
 
 In general, created resources return an ID (resource identifier) for you
 -	Update and delete operations require such an ID
