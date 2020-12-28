@@ -26,7 +26,7 @@ What is:
 * Allows you to create new classes that share attributes and methods of existing classes
     
     
-    What is: 
+What is: 
 ## Polymorphism
 * Objects of different types can be accessed through the same interface (with it's own independent implementations)
     * Method overriding
