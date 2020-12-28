@@ -9,3 +9,12 @@ There are 4 basic OOP concepts:
 
 What is: 
 ## Abstraction
+* Simple things to represent complexity
+    * Simple: objects, classes, variables, method(parameters)
+    * Complexity: How a method is implemented, Calculations to perform to create a result
+    
+What is: 
+## Encapsulation
+* Simple things to represent complexity
+    * Simple: objects, classes, variables, method(parameters)
+    * Complexity: How a method is implemented, Calculations to perform to create a result
