@@ -16,20 +16,18 @@ What is:
     
 What is: 
 ## Encapsulation
-* Simple things to represent complexity
-    * Simple: objects, classes, variables, method(parameters)
-    * Complexity: How a method is implemented, Calculations to perform to create a result
+* Keeping fields in a calss private, then providing access to them via public methods
+    * Why?
+    * to re-use objects without allowing open acccess to the data system-wide
 
 
 What is: 
 ## Inheritance
-* Simple things to represent complexity
-    * Simple: objects, classes, variables, method(parameters)
-    * Complexity: How a method is implemented, Calculations to perform to create a result
+* Allows you to create new classes that share attributes and methods of existing classes
     
     
     What is: 
 ## Polymorphism
-* Simple things to represent complexity
-    * Simple: objects, classes, variables, method(parameters)
-    * Complexity: How a method is implemented, Calculations to perform to create a result
+* Objects of different types can be accessed through the same interface (with it's own independent implementations)
+    * Method overriding
+    * Method overloading
