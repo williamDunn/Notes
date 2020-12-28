@@ -2,3 +2,5 @@
 -----------------------------------------------
 * Object Oriented Programming
 * RESTful APIs
+* SQL
+* GitHub Repo 101s
