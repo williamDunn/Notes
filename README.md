@@ -3,4 +3,4 @@
 * Object Oriented Programming
 * RESTful APIs
 * SQL
-* GitHub Repo 101s
+* GitHub Repo 101
