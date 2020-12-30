@@ -1,20 +1,20 @@
-Software Developer (Frontend developer/Backend developer/Fullstack developer)
+- Software Developer (Frontend developer/Backend developer/Fullstack developer)
     - Writes the code
 
-QA Testers
+- QA Testers
     - Test the code
 
-Product Owners
+- Product Owners
     - Own the product
     - Work with the customers, stakeholders, and the development team to build a solution that solves a problem that the customer and stakeholders have
 
-Manager
+- Manager
     - Oversees the team, making sure that everyone is happy
 
-Scrum Master
+- Scrum Master
     - Facilitator of the Agile team
     - Makes sure that the team is self organized, keeping track of Jira board, and manage the process of how information is exchanged
 
-DevOps Engineer
+- DevOps Engineer
     - In charge of releasing the software/product
 
