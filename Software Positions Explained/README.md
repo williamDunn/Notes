@@ -17,3 +17,4 @@ Scrum Master
 
 DevOps Engineer
     - In charge of releasing the software/product
+
