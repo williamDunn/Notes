@@ -12,3 +12,15 @@ Linear vs Non-linear
     - Array, Stack, Queue, Linked List
 - Non-linear
     - Graphcs, trees
+
+Array
+
+Stack
+
+Queue
+
+Linked List
+
+Graphs
+
+Trees
