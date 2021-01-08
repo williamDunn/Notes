@@ -33,3 +33,5 @@ SQL Stored Procedure
 
 ------------------------------
 Database Knowledge
+- Attributes
+- Fields
