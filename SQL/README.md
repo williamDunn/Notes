@@ -25,3 +25,6 @@ Outer join:
 Left join:
 
 Right join:
+
+------------------------------
+SQL Index
