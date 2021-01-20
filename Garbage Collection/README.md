@@ -6,3 +6,6 @@
 - Survivor 2
 - Old Generation
 - Perm Generation
+
+--------------------
+##### Types of GC
