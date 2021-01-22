@@ -1,6 +1,7 @@
 # Big O
 --------
 What is it?
+Big O notation is simply how programmers talk about algorithms
 
 Why is it important?
 
