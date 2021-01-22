@@ -31,3 +31,4 @@ O(n^2) - Quadratic Time Complexity
     - For example, if we wanted to find everyone combinition of [1, 2, 3] we'd get back [(1,1) (1,2), (1,3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
     - This is an O(n^2) function because for every number in the array we have to do n more operations
 ----------------
+How do you calculate Big-O?
