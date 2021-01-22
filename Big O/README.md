@@ -1,7 +1,7 @@
 # Big O
 --------
 What is it?
-Big-O notation is simply how programmers talk about algorithms
+Big-O notation is simply how programmers talk about algorithms. It's determined by how a function responds to different inputs, how much slower is something if we input 1000 vs 1
 
 Why is it important?
 
