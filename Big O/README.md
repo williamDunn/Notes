@@ -6,6 +6,8 @@ What is it?
 
 - It's determined by how a function responds to different inputs - how much slower is something if we input 1000 vs 1
 
+- It's about figuring out the approximate worst-case performance of doing something
+
 - You'd read O(n) as "Order of N"
 
 Why is it important?
