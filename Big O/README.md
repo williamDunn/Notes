@@ -36,3 +36,9 @@
 ----------------
 
 #### Which data structures correspond with which Big O 
+
+----------------
+
+#### Which algorithims correspond with which Big O
+
+----------------
