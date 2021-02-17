@@ -32,3 +32,7 @@
     - This is an O(n^2) function because for every number in the array we have to do n more operations
 ----------------
 #### How do you calculate Big-O?
+
+----------------
+
+#### Which data structures correspond with which Big O 
