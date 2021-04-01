@@ -18,6 +18,8 @@ Linear vs Non-linear
 - In a non-linear data structure, single level is not involved. Therefore, we can’t traverse all the elements in single run only. Non-linear data structures are not easy to implement in comparison to linear data structure. It utilizes computer memory efficiently in comparison to a linear data structure.
     - Graphcs, trees
 
+--------------------
+
 Array
 
 Stack
