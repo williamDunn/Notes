@@ -21,6 +21,7 @@ Linear vs Non-linear
     - Applications of non-linear data structures are in Artificial Intelligence and image processing
 
 --------------------
+(Using Java Examples)
 
 Array
 
