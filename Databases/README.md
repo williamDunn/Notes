@@ -1,1 +1,1 @@
-SQL vs NOSQL Databases
+SQL vs NoSQL Databases
