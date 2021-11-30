@@ -12,18 +12,26 @@ What is:
 * Simple things to represent complexity
     * Simple: objects, classes, variables, method(parameters)
     * Complexity: How a method is implemented, Calculations to perform to create a result
+
+-  Calling a method, don't need to worry about the code in the method
     
     
 What is: 
 ## Encapsulation
-* Keeping fields in a calss private, then providing access to them via public methods
+* Keeping fields in a class private, then providing access to them via public methods
     * Why?
     * to re-use objects without allowing open acccess to the data system-wide
+
+-  ie. Getters & Setters
+-  Encapsulating our properties within the object by setting properties to private
 
 
 What is: 
 ## Inheritance
 * Allows you to create new classes that share attributes and methods of existing classes
+
+-  Code Reusability
+-  Ability to add more functionality when needed through child class
     
     
 What is: 
