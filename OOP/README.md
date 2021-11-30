@@ -7,7 +7,6 @@ There are 4 basic OOP concepts:
 4. Polymorphism
 
 
-What is: 
 ## Abstraction
 * Simple things to represent complexity
     * Simple: objects, classes, variables, method(parameters)
@@ -16,7 +15,6 @@ What is:
 -  Calling a method, don't need to worry about the code in the method
     
     
-What is: 
 ## Encapsulation
 * Keeping fields in a class private, then providing access to them via public methods
     * Why?
@@ -26,7 +24,6 @@ What is:
 -  Encapsulating our properties within the object by setting properties to private
 
 
-What is: 
 ## Inheritance
 * Allows you to create new classes that share attributes and methods of existing classes
 
@@ -34,7 +31,6 @@ What is:
 -  Ability to add more functionality when needed through child class
     
     
-What is: 
 ## Polymorphism
 * Objects of different types can be accessed through the same interface (with it's own independent implementations)
     * Method overriding
