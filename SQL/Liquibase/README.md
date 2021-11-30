@@ -8,6 +8,18 @@
 
 -------------------------------
 
+
+#### Advantages of Liquibase
+-  Automatic Updates
+-  Automatic creation and execution of rollback operations
+-  Supports different formats
+*  XML
+*  JSON
+*  YAML
+*  SQL
+
+-------------------------------
+
 #### How to use Liquibase
 A. Add Liquibase to your project (by dependency injection)
 
