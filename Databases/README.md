@@ -26,7 +26,7 @@
 
 -  Structure for Understanding the Data and their Corresponding Data Relationships
 
-(Data as in things like: tables, views, fields, relationships, indexes, etc.)
+*(Data as in things like: tables, views, fields, relationships, indexes, etc.)*
 
 -----------------------
 
@@ -35,7 +35,23 @@
 ##### 2 Types:
 
 1) Schema on *Read*
+-  For Unstructured Data (This is where structure is added to the query code)
+- ie. Hadoop, MongoDB
 
-3) Schema on *Write*
+2) Schema on *Write*
+-  DBs that force structure as a condition before data is written
+-  ie. SQL server?, etc.
 
 ----------------------
+#### How Schema is Designed
+-  How schema is designed influences behaviors in database
+
+(Slow querying)
+1) Series of Tables connected by primary keys
+-  Likely for reading & writing singular records
+-  ie. Salesforce
+
+(Fast querying)
+2) Central table connected to keys supplied by surrounding tables
+-  Likely for a system that needs highlyu efficient read output
+-  STAR Schema - ideal for high scal information delivery
