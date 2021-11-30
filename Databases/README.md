@@ -20,8 +20,8 @@
 
 ----------------------
 #### Database Schema
-##### -  Structure Defining Around the Data of a DB
+-  Structure Defining Around the Data of a DB
 
 #### OR
 
-##### -  Structure FOR Understanding the Data and their Corresponding Data Relationships
+-  Structure FOR Understanding the Data and their Corresponding Data Relationships
