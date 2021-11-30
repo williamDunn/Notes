@@ -34,8 +34,8 @@
 
 ##### 2 Types:
 
-1) Schema on Read
+1) Schema on *Read*
 
-3) Schema on Write
+3) Schema on *Write*
 
 ----------------------
