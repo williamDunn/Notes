@@ -17,7 +17,7 @@ Where:
 ```
 --------------------------------
 
-##### Types of JOINs:
+#### Types of JOINs:
 
 (Inner) JOIN:
 -  Returns records *matching values* in *both tables*
