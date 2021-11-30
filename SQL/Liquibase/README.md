@@ -13,10 +13,10 @@
 -  Automatic Updates
 -  Automatic creation and execution of rollback operations
 -  Supports different formats
-*  XML
-*  JSON
-*  YAML
-*  SQL
+  *  XML
+  *  JSON
+  *  YAML
+  *  SQL
 
 -------------------------------
 
