@@ -9,7 +9,7 @@
 ## How to use Liquibase
 1) Add Liquibase to your project (by dependency injection)
 2) Implement database migration (AKA updating the schema/database)
-  a. Get DB connection
+  a) Get DB connection
     -  Getting DB connection depends on your environment & tech stack
-  b. Initialize Liquibase
-  c. Run the update
+  b) Initialize Liquibase
+  c) Run the update
