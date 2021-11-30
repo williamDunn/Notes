@@ -7,7 +7,6 @@
 
 -  SQL Databases are relational **|** NoSQL Databases are non-relational
 
-----------------------
 #### Why use SQL vs NoSQL DBs
 
 -  SQL = Organized
@@ -18,3 +17,11 @@
 
 -  Relational Data Model
 -  Entity Relationship Model
+
+----------------------
+#### Database Schema
+##### -  Structure Defining Around the Data of a DB
+
+#### OR
+
+##### -  Structure FOR Understanding the Data and their Corresponding Data Relationships
