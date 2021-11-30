@@ -29,3 +29,8 @@ B. Implement database migration (AKA updating the schema/database)
   <version> 3.5.3 </version>
 </dependency>
 ```
+--------------------------------
+
+## 2 Mechanisms Liquibase uses to *Track, Version, & Deploy* changes to your DB
+1) Changelogs
+2) Tracking Tables
