@@ -1,12 +1,13 @@
-#### Liquibase Basics
+## Liquibase Basics
 -------------------------------
 
-## What is Liquibase for?
+#### What is Liquibase for? 
+-  CI/CD
 -  Automates Database Schema Changes / Automatically updates a database
 
 -------------------------------
 
-## How to use Liquibase
+#### How to use Liquibase
 A. Add Liquibase to your project (by dependency injection)
 
 B. Implement database migration (AKA updating the schema/database)
@@ -20,7 +21,7 @@ B. Implement database migration (AKA updating the schema/database)
 
 -------------------------------
 
-## Integrating Liquibase into Spring Boot Application (Easy)
+#### Integrating Liquibase into Spring Boot Application (Easy)
 -  Just add the Liquibase core to your classpath
 ```
 <dependency>
@@ -31,6 +32,6 @@ B. Implement database migration (AKA updating the schema/database)
 ```
 --------------------------------
 
-## 2 Mechanisms Liquibase uses to *Track, Version, & Deploy* changes to your DB
+#### 2 Mechanisms Liquibase uses to *Track, Version, & Deploy* changes to your DB
 1) Changelogs
 2) Tracking Tables
