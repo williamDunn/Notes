@@ -11,7 +11,7 @@ A. Add Liquibase to your project (by dependency injection)
 B. Implement database migration (AKA updating the schema/database)
   1) Get DB connection
 
-    -  Getting DB connection depends on your environment & tech stack
+  -  Getting DB connection depends on your environment & tech stack
 
   2) Initialize Liquibase
 
