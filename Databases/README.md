@@ -19,9 +19,23 @@
 -  Entity Relationship Model
 
 ----------------------
-#### Database Schema
+## Database Schema
 -  Structure Defining Around the Data of a DB
 
 ##### OR
 
--  Structure FOR Understanding the Data and their Corresponding Data Relationships
+-  Structure for Understanding the Data and their Corresponding Data Relationships
+
+(Data as in things like: tables, views, fields, relationships, indexes, etc.)
+
+-----------------------
+
+#### Structure of the Schema is Dependant on the Platform/DB (MongoDB, Oracle, Microsoft, etc.)
+
+##### 2 Types:
+
+1) Schema on Read
+
+3) Schema on Write
+
+----------------------
