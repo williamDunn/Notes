@@ -22,6 +22,6 @@
 #### Database Schema
 -  Structure Defining Around the Data of a DB
 
-#### OR
+##### OR
 
 -  Structure FOR Understanding the Data and their Corresponding Data Relationships
