@@ -1,7 +1,8 @@
-### What is a Database?
+## What is a Database?
 
 -  A structured set of data held in a computer
-
+-  
+----------------------
 #### SQL vs NoSQL Databases
 
 -  SQL Databases are relational **|** NoSQL Databases are non-relational
