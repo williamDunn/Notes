@@ -18,3 +18,14 @@ B. Implement database migration (AKA updating the schema/database)
 
   3) Run the update
 
+-------------------------------
+
+## Integrating Liquibase into Spring Boot Application (Easy)
+-  Just add the Liquibase core to your classpath
+```
+<dependency>
+  <groupId> org.liquibase </groupId>
+  <artifactId> liquibase-core </artifactId>
+  <version> 3.5.3 </version>
+</dependency>
+```
