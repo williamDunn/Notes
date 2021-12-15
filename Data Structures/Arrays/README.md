@@ -7,3 +7,4 @@
 -  Delete operation very hard
 
 ![Array](screenshot.png)
+<img src="screenshot.png" width="60">
