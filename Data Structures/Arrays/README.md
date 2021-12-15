@@ -14,4 +14,11 @@ O(N)
 
 ```
 String[] colors = new String[5];
+
+colors[0] = "purple";
+colors[1] = "blue";
+
+System.out.println(Arrays.toString(colors));
+
+// will return [purple, blue, null, null, null]
 ```
