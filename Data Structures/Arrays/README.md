@@ -6,4 +6,4 @@
 -  Compact memory usage (if size is known)
 -  Delete operation very hard
 
-![Array](screenshot.png | width=100)
+![Array](screenshot.png)
