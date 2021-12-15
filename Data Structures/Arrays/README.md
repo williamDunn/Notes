@@ -21,7 +21,9 @@ colors[1] = "blue";
 System.out.println(Arrays.toString(colors));
 System.out.println(colors[4]);
 ```
-will return [purple, blue, null, null, null]
+returns:
+
+[purple, blue, null, null, null]
 
 ```
 System.out.println(colors[0]);
@@ -30,7 +32,7 @@ System.out.println(colors[2]);
 System.out.println(colors[3]);
 System.out.println(colors[4]);
 ```
-Will return:
+returns:
 
 purple
 
@@ -46,4 +48,6 @@ null
 colors[2] = "yellow";
 System.out.println(Arrays.toString(colors));
 ```
-Will return: [purple, blue, yellow, null, null]
+returns: 
+
+[purple, blue, yellow, null, null]
