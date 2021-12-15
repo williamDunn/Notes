@@ -31,10 +31,15 @@ System.out.println(colors[3]);
 System.out.println(colors[4]);
 ```
 Will return:
+
 purple
+
 blue
+
 null
+
 null
+
 null
 
 ```
