@@ -8,7 +8,7 @@
 -  Used for Common Methods
 
 
-<img src="abstractVsInterface.png" height="200">
+<img src="abstractVsInterface.png">
 
 #### Enumerations
 --------------------------------
