@@ -1,5 +1,7 @@
 ### 2D Array
 
+-  Whenever you want a grid, use 2D Arrays
+
 Example: tic-tac-toe game
 
 ```
