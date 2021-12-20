@@ -1,5 +1,7 @@
 ### 2D Array
 
+Example: tic-tac-toe game
+
 ```
 char[][] board = new char[3][3];
 
@@ -19,3 +21,32 @@ returns:
 
 [[-, -, -], [-, -, -], [-, -, -]]
 
+```
+board[0][0] = '0';
+board[1][0] = '0';
+board[2][0] = '0';
+
+System.out.println(Arrays.deepToString(board));
+```
+
+returns:
+
+[[0, -, -], [0, -, -], [0, -, -]]
+
+
+
+##### Creating an inline array
+```
+char[][] boardTwo = new char[][]{
+  new char[] {'0', '-', '-'},
+  new char[] {'0', '-', '-'},
+  new char[] {'0', '-', '-'}
+};
+
+System.out.println(Arrays.deepToString(boardTwo));
+```
+
+
+returns:
+
+[[0, -, -], [0, -, -], [0, -, -]]
