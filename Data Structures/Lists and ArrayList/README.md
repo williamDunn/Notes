@@ -57,3 +57,25 @@ System.out.println(colors.contains("yellow"));
 System.out.println(colors.contains("pink"));
 //returns false
 ```
+
+Looping through a list methods
+```
+for (String color : colors) 
+{
+	System.out.println(color);
+}
+
+
+colors.forEach(System.out::println);
+
+
+// traditional for loop not preferred unless you need access to the index itself
+for (int i = 0; i < colors.size(); i++)
+{
+	System.out.println(colors.get(i));
+}
+```
+Returns:
+blue
+purple
+yellow
