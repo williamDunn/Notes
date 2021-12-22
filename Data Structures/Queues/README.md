@@ -9,14 +9,15 @@
 
 ```
 Queue<Person> supermarket = new LinkedList<>();
+
   supermarket.add(new Person("Alex", 21));
   supermarket.add(new Person("Kevin", 31));
   supermarket.add(new Person("William", 25));
 
-  //returns size of queue
+  //returns size of queue (3)
   System.out.println(supermarket.size());
 
-  //returns element at the front
+  //returns element at the front (Person[name=Alex, age=21]
   System.out.println(supermarket.peek());
 
   //removes element at the front (also returns that element)
