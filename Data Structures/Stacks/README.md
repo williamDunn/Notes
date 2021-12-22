@@ -3,12 +3,14 @@
 
 -  The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
--  It extends class Vector with 5 operations that allow a vector to be treated as a stack.
+-  It extends class Vector with 5 operations that allow a vector to be treated as a stack. 
     -  The usual **push()** and **pop()** operations are provided, 
     -  as well as a method to **peek()** at the top item on a the stack
     -  a method to test for whether the stack is empty **empty()**
     -  and a method to search the stack for an item and discover how far it is from the top
 
+-  Vectors and, therefore, Stacks are synchoronized
+        -  if a thread-safe implementation is not needed, it is recommeneded to use ArrayList in place of Vector 
 ```
 Stack<Integer> stack = new Stack<>();
 
@@ -30,3 +32,17 @@ System.out.println(stack.pop());
 System.out.println(stack.empty());
 ```
 
+How to check if a stack contains a certain element (returns true or false)
+```
+//returns true
+System.out.println(stack.contains(1));
+```
+
+How to check how far a certain element is from the top (if doesn't exist - returns a -1)
+```
+//returns 2 (element 1 is 2 spots away from the top)
+System.out.println(stack.search(1));
+
+//returns -1 (element doesn't exist)
+System.out.println(stack.search(4));
+```
