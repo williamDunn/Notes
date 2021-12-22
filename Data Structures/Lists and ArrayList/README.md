@@ -12,7 +12,7 @@
 
 -------------------
 
-A list can contain multiple data types
+#### A list can contain multiple data types
 i.e.
 
 ```
@@ -31,7 +31,7 @@ Returns:
 [blue,purple, 1, java.lang.Object@6b71769e]
 
 
-However when working with lists we should tell it what data types it should old - doesn't make sense to hold a list with a bunch of different types
+##### However when working with lists we should tell it what data types it should old - doesn't make sense to hold a list with a bunch of different types
 To fix this we use "<>" to declare the type
 i.e.
 
@@ -39,7 +39,9 @@ i.e.
 List<String> colors = new ArrayList<>();
 ```
 
-to print a List, check the size, check if it contains a certain element
+--------------------
+
+#### to print a List, check the size, check if it contains a certain element
 ```
 colors.add("blue");
 colors.add("purple");
@@ -58,7 +60,9 @@ System.out.println(colors.contains("pink"));
 //returns false
 ```
 
-Looping through a list methods
+----------------
+
+#### Looping through a list methods
 ```
 //Using a for loop
 for (String color : colors) 
@@ -86,7 +90,7 @@ purple
 yellow
 
 ----------
-Creating an unmodifiable list
+#### Creating an unmodifiable list
 ```
 List<String> colorsUnmodifiable = List.of(
 	"blue",
