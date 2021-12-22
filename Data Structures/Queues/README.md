@@ -6,6 +6,19 @@
 <img src="queue.PNG" height="150">
 
 --------------------------
+add()
+
+offer()
+
+size()
+
+peek()
+
+poll()
+
+remove()
+
+
 
 ```
 Queue<Person> supermarket = new LinkedList<>();
