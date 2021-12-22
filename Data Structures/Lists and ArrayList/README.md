@@ -62,7 +62,7 @@ System.out.println(colors.contains("pink"));
 
 ----------------
 
-### Looping through a list methods
+### Methods to loop through a list
 ```
 //Using a for loop
 for (String color : colors) 
