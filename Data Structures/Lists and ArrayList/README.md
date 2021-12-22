@@ -78,6 +78,20 @@ for (int i = 0; i < colors.size(); i++)
 }
 ```
 Returns:
+
 blue
+
 purple
+
 yellow
+
+----------
+Creating an unmodifiable list
+```
+List<String> colorsUnmodifiable = List.of(
+	"blue",
+	"yellow"
+);
+```
+
+if you try to add something to this list, you'll get an error because the list is immutable
