@@ -1,9 +1,9 @@
 # Stack
-------------
-
 -  The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
 <img src="stack.PNG" height="500">
+
+---------------------
 
 -  It extends class Vector with 5 operations that allow a vector to be treated as a stack. 
     -  The usual **push()** and **pop()** operations are provided, 
@@ -16,6 +16,7 @@
 -  Synchronized - when you're working in a multi-threaded environment and any access to your stack has to be synchronized
         -  slows down operations when working with a stack
 
+ ------------------------
  
 ```
 Stack<Integer> stack = new Stack<>();
