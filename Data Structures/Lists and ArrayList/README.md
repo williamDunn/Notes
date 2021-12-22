@@ -18,14 +18,14 @@ i.e.
 ```
 List colors = new ArrayList();
 		
-    //if you want to add values to your list
-    colors.add("blue");
-    colors.add("purple");
+//if you want to add values to your list
+colors.add("blue");
+colors.add("purple");
 
-    colors.add(1);
-    colors.add(new Object());
+colors.add(1);
+colors.add(new Object());
 
-    System.out.println(colors);
+System.out.println(colors);
 ```
 Returns:
 [blue,purple, 1, java.lang.Object@6b71769e]
@@ -39,7 +39,21 @@ i.e.
 List<String> colors = new ArrayList<>();
 ```
 
-to print a List
+to print a List, check the size, check if it contains a certain element
 ```
-System.out.println(listVariableName);
+colors.add("blue");
+colors.add("purple");
+colors.add("yellow");
+
+System.out.println(colors);
+//returns [blue, purple, yellow]
+
+System.out.println(colors.size());
+//returns 3
+
+System.out.println(colors.contains("yellow"));
+//returns true
+
+System.out.println(colors.contains("pink"));
+//returns false
 ```
