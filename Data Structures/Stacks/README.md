@@ -12,6 +12,7 @@
 ```
 Stack<Integer> stack = new Stack<>();
 
+//adds element to the stack (remember LIFO)
 stack.push(1);
 stack.push(2);
 stack.push(3);
