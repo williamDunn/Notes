@@ -17,7 +17,7 @@
         -  slows down operations when working with a stack
 
  ------------------------
- 
+ ## Creating a stack and using stack methods
 ```
 Stack<Integer> stack = new Stack<>();
 
