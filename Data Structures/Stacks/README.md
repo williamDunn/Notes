@@ -3,7 +3,7 @@
 
 -  The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
-<img src="stack.png" height="200">
+<img src="stack.PNG" height="200">
 
 -  It extends class Vector with 5 operations that allow a vector to be treated as a stack. 
     -  The usual **push()** and **pop()** operations are provided, 
