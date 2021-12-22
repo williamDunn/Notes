@@ -1,4 +1,4 @@
-### Lists and ArrayList
+## Lists and ArrayList
 
 -  An ordered collection (aka sequence)
 -  Allows duplicates
@@ -12,7 +12,7 @@
 
 -------------------
 
-#### A list can contain multiple data types
+### A list can contain multiple data types
 i.e.
 
 ```
@@ -41,7 +41,7 @@ List<String> colors = new ArrayList<>();
 
 --------------------
 
-#### to print a List, check the size, check if it contains a certain element
+### to print a List, check the size, check if it contains a certain element
 ```
 colors.add("blue");
 colors.add("purple");
@@ -62,7 +62,7 @@ System.out.println(colors.contains("pink"));
 
 ----------------
 
-#### Looping through a list methods
+### Looping through a list methods
 ```
 //Using a for loop
 for (String color : colors) 
@@ -90,7 +90,7 @@ purple
 yellow
 
 ----------
-#### Creating an unmodifiable list
+### Creating an unmodifiable list
 ```
 List<String> colorsUnmodifiable = List.of(
 	"blue",
