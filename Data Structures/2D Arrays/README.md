@@ -2,6 +2,10 @@
 
 -  Whenever you want a grid, use 2D Arrays
 
+--------------
+
+<img src="2DArray.PNG" height="200">
+
 Example: tic-tac-toe game
 
 ```
