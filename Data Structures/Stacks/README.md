@@ -3,14 +3,20 @@
 
 -  The Stack class represents a last-in-first-out (LIFO) stack of objects.
 
+<img src="stack.png" height="200">
+
 -  It extends class Vector with 5 operations that allow a vector to be treated as a stack. 
     -  The usual **push()** and **pop()** operations are provided, 
     -  as well as a method to **peek()** at the top item on a the stack
     -  a method to test for whether the stack is empty **empty()**
-    -  and a method to search the stack for an item and discover how far it is from the top
+    -  and a method to **search()** the stack for an item and discover how far it is from the top
 
 -  Vectors and, therefore, Stacks are synchoronized
         -  if a thread-safe implementation is not needed, it is recommeneded to use ArrayList in place of Vector 
+-  Synchronized - when you're working in a multi-threaded environment and any access to your stack has to be synchronized
+        -  slows down operations when working with a stack
+
+ 
 ```
 Stack<Integer> stack = new Stack<>();
 
