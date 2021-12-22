@@ -4,7 +4,7 @@
 
 --------------
 
-<img src="2DArray.PNG" height="200">
+<img src="2DArray.PNG" height="400">
 
 Example: tic-tac-toe game
 
