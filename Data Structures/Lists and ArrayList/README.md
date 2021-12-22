@@ -30,3 +30,16 @@ List colors = new ArrayList();
 Returns:
 [blue,purple, 1, java.lang.Object@6b71769e]
 
+
+However when working with lists we should tell it what data types it should old - doesn't make sense to hold a list with a bunch of different types
+To fix this we use "<>" to declare the type
+i.e.
+
+```
+List<String> colors = new ArrayList<>();
+```
+
+to print a List
+```
+System.out.println(listVariableName);
+```
