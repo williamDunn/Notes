@@ -1,4 +1,4 @@
-# Queue 101
+# Queue
 
 - FIFO (First In, First Out)
 - A collection designed for holding element prior to processing
