@@ -60,16 +60,18 @@ System.out.println(colors.contains("pink"));
 
 Looping through a list methods
 ```
+//Using a for loop
 for (String color : colors) 
 {
 	System.out.println(color);
 }
 
-
+//Using a for each
 colors.forEach(System.out::println);
 
 
-// traditional for loop not preferred unless you need access to the index itself
+//traditional for i loop
+//not preferred unless you need access to the index itself
 for (int i = 0; i < colors.size(); i++)
 {
 	System.out.println(colors.get(i));
