@@ -1,2 +1,4 @@
-# Linked List 101
+# Linked List
 -----------------
+
+<img src="screenshot.png" height="200">
