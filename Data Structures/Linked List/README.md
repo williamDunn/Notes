@@ -1,4 +1,4 @@
 # Linked List
 -----------------
 
-<img src="linkedList.PNG" height="150">
+<img src="linkedList.PNG" height="125">
