@@ -2,6 +2,7 @@
 ------------
 
 -  A collection that contains no duplicate elements
+    -  At most, one null element
 -  Not ordered
 -  Implementations:
     -  TreeSet
