@@ -47,3 +47,7 @@ while(personListIterator.hasPrevious())
 //Person[name=Will, age=25]
 //Person[name=Alex, age=21]
 ```
+
+Add implementations/parameters:
+
+<img src="linkedListAdd.PNG" height="125">
