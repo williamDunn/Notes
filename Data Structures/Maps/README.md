@@ -4,7 +4,7 @@
 -  A map connot contain duplicate keys
 -  Each key can map to at most one value
 
-<img src="Maps2.PNG" height="350">
+<img src="Maps2.PNG" height="300">
 
 Map implementations that Java offers
 
