@@ -20,11 +20,11 @@ Map implementations that Java offers
     -  If you want near-HashMap perormance and insertion-order iteration
 #### Special-Purpose Map Implementations:
 -  EnumMap
--  high-performance Map implementation for use with enum keys (internally implemented as an array)
+        -  high-performance Map implementation for use with enum keys (internally implemented as an array)
 -  WeakHashMap
--  implementation that stores only weak references to its keys (allows a key-value pair to be garbage-collected when its key is no longer referenced outside of the WeakHashMap)
+        -  implementation that stores only weak references to its keys (allows a key-value pair to be garbage-collected when its key is no longer referenced outside of the WeakHashMap)
 -  IdentityHashMap
--  Identity-based Map implementation based on a hash table (useful for topology-preserving object graph trasnformations, such as serialization or deep-copying
+        -  Identity-based Map implementation based on a hash table (useful for topology-preserving object graph trasnformations, such as serialization or deep-copying
 #### Concurrent Map Implentations:
 -  ConcurrentMap
    -  A highly concurrent, high-performance implmentation backed up by a hash table (intended as a drop-in replacement for Hastable; also supports all the legacy methods peculiar to Hashtable)
