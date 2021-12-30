@@ -6,4 +6,4 @@
 
 Map implementations that Java offers
 
-<img src="Maps.PNG" height="200">
+<img src="Maps.PNG" height="300">
