@@ -115,3 +115,7 @@ System.out.println(map.values());
 //returns:
 //[Person[name=Alex', Person[name=Alexa], Person[name=default]]
 ```
+
+Hashfunctions & Hashcode
+
+<img src="hashFunctionCode.PNG" height="500">
