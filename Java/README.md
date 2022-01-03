@@ -19,7 +19,8 @@ Local Variables:
 
 Instance Variables:
 -  declared in a class, but outside a method, constructor, or any block
--  created when an objected is created with the use of keyword 'new' and destroyed when object is destroyed
+-  instance variables are created when an objected is created with the use of keyword 'new' and destroyed when object is destroyed
+    -  ie. variables of person class: age, name, etc.
 -  can be declared in class level before or after use
 -  access modifiers can be g iven for instance variables
 -  instance variables visible for all methods, constructor and block in the class
@@ -30,6 +31,8 @@ Instance Variables:
 -  can be accessed directly by calling the variable name inside the class
     -  however, within stat methods (when instance variables are given accessibility), they should be called using the fully qualified name
         -  ObjectReference.VariableName
+
+
 --------------------------------
 #### Abstract Class vs Interface
 
