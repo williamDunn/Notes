@@ -1,4 +1,4 @@
-#### Variables
+### Variables
 
 Declaring a variable
 ```
@@ -115,7 +115,7 @@ public class Employee {
 (https://www.tutorialspoint.com/java/java_variable_types.htm)
 --------------------------------
 
-#### Private vs Public vs Protected
+### Private vs Public vs Protected
 
 ##### Private 
 -  only class in which it is declared can see it
@@ -130,14 +130,14 @@ public class Employee {
 -   Package Private + can be seen by subclasses or package members
 
 --------------------------------
-#### Enumerations
+### Enumerations
 
 Use Enums where there's a fixed range of values that a variable can be
 -  A static variable won't inforce that it must be one of those values, whereas an Enum would
 
 -----------------------------
 
-#### Abstract Class vs Interface
+### Abstract Class vs Interface
 
 ##### Abstract Class
 -  Used for Common Properties
