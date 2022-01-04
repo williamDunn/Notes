@@ -32,7 +32,24 @@ Instance Variables:
     -  however, within stat methods (when instance variables are given accessibility), they should be called using the fully qualified name
         -  ObjectReference.VariableName
 
+Class/Static Variables
+-  declared with keyword 'static' in a class, but outside a method, constructor or a block
+-  there would be only one copy of each class variable per class
+-  rarely used other than being declared as *constants*
+    - Constants are variables that are declared as public/private, final, and static
+        -  constants variables never change from their intial value
+-  created when the program starts and destroyed when the program stops
+-  visibility is siilar to instance variables
+    - most static variables are declared public since they must be available for users of the class
+- default values are same as instance variables
+    - values can be assigned during the declaration or within the constructor
+    - additionally, values can be assigned in special static initializer blocks
+- can be accessed by calling with the class name
+    - ie. ClassName.VariableName
+- when declaring class variables as public static final, variable names must be in all upper case
+    - if the static variables aren't public and final, naming syntax is the same as instance and local variables 
 
+https://www.tutorialspoint.com/java/java_variable_types.htm
 --------------------------------
 #### Abstract Class vs Interface
 
