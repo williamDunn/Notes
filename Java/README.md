@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 Declaring a variable
 ```
@@ -113,18 +113,23 @@ public class Employee {
 ```
 
 (tutorialspoint.com/java/java_variable_types.htm)
+
 --------------------------------
 
-## Private vs Public vs Protected
+# Access Modifiers
+-  Access Modifiders
+    -  default, public, protected, private
+-  Non-access Modifiers
+    -  final, abstract, strictfp
+
+##### Public 
+-  Everyone can see it
 
 ##### Private 
 -  only class in which it is declared can see it
 
 ##### Package Private 
 -  Can only be seen and used by the package in which it is declared (this is the default in Java)
-
-##### Public 
--  Everyone can see it
 
 ##### Protected 
 -   Package Private + can be seen by subclasses or package members
@@ -134,6 +139,23 @@ public class Employee {
 
 Use Enums where there's a fixed range of values that a variable can be
 -  A static variable won't inforce that it must be one of those values, whereas an Enum would
+-  can be declared as their own or inside a class
+
+```
+class FreshJuice {
+   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+   FreshJuiceSize size;
+}
+
+public class FreshJuiceTest {
+
+   public static void main(String args[]) {
+      FreshJuice juice = new FreshJuice();
+      juice.size = FreshJuice.FreshJuiceSize.MEDIUM ;
+      System.out.println("Size: " + juice.size);
+   }
+}
+```
 
 -----------------------------
 
