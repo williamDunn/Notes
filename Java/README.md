@@ -112,7 +112,7 @@ public class Employee {
 }
 ```
 
-(https://www.tutorialspoint.com/java/java_variable_types.htm)
+(tutorialspoint.com/java/java_variable_types.htm)
 --------------------------------
 
 ## Private vs Public vs Protected
