@@ -185,12 +185,17 @@ public static int methodName(int a, int b) {
 }
 ```
 public static / modifier
+
 -  defines the access type of the method and it is optional to use
+
 int / return type
 -  method may return a value
 -  void keyword allows creation of methods that do not return a value
+
 methodName / name of the method
+
 int a, int b / parameters
+
 method body
 -  defines what the method does with the statements
 
