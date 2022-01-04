@@ -135,7 +135,7 @@ public class Employee {
 -   Package Private + can be seen by subclasses or package members
 
 --------------------------------
-## Enumerations
+# Enumerations
 
 Use Enums where there's a fixed range of values that a variable can be
 -  A static variable won't inforce that it must be one of those values, whereas an Enum would
@@ -158,8 +158,45 @@ public class FreshJuiceTest {
 ```
 
 -----------------------------
+# Looping
+- Types of Loops
+    -  while loop
+    -  for loop
+    -  do...while loop
+    -  enhanced for loop
+        - for(declaration : expression)
+-  Loop control statements
+    -  break statement
+    -  continue statement
 
-## Abstract Class vs Interface
+-----------------------------
+# Decision Making Statements
+- if statement
+- if...else statement
+- nested if statement
+- switch statement
+
+-----------------------------
+# Methods
+
+```
+public static int methodName(int a, int b) {
+   // method body
+}
+```
+public static - modifier
+    -  defines the access type of the method and it is optional to use
+int - return type
+    -  method may return a value
+    -  void keyword allows creation of methods that do not return a value
+methodName - name of the method
+int a, int b - parameters
+method body
+    -  defines what the method does with the statements
+
+-----------------------------
+
+# Abstract Class vs Interface
 
 ##### Abstract Class
 -  Used for Common Properties
