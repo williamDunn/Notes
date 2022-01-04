@@ -9,7 +9,21 @@ Primary Key
 Foreign Key
 -  is a primary key in another table
 
+Candidate Key
+-  Minimal set of attributes that can uniquely identify a tuple (eg., STUD_NO in STUDENT relation)
+
+Super Key
+-  The set of attributes that can uniquely identify a tuple (eg., STUD_NO, (STUD_NO, STUD_NAME), etc.)
+
 ----------------------
+Normalization vs Denormalized
+
+-Normalized DBs are designed to minimize redunency (duplicates)
+
+-Denormalized DBs are designed to optimize read time
+
+----------------------
+
 #### SQL vs NoSQL Databases
 
 -  SQL Databases are relational **|** NoSQL Databases are non-relational
