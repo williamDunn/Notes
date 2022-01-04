@@ -16,7 +16,7 @@ Super Key
 -  The set of attributes that can uniquely identify a tuple (eg., STUD_NO, (STUD_NO, STUD_NAME), etc.)
 
 ----------------------
-Normalization vs Denormalized
+#### Normalized vs Denormalized
 
 -Normalized DBs are designed to minimize redunency (duplicates)
 
