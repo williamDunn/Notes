@@ -1,9 +1,46 @@
 ## Overview
 
 Components - the fundamental building blocks of Angular applications
--  Class - written in TypeScript (.ts)
--  Template - written in HTML (.html)
--  Styling - written in CSS (.css)
+-  Class file - written in TypeScript (.ts)
+-  Template file - written in HTML (.html)
+-  Styling file - written in CSS (.css)
+
+-------------------------------------
+
+## Class File Layout (.ts)
+
+```
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.css']
+})
+export class HeroesComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+```
+
+@Component is a decorator that specifies the Angular metadata for the component
+
+CLI genereated three metadata properties:
+
+1) selector - component's CSS element selector
+
+2) templateURL - location of the component's template (.html) file
+
+3) styleUrls - location of component's private CSS styles
+
+
+ngOnInit() is a lifecycle hook (a component instance has a lifecycle that starts when Angular instantiates the component class)
+-  Angular calls ngOnInit() shortly after creating a component
+-  good place to put initialization logic
 
 -------------------------------------
 
@@ -17,12 +54,18 @@ Serving the application
 cd angular-workspace1
 ng serve --open
 ```
-
 -  'ng serve' command builds the app, starts the development server, watches source files, and rebuilds the application as you make changes
 -  '--open' flag opens a browser to http://localhost:4200/
+
+Generating a new component
+
+ ```
+ ng generate component newComponent
+ ```
+ creates a new folder, src/app/newComponent, and generates the three component files along with a text file
 
 ---------------------------------------
 
 Angular's interpolation binding syntax, presents the component's title property value inside the HTML header tag
-<img src="interpolationBinding.PNG" height="200">
+<img src="interpolationBinding.PNG" height="250">
 
