@@ -77,10 +77,10 @@ To display a component, you must add it to the template of the shell (AppCompone
 
 Use the component's element selector (app-heroes) in the AppComponent template file
 
-<img src="elementSelector.PNG" height="250">
+<img src="elementSelector.PNG" height="150">
 
 ---------------------------------------
 
 Angular's interpolation binding syntax, presents the component's title property value inside the HTML header tag
-<img src="interpolationBinding.PNG" height="250">
+<img src="interpolationBinding.PNG" height="240">
 
