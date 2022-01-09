@@ -7,7 +7,7 @@ Components - the fundamental building blocks of Angular applications
 
 -------------------------------------
 
-## Class File Layout (.ts)
+## Class File (.ts)
 
 ```
 import { Component, OnInit } from '@angular/core';
