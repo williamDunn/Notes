@@ -84,6 +84,9 @@ Use the component's element selector (app-heroes) in the AppComponent template f
 Angular's interpolation binding syntax, presents the component's title property value inside the HTML header tag
 <img src="interpolationBinding.PNG" height="240">
 
+Two-way binding
+-  [(ngModel)]
+
 ----------------------------------------
 
 Pipes
