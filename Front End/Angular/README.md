@@ -1,5 +1,8 @@
 ## Overview
 
+The page you see is the application shell
+-  the shell is controlled by an Angular component named AppComponent
+
 Components - the fundamental building blocks of Angular applications
 -  Class file - written in TypeScript (.ts)
 -  Template file - written in HTML (.html)
