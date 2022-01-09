@@ -81,11 +81,14 @@ Use the component's element selector (app-heroes) in the AppComponent template f
 
 ---------------------------------------
 
+## Binding
+
 Angular's interpolation binding syntax, presents the component's title property value inside the HTML header tag
 <img src="interpolationBinding.PNG" height="200">
 
 Two-way binding
 -  [(ngModel)]
+    -  Creates a FormControl instance from a domain model and binds it to a form control element
 
 ----------------------------------------
 
