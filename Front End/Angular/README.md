@@ -47,6 +47,8 @@ ngOnInit() is a lifecycle hook (a component instance has a lifecycle that starts
 
 -------------------------------------
 
+## Angular Application Creation
+
 Creating a new Angular workspace (CLI)
 ```
 ng new angular-workspace1
@@ -66,6 +68,16 @@ Generating a new component
  ng generate component newComponent
  ```
  creates a new folder, src/app/newComponent, and generates the three component files along with a text file
+
+--------------------------------------
+
+## How to show a component in the view
+
+To display a component, you must add it to the template of the shell (AppComponent)
+
+Use the component's element selector (app-heroes) in the AppComponent template file
+
+<img src="elementSelector.PNG" height="250">
 
 ---------------------------------------
 
