@@ -20,4 +20,5 @@ ng serve --open
 -  'ng serve' command builds the app, starts the development server, watches source files, and rebuilds the application as you make changes
 -  '--open' flag opens a browser to http://localhost:4200/
 
-<img src="interpolationBinding.PNG" height="300">
+Angular's interpolation binding syntax, presents the component's title property value inside the HTML header tag
+<img src="interpolationBinding.PNG" height="200">
