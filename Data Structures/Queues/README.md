@@ -5,6 +5,8 @@
 
 <img src="queue.PNG" height="150">
 
+<img src="QueueQuickRef.PNG" height="500">
+
 --------------------------
 add()
 
