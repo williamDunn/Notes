@@ -1,6 +1,8 @@
 # Linked List
 -----------------
 
+<img src="LinkedListQuickRef.PNG" height="500">
+
 <img src="linkedList.PNG" height="125">
 (Depicted Doubly Linked List because you have a reference to next and previous)
 
