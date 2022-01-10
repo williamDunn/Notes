@@ -4,11 +4,11 @@
 -  A map connot contain duplicate keys
 -  Each key can map to at most one value
 
-<img src="Maps2.PNG" height="300">
+<img src="Maps2.PNG" height="200">
 
 Map implementations that Java offers
 
-<img src="Maps.PNG" height="500">
+<img src="Maps.PNG" height="400">
 
 -------------
 #### General-purpose map implentations:
