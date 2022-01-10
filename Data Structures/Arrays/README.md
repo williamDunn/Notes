@@ -9,6 +9,8 @@ O(N)
 -  Compact memory usage (if size is known)
 -  Delete operation very hard
 
+<img src="ArrayQuickRef.PNG" height="500">
+
 <img src="screenshot.png" height="200">
 
 ------------
