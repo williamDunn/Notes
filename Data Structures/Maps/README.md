@@ -28,7 +28,9 @@ Map implementations that Java offers
 #### Concurrent Map Implentations:
 -  ConcurrentMap
    -  A highly concurrent, high-performance implmentation backed up by a hash table (intended as a drop-in replacement for Hastable; also supports all the legacy methods peculiar to Hashtable)
+-------------
 
+<img src="HashTableQuickRef.PNG" height="400">
 
 -------------
 #### Code Examples
