@@ -3,6 +3,8 @@
 
 <img src="stack.PNG" height="500">
 
+<img src="StackQuickRef.PNG" height="500">
+
 ---------------------
 
 -  It extends class Vector with 5 operations that allow a vector to be treated as a stack. 
