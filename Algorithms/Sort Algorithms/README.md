@@ -17,6 +17,18 @@ Memory: O(1)
 -  Find the smallest element using a linear scan and move it to the front (swapping it with the first element)
    -  Then, find the second smallest and move it, again doing a linear scan
 
+Advantages:
+-  It performs very well on small lists.
+-  It is an in-place algorithm. It does not require a lot of space for sorting. Only one extra space is required for holding the temporal variable.
+-  It performs well on items that have already been sorted.
+
+When to use:
+-  When the array is NOT partially sorted.
+-  When we have memory usage constraints.
+-  When a simple sorting implementation is desired.
+-  When the array to be sorted is relatively small.
+
+
 -----------------
 ## Merge Sort
 Runtime: O(n log(n)) Average and worst case
