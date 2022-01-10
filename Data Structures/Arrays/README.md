@@ -1,6 +1,8 @@
 # Arrays 101
 ------------
 
+<img src="ArrayQuickRef.PNG" height="500">
+
 Time Complexitity:
 O(N)
 
@@ -8,8 +10,6 @@ O(N)
 -  Fast for data retrieval
 -  Compact memory usage (if size is known)
 -  Delete operation very hard
-
-<img src="ArrayQuickRef.PNG" height="500">
 
 <img src="screenshot.png" height="200">
 
