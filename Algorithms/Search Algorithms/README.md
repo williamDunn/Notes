@@ -2,4 +2,4 @@
 
 ## Depth First Search (DFS)
 
-## Breadth First Search (bFS)
+## Breadth First Search (BFS)
