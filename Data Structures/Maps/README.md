@@ -118,4 +118,4 @@ System.out.println(map.values());
 
 Hashfunctions & Hashcode
 
-<img src="hashFunctionCode.PNG" height="500">
+<img src="hashFunction.PNG" height="500">
