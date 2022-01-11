@@ -60,6 +60,15 @@ System.out.println(colors.contains("pink"));
 //returns false
 ```
 
+-------------------
+
+### Remove an element
+
+```
+//Removes element at 3rd position
+colors.remove(2);
+```
+
 ----------------
 
 ### Methods to loop through a list
