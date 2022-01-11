@@ -1,7 +1,7 @@
 # Linked List
 -----------------
 
-<img src="LinkedListQuickRef.PNG" height="500">
+<img src="LinkedListQuickRef.PNG" height="600">
 
 <img src="linkedList.PNG" height="125">
 (Depicted Doubly Linked List because you have a reference to next and previous)
@@ -49,6 +49,16 @@ while(personListIterator.hasPrevious())
 //Person[name=Will, age=25]
 //Person[name=Alex, age=21]
 ```
+
+----------
+
+### Remove from linked list
+
+```
+linkedList.remove("insertItemHere");
+```
+
+----------
 
 Add implementations/parameters:
 
