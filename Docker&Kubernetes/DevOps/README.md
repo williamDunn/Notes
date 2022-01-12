@@ -60,6 +60,11 @@
 
 -----------------------
 
+## Infrastructure as Code
+-  Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
+
+---------------------
+
 #### Packer
 -  Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration
 
