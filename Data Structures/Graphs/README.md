@@ -21,17 +21,34 @@ Each item is a **node**(or **vertex**). Nodes are connected by **edges**
 
 In **directed** graphs, edges point from the node at one end to the node at the other end. In **undirected** graphs, the edge simply connect the nodes at each end.
 
+<img src="directedAndUndirected.PNG" height="200">
+
 ### Cyclic or acyclic
 
 A graph is ** cyclic** if it has a cycle - an unbroken series of nodes with no repeating nodes or edges that connects back to itself. Graphs without cycles are **acyclic**.
+
+<img src="cyclicOrAcyclic.PNG" height="200">
 
 ### Weighted or unweighted
 
 If a graph is **weighted**, each edge has a "weight." The weight could, for example, represent the distances between two locations, or the cost or time it takes to travel between the locations.
 
+<img src="weightedOrUnweighted.PNG" height="200">
+
 ### Legal coloring
 
 A **graph coloring** is when you assign colors to each node in a graph. A **legal coloring** means no adjacent nodes have the same color.
+
+<img src="legalColoring.PNG" height="200">
+
+----------------------
+
+## Representations
+
+There are a few different ways to store graphs. Let's take this graph as an example:
+
+<img src="graphExample.PNG" height="200">
+
 
 ```
 class Graph {
