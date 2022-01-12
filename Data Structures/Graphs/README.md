@@ -1,4 +1,4 @@
-# Graphs
+# Graph
 -----------
 
 A **graph** organizes items in an interconnected network
@@ -11,21 +11,21 @@ Each item is a **node**(or **vertex**). Nodes are connected by **edges**
 **Weaknesses:**
 -  **Scaling challenges**. Most graph algorithims are O(n\*\lg(n)) or even slower. Depending on the size of your graph, running algorithms across your nodes may not be feasible.
 
-**Terminology:**
+## Terminology:
 
-**Directed or undirected**
+### Directed or undirected
 
 In **directed** graphs, edges point from the node at one end to the node at the other end. In **undirected** graphs, the edge simply connect the nodes at each end.
 
-**Cyclic or acyclic**
+### Cyclic or acyclic
 
 A graph is ** cyclic** if it has a cycle - an unbroken series of nodes with no repeating nodes or edges that connects back to itself. Graphs without cycles are **acyclic**.
 
-**Weighted or unweighted**
+### Weighted or unweighted
 
 If a graph is **weighted**, each edge has a "weight." The weight could, for example, represent the distances between two locations, or the cost or time it takes to travel between the locations.
 
-**Legal coloring**
+### Legal coloring
 
 A **graph coloring** is when you assign colors to each node in a graph. A **legal coloring** means no adjacent nodes have the same color.
 
