@@ -67,7 +67,7 @@ Generating a new component
  ```
  ng generate component newComponent
  ```
- creates a new folder, src/app/newComponent, and generates the three component files along with a text file
+ creates a new folder, src/app/newComponent, and generates the three component files along with a test file
 
 --------------------------------------
 
