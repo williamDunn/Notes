@@ -49,6 +49,17 @@ There are a few different ways to store graphs. Let's take this graph as an exam
 
 <img src="graphExample.PNG" height="200">
 
+### Edge list
+
+- A list of all edges in the graph:
+
+```
+int[][] graph = {{0, 1}, {1, 2}, {1, 3}, {2, 3}};
+```
+
+Since node 3 has edges to nodes 1 and 2, {1, 3} and {2, 3} are in the edge list. 
+
+> Sometimes it's helpful to pair our edge list with a list of all the nodes. For example, what if a node doesn't have any edges connected to it? It wouldn't show up in our edge list at all! 
 
 ```
 class Graph {
