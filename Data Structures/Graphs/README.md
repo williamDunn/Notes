@@ -106,6 +106,22 @@ int[][] graph = {
 
 Since node 3 has edges to nodes 1 and 2, graph[3][1] and graph[3][2] have value 1. 
 
+
+---------------------------
+
+## Algorithms
+
+### BFS and DFS
+
+### Advanced graph algorithms
+
+**-  Dijkstra's Algorithm:** Finds the shortest path from one node to all other nodes in a  *weighted graph**.
+
+**-  Topological Sort:** Arranges the nodes in a *directed*, *acyclic* graph in a special order based on incoming edges. 
+
+**- Minimum Spanning Tree:** Finds the cheapest set of edges needed to reach all nodes in a *weighted* graph.
+
+----------------------------
 ```
 class Graph {
  
