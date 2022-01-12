@@ -113,6 +113,9 @@ Since node 3 has edges to nodes 1 and 2, graph[3][1] and graph[3][2] have value 
 
 ### BFS and DFS
 
+- Lots of graph problems can be solved using just these traversals: 
+    - 
+
 ### Advanced graph algorithms
 
 **-  Dijkstra's Algorithm:** Finds the shortest path from one node to all other nodes in a  *weighted graph**.
@@ -122,6 +125,9 @@ Since node 3 has edges to nodes 1 and 2, graph[3][1] and graph[3][2] have value 
 **- Minimum Spanning Tree:** Finds the cheapest set of edges needed to reach all nodes in a *weighted* graph.
 
 ----------------------------
+
+## Coding Implementation:
+
 ```
 class Graph {
  
