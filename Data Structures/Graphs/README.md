@@ -11,6 +11,8 @@ Each item is a **node**(or **vertex**). Nodes are connected by **edges**
 **Weaknesses:**
 -  **Scaling challenges**. Most graph algorithims are O(n\*\lg(n)) or even slower. Depending on the size of your graph, running algorithms across your nodes may not be feasible.
 
+--------------------------------
+
 ## Terminology:
 
 ### Directed or undirected
