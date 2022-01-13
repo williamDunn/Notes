@@ -199,6 +199,38 @@ int a, int b / parameters
 method body
 -  defines what the method does with the statements
 
+### Static vs Non-Static
+
+A **static method** belongs to a class
+
+A **Non-static** (AKA instance) method belongs to each object that is generated from that class
+
+Example:
+
+```
+class Foo {
+    int i;
+
+    public Foo(int i) { 
+       this.i = i;
+    }
+
+    public static String method1() {
+       return "An example string that doesn't depend on i (an instance variable)";
+    }
+
+    public int method2() {
+       return this.i + 1; // Depends on i
+    }
+}
+```
+
+You can call static methods like this: Foo.method1(). If you try that with method2, it will fail. But this will work: Foo bar = new Foo(1); bar.method2();
+
+##### When to use
+
+If your method does something that doesn't depend on the individual characteristics of its class, make it static (it will make the program's footprint smaller). Otherwise, it should be non-static.
+
 -----------------------------
 
 # Abstract Class vs Interface
