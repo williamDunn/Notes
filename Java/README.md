@@ -10,7 +10,7 @@ Initializing a variable
 int a = 10;
 ```
 
-Local Variables:
+### Local Variables:
 -  declared in methods, constructors, or blocks
     -  destroyed once it exits the method, constructor, or block
     -  only visible within / scope limited to the declared method, constructor, or block
@@ -33,7 +33,7 @@ public class Test {
 }
 ```
 
-Instance Variables:
+### Instance Variables:
 -  declared in a class, but outside a method, constructor, or any block
 -  instance variables are created when an objected is created with the use of keyword 'new' and destroyed when object is destroyed
     -  ie. variables of person class: age, name, etc.
@@ -80,7 +80,7 @@ public class Employee {
 }
 ```
 
-Class/Static Variables
+### Class/Static Variables
 -  declared with keyword 'static' in a class, but outside a method, constructor or a block
 -  there would be only one copy of each class variable per class
 -  rarely used other than being declared as *constants*
@@ -166,8 +166,8 @@ public class FreshJuiceTest {
     -  enhanced for loop
         - for(declaration : expression)
 -  Loop control statements
-    -  break statement
-    -  continue statement
+    -  break statement (used to terminate the loop immediately)
+    -  continue statement (used to skip the current iteration of the loop)
 
 -----------------------------
 # Decision Making Statements
@@ -206,11 +206,35 @@ method body
 ##### Abstract Class
 -  Used for Common Properties
 -  Cannot be instantiated, can but be subclassed
-    -  A subclass can get all the properties/methods that its parent class has, whereas, instantiated class is when you make an instance of that parent class in memory
+    -  A subclass can get all the properties/methods that its parent class has 
+    -  instantiated class is when you make an instance of that parent class in memory
 
 ##### Interface
 -  Used for Common Methods
 
-
 <img src="abstractVsInterface.PNG" height="300">
 
+-----------------------------------
+
+#### Final keyword in Java
+-  Final Variable
+    -  To create a variable that can't be modified (essentialy a constant)
+-  Final Methods
+    -  Prevent method overriding
+-  Final Classes
+    -  Prevent inheritance
+
+-------------------------------------
+
+# Java Memory
+
+-  In Java, you don't need to explicitly allocate and deallocate memory. The JVM and more specifically the Garbage Collector handles memory allocation
+    -  Garbabge collection is the process of looking at heap memory and identifying which objects are in use and which are not, then deleted the unused objects
+
+### Stack and Heap
+-  **Stack** is a part of memory that contains information about nested method calls down to the current position in the program
+    -  It also contains all local variables and references to objects on the heap defined in currently executing methods
+    -  Every thread has its own stack
+-  **Heap** is a large bulk of memory intended for allocation of objects
+    -  When you create an object wit the *new* keyword, it gets allocated on the heap
+        -  (however, the refernece to the object lives on the stack)
