@@ -54,3 +54,9 @@
     -  Service layer
 -  @Repository
     -  Data Access layer
+
+#### Spring Boot REST Example
+
+- The REST application follows the REST architectural approach. We use the REST application for developing and designing networked applications. It generates the HTTP request that performs CRUD operations on the data. Usually, it returns data in JSON or XML format.
+
+https://www.javatpoint.com/spring-boot-rest-example
