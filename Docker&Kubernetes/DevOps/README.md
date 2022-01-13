@@ -19,7 +19,7 @@
 
 ## DevOps Lifecycle
 -  Plan 
-  -  Initially, there should be a plan for the type of application that needs to be developed. Getting a rough picture of the development process is always a good idea.
+   -  Initially, there should be a plan for the type of application that needs to be developed. Getting a rough picture of the development process is always a good idea.
 -  Code 
    -  The application is coded as per the end-user requirements. 
 -  Build
