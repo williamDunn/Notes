@@ -18,7 +18,6 @@
 -  Containerization tools. Eg.: Docker
 
 ## DevOps Lifecycle
-
 -  Plan 
   -  Initially, there should be a plan for the type of application that needs to be developed. Getting a rough picture of the development process is always a good idea.
 -  Code 
