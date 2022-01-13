@@ -262,6 +262,12 @@ method body
 
 -  The core advantage is **to maintain the normal flow of the application**.
 
+#### Some Reasons behind the Occurence of Exception
+-  Whenever a user provides invalid data.
+-  The file requested to be accessed does not exist in the system
+-  When the Java Virtual Machine (JVM) runs out of memory
+-  Network drops in the middle of communication
+
 #### Hierarchy of Java Exception Classes
 
 <img src="exceptionClassesHierarchy.PNG" height="500">
@@ -280,7 +286,9 @@ method body
     -  Error is irrecoverable
         -  OutOfMemoryError, VirtualMachineError, AssertionError etc.
 
+
 <img src="javaExceptionHandling.PNG" height="500">
+
 
 #### Java Exception Handling Example
 
