@@ -229,12 +229,25 @@ method body
 # Java Memory
 
 -  In Java, you don't need to explicitly allocate and deallocate memory. The JVM and more specifically the Garbage Collector handles memory allocation
-    -  Garbabge collection is the process of looking at heap memory and identifying which objects are in use and which are not, then deleted the unused objects
+    -  Garbage collection is the process of looking at heap memory and identifying which objects are in use and which aren't, then deleting the unused objects
 
-### Stack and Heap
+## Stack and Heap
+-  Both generic terms for ways in which memory can be allocated
+-  Both stored in RAM
+
+-  Stack memory size is very less compared to Heap memory
+-  Because of simplicity in memory allocation (LIFO), Stack memory is very fast when compared to Heap memory
+
+#### Stack
 -  **Stack** is a part of memory that contains information about nested method calls down to the current position in the program
-    -  It also contains all local variables and references to objects on the heap defined in currently executing methods
+    -  Contains all local variables and references to objects on the heap defined in currently executing methods
+    -  Stack memory is short lived
     -  Every thread has its own stack
+    -  When Stack memory is full, Java runtime throws - "java.lang.StackOverFlowError"
+
+#### Heap
 -  **Heap** is a large bulk of memory intended for allocation of objects
     -  When you create an object wit the *new* keyword, it gets allocated on the heap
         -  (however, the refernece to the object lives on the stack)
+    -  Heap memory lives from the start till the end of application execution
+    -  When Heap memory is full, it throws - "java.lang.OutOfMemoryError: Java Heap Space" error
