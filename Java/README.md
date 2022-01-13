@@ -206,7 +206,7 @@ method body
 ##### Abstract Class
 -  Used for Common Properties
 -  Cannot be instantiated, can but be subclassed
-        -  A subclass can get all the properties/methods that its parent class has, whereas, instantiated class is when you make an instance of that parent class in memory
+    -  A subclass can get all the properties/methods that its parent class has, whereas, instantiated class is when you make an instance of that parent class in memory
 
 ##### Interface
 -  Used for Common Methods
