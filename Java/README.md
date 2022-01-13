@@ -262,6 +262,10 @@ method body
 
 -  The core advantage is **to maintain the normal flow of the application**.
 
+#### Hierarchy of Java Exception Classes
+
+<img src="exceptionClassesHierarchy.PNG" height="500">
+
 #### Types of Java Exceptions
 
 1.  Checked Exception
