@@ -203,6 +203,8 @@ method body
 -  A **static method** belongs to a class
 -  A **Non-static** (AKA instance) method belongs to each object that is generated from that class
 
+https://www.youtube.com/watch?v=ZXQFGiGtoo4
+
 Example:
 
 ```
