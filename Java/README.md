@@ -87,7 +87,7 @@ Class/Static Variables
     - Constants are variables that are declared as public/private, final, and static
         -  constants variables never change from their intial value
 -  created when the program starts and destroyed when the program stops
--  visibility is siilar to instance variables
+-  visibility is similar to instance variables
     - most static variables are declared public since they must be available for users of the class
 - default values are same as instance variables
     - values can be assigned during the declaration or within the constructor
@@ -205,6 +205,8 @@ method body
 
 ##### Abstract Class
 -  Used for Common Properties
+-  Cannot be instantiated, can but be subclassed
+        -  A subclass can get all the properties/methods that its parent class has, whereas, instantiated class is when you make an instance of that parent class in memory
 
 ##### Interface
 -  Used for Common Methods
