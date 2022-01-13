@@ -238,16 +238,58 @@ method body
 -  Stack memory size is very less compared to Heap memory
 -  Because of simplicity in memory allocation (LIFO), Stack memory is very fast when compared to Heap memory
 
-#### Stack
+## Stack
 -  **Stack** is a part of memory that contains information about nested method calls down to the current position in the program
     -  Contains all local variables and references to objects on the heap defined in currently executing methods
     -  Stack memory is short lived
     -  Every thread has its own stack
     -  When Stack memory is full, Java runtime throws - "java.lang.StackOverFlowError"
 
-#### Heap
+## Heap
 -  **Heap** is a large bulk of memory intended for allocation of objects
     -  When you create an object wit the *new* keyword, it gets allocated on the heap
         -  (however, the refernece to the object lives on the stack)
     -  Heap memory lives from the start till the end of application execution
     -  When Heap memory is full, it throws - "java.lang.OutOfMemoryError: Java Heap Space" error
+
+---------------------------------------
+
+# Exception Handling
+
+-  Exception handling is a mechanism to handle runtime errors
+
+#### Advantages of Exception Handling:
+
+-  The core advantage is **to maintain the normal flow of the application**.
+
+#### Types of Java Exceptions
+
+1.  Checked Exception
+    -  The classes that directly inherit the Throwable class exception RunetimeException and Error
+        -  IOException, SQLException, etc. 
+    -  Are checked at compile-time
+2.  Unchecked Exception
+    -  The classes that inherit the RunetimeException
+        -  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc.
+            -  Are checked at runtime
+3.  Error
+    -  Error is irrecoverable
+        -  OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+<img src="javaExceptionHandling.PNG" height="500">
+
+#### Java Exception Handling Example
+
+```
+public class JavaExceptionExample{  
+  public static void main(String args[]){  
+   try{  
+      //code that may raise exception  
+      int data=100/0;  
+   }catch(ArithmeticException e){System.out.println(e);}  
+   //rest code of the program   
+   System.out.println("rest of the code...");  
+  }  
+}  
+```
+
