@@ -199,11 +199,9 @@ int a, int b / parameters
 method body
 -  defines what the method does with the statements
 
-### Static vs Non-Static
-
-A **static method** belongs to a class
-
-A **Non-static** (AKA instance) method belongs to each object that is generated from that class
+## Static vs Non-Static
+-  A **static method** belongs to a class
+-  A **Non-static** (AKA instance) method belongs to each object that is generated from that class
 
 Example:
 
@@ -224,8 +222,8 @@ class Foo {
     }
 }
 ```
-
 You can call static methods like this: Foo.method1(). If you try that with method2, it will fail. But this will work: Foo bar = new Foo(1); bar.method2();
+
 
 ##### When to use
 
