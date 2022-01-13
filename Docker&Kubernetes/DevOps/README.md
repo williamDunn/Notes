@@ -36,10 +36,17 @@
 -  Monitor
   -  Application performance is monitored. Changes are made to meet the end-user requirements.
 
-<img src="devOpsLifecycle.PNG" height="200">
+<img src="devOpsLifecycle.PNG" height="300">
 -----------------------------------------
 
 ## Configuration Management
+
+#### What is the role of configuration management in DevOps?
+
+-  Enables management of and changes to multiple systems.
+-  Standardizes resource configurations, which in turn, manage IT infrastructure.
+-  It helps with the administration and management of multiple servers and maintains the integrity of the entire infrastructure.
+
 
 #### The Importance:
 -  Automates time-consuming and tedious tasks
@@ -96,6 +103,18 @@
 
 #### Provisioning Defined
 -  used when creating environments/resources and storage, an example phrase goes like this: "we need to provision a staging environment"
+
+---------------------------------------
+
+Important DevOps KPIs (Key Performance Indicators)
+
+-  Meantime to failure recovery
+  -  This is the average time taken to recover from a failure.
+-  Deployment frequency
+  -  The frequency in which the deployment occurs. 
+-  Percentage of failed deployments
+  -  The number of times the deployment fails.
+
 ---------------------------------------
 
 ## Software Development Life Cycle (SDLC)
