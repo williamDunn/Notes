@@ -30,7 +30,7 @@ LEFT (outer) JOIN:
 
 RIGHT (outer) join:
 -  Returns *all records from right table*, & *matched records from left table*
--  
+
 ------------------------------
 #### SQL Stored Procedure:
 
