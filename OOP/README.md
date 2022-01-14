@@ -34,6 +34,6 @@ There are 4 basic OOP concepts:
 ## Polymorphism
 * Objects of different types can be accessed through the same interface (with it's own independent implementations)
     * Method overriding
-    -  Overriding means 2 methods with the same method name and parameters
+         -  Overriding means 2 methods with the same method name and parameters
     * Method overloading
-    -  Overloading occurs when 2 or more methods in one class have the same name but different parameters
+         -  Overloading occurs when 2 or more methods in one class have the same name but different parameters
