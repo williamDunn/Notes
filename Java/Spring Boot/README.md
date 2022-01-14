@@ -47,13 +47,18 @@
 
 -------------------------------------------
 
+-  According to the official Spring documentation, @Component is a generic stereotype for any Spring-managed component. @Repository, @Service, and @Controller are specializations of @Component for more specific use cases, for example, in the persistence, service, and presentation layers, respectively.
+
 @Component
 -  @Controller
     -  Presentation layer
+    -  indicates that the class serves the role of a controller, and detects @RequestMapping annotations within the class
 -  @Service
     -  Service layer
+    -  indicates that the class holds business logic and calls methods in the repository layer
 -  @Repository
     -  Data Access layer
+    -  indicates that the class defines a data repository; its job is to catch platform-specific exceptions and re-throw them as one of Spring’s unified unchecked exceptions
 
 #### Spring Boot REST Example
 
