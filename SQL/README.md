@@ -1,7 +1,7 @@
 ## SQL (Structured Query Language)
 --------------------------------
 #### What is it?
-SQL is a language used specifically to do thing with data. Things like selecting certain data between given dates, updating a record that matches a certain criteria, etc.
+SQL is a language used specifically to do things with data. Things like selecting certain data between given dates, updating a record that matches a certain criteria, etc.
 
 --------------------------------
 Standard SQL statement:
