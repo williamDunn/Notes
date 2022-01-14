@@ -27,3 +27,15 @@ Programmer's (Quick) Checklist
 
 -  Is your I/O as specified? (e.g., your prompts, output formats etc.)?
 -  Are there any specific requirements that need to be met?
+
+----------------------------------
+
+**Compiled vs Interpretted Language**
+
+Compiled
+-  In this language, compilation errors prevent the code from compiling.
+-  Types of compiled language – C, C++, C#, CLEO, COBOL, etc.
+
+Interpretted (line by line)
+-  In this languages, all the debugging occurs at run-time.
+-  Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
