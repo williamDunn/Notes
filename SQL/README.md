@@ -65,8 +65,10 @@ EXEC *NAME*
 
 ------------------------------
 #### Database Terminology
--  Table (Collection of Rows)
+
 -  Field / Column (in a table)
+-  View (the result set of a stored query on the data)
+
+(RDBS)
+-  Table (Collection of Rows)
 -  Tuple / Row (in a table)
--  View (? Looking at data ?)
--  Index (? Finding data ?)
