@@ -337,3 +337,60 @@ public class JavaExceptionExample{
 }  
 ```
 
+----------------------------
+
+### Sorting Custom Object by implementating Comparable Interface in Java
+
+```
+// Java program to sort student
+// data according to their names
+  
+import java.util.*;
+  
+// implementing comparable interface
+class StudentData implements Comparable<StudentData> {
+  
+    int roll;
+    String name;
+    int marks;
+  
+    // Constructor
+    StudentData(int roll, String name, int marks)
+    {
+        this.roll = roll;
+        this.name = name;
+        this.marks = marks;
+    }
+  
+    // overriding method to sort
+    // the student data
+    public int compareTo(StudentData sd)
+    {
+  
+        // compareTo is a string method
+        return this.name.compareTo(sd.name);
+    }
+}
+  
+// Driver class
+class GFG {
+    public static void main(String[] args)
+    {
+  
+        ArrayList<StudentData> list
+            = new ArrayList<StudentData>();
+  
+        // Inserting data
+        list.add(new StudentData(1, "Ram", 98));
+        list.add(new StudentData(2, "Shyam", 84));
+        list.add(new StudentData(3, "Lokesh", 90));
+  
+        Collections.sort(list);
+  
+        // Displaying data
+        for (StudentData sd : list)
+            System.out.println(sd.roll + " " + sd.name + " "
+                               + sd.marks);
+    }
+}
+```
