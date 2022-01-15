@@ -339,7 +339,7 @@ public class JavaExceptionExample{
 
 ----------------------------
 
-### Sorting Custom Object by implementating Comparable Interface in Java
+## Sorting Custom Object by implementating Comparable Interface in Java
 
 ```
 // Java program to sort student
@@ -394,3 +394,37 @@ class GFG {
     }
 }
 ```
+
+-----------------------------------------
+
+## Copy - Two Types of Copies (Reference & Object)
+
+## Reference Copy
+
+A reference copy creates a copy of a reference variable pointing to an object
+-  So we'll have two reference variables, referencing the same object
+
+## Object Copy
+
+An object copy creates a copy of the object itself
+- So we'll have two reference variables, that each reference different objects
+
+- Ways to copy an object:
+        - Using a copy constructor
+        - Using a clone() method
+
+### Shallow & Deep Copy - both related to an object copy
+
+#### Shallow
+-  Changes made to inner objects will reflect in both main objects (original & copy) due to referencing same inner-objects/variables
+-  Shallow copies are cheap (on memory) and easy to make
+
+To create a **shallow** copy, only copy the main object and have your new shallow copy reference the same inner objects of the original
+-  e.g., Main object, Person, consisting of inner objects like name and age - copy the Person object, consisting of references to the inner objects of the original
+
+#### Deep
+-  A deep copy is a fully indepdent copy of an object
+        -  because of this, both main objects (original & copy) can be changed independently without reflecting any changes on the other
+
+To create a **deep** copy, copy the entirety of the main object along with its inner-objects/variables
+-  e.g., Main object, Person, consisting of inner objects like name and age - copy the Person object, as well as the inner objects
