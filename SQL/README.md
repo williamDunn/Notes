@@ -63,6 +63,17 @@ EXEC *NAME*
 -  Very useful for connecting relational tables and searching large tables
 -  Indexing a table or view is one of the best ways to improve the performance of queries and applications
 
+Creating an index
+```
+CREATE INDEX idx_pname
+ON Persons (LastName, FirstName); 
+```
+
+Deleting an index (in SQL server)
+```
+DROP INDEX table_name.index_name; 
+```
+
 ------------------------------
 #### Database Terminology
 
