@@ -39,3 +39,7 @@ Compiled
 Interpreted (line by line)
 -  In this languages, all the debugging occurs at run-time.
 -  Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
+
+------------------------------------
+
+https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
