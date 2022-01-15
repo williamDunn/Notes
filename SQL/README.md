@@ -54,6 +54,14 @@ GO;
 EXEC *NAME*
 ```
 
+------------------------------
+#### SQL Index
+
+-  A SQL index is used to retrieve data from a database very fast
+    -  they're small, fast, and optimized for quick lookups
+-  quick lookup table for finding records users need to search frequently
+-  Very useful for connecting relational tables and searching large tables
+-  Indexing a table or view is one of the best ways to improve the performance of queries and applications
 
 ------------------------------
 #### Database Terminology
