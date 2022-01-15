@@ -6,6 +6,7 @@
 
 ### Types of Testing
 
+https://www.vogella.com/tutorials/JUnit/article.html#unittesting_junitexample
 ### Unit Testing
 -  Unit Tests will test small units of work in your code
     -  This would normally be testing a single public method in a public class
@@ -18,7 +19,7 @@ Where should the test be located?
 
 ---------------------------
 
-Example
+### Example for developing a JUnit 5 test for another class
 
 ```
 package com.vogella.junit5;
@@ -31,7 +32,7 @@ public class Calculator {
 }
 ```
 
-<img src="unitTestExample.PNG" height="500">
+<img src="unitTestExample.PNG" height="800">
 
 
 1) The method annotated with @BeforeEach runs before each test
@@ -39,3 +40,6 @@ public class Calculator {
 3) @DisplayName can be used to define the name of the test which is displayed to the user
 4) This is an assert statement which validates that expected and actual value is the same, if not the message at the end of the method is shown
 5) @RepeatedTest defines that this test method will be executed multiple times, in this example 5 times
+
+-----------------------------------
+
