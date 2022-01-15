@@ -75,12 +75,3 @@ DROP INDEX table_name.index_name;
 ```
 
 ------------------------------
-#### Database Terminology
-
--  Field / Column (in a table)
--  View (the result set of a stored query on the data)
-
-(RDBMS)
--  Table (a collection of data elements organised in terms of rows and columns)
--  Tuple / Record / Row (in a table)
--  Attribute / field / column (values in a row)
