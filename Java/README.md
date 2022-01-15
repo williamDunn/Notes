@@ -407,13 +407,14 @@ A reference copy creates a copy of a reference variable pointing to an object
 ## Object Copy
 
 An object copy creates a copy of the object itself
+
 -  So we'll have two reference variables, that each reference different objects
 -  Ways to copy an object:
         -  Using a copy constructor
         -  Using a **clone() method**
                 -  Object cloning refers to the creation of an exact copy of an object. It creates a new instance of the class of the current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
 
-### Shallow & Deep Copy - both related to an object copy
+### Types of object copies
 
 ### Shallow
 -  Changes made to inner objects will reflect in both main objects (original & copy) due to referencing same inner-objects/variables
