@@ -3,16 +3,28 @@
 -  A structured set of data held in a computer
 
 ----------------------
-Primary Key
+
+#### Database Terminology
+
+-  Field / Column (in a table)
+-  View (the result set of a stored query on the data)
+
+(RDBMS)
+-  Table (a collection of data elements organised in terms of rows and columns)
+-  Tuple / Record / Row (in a table)
+-  Attribute / field / column (values in a row)
+
+----------------------
+**Primary Key**
 -  unique identifier within a table
 
-Foreign Key
+**Foreign Key**
 -  is a primary key in another table
 
-Candidate Key
+**Candidate Key**
 -  Minimal set of attributes that can uniquely identify a tuple (eg., STUD_NO in STUDENT relation)
 
-Super Key
+**Super Key**
 -  The set of attributes that can uniquely identify a tuple (eg., STUD_NO, (STUD_NO, STUD_NAME), etc.)
 
 ----------------------
