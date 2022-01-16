@@ -177,6 +177,17 @@ public class FreshJuiceTest {
 - switch statement
 
 -----------------------------
+
+# Recursion vs Iterative
+-  A program is called recursive when an entity calls itself
+-  A program is call iterative when there is a loop (or repetition)
+
+|  | Time Complexity | Usage |
+| :---         |     :---:      |          :---: |
+| Recursion | Can be found by finding the value of the nth recursive call in terms of the previous calls | very small length     |
+| Iteration | git diff       | git diff      |
+
+-----------------------------
 # Methods
 
 ```
