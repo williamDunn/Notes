@@ -145,7 +145,7 @@ https://www.atlassian.com/devops/devops-tools
 -  Validation and Compliance
   -  ensuring the quality of images w/ security scanning tools
 
-<img src="CICDpipeline.png" height="200">
+<img src="CICDpipeline.png" height="100">
 
 #### Continuous Integration (CI)
 -  Integrating/Merging code into a shared repository, which is then validated by automated tests
