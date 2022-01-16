@@ -66,24 +66,24 @@ public class Calculator {
 
 -----------------------------------
 
-## Integration Testing
+### Integration Testing
 -  Integration Tests should test aspects of your application in a full vertical flow, e.g. call an API and test that it goes through your code and writes to the database
 -  Ensures that multiple components of systems work as expected when they are combined to produce a result.
 
-## Regression Testing
+### Regression Testing
 -  Ensures that existing features/functionality that used to work are not broken due to new code changes
 
-## System Testing
+### System Testing
 -  Complete end-to-end testing is done on the complete software to make sure the whole system works as expected
 
-## Smoke Testing
+### Smoke Testing
 -  A quick test performed to ensure that the software works at the most basic level and doesn’t crash when it’s started
 
-## Performance Testing
+### Performance Testing
 -  Ensures that the software performs according to the user’s expectations by checking the response time and throughput under specific load and environment
 
-## Stress Testing
+### Stress Testing
 -  Ensures that the performance of the software doesn’t degrade when the load increases. In stress testing, the tester subjects the software under heavy loads, such as a high number of requests or stringent memory conditions to verify if it works well
 
-## User-Acceptance Testing
+### User-Acceptance Testing
 -  Ensures the software meets the requirements of the clients or users. This is typically the last step before the software is live, i.e. it goes to production
