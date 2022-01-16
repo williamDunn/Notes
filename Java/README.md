@@ -276,6 +276,7 @@ If your method does something that doesn't depend on the individual characterist
 
 -  In Java, you don't need to explicitly allocate and deallocate memory. The JVM and more specifically the Garbage Collector handles memory allocation
     -  Garbage collection is the process of looking at heap memory and identifying which objects are in use and which aren't, then deleting the unused objects
+    -  https://www.betsol.com/blog/java-memory-management-for-java-virtual-machine-jvm/
 
 ## Stack and Heap
 -  Both generic terms for ways in which memory can be allocated
