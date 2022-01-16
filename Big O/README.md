@@ -12,17 +12,20 @@ https://www.bigocheatsheet.com/
 
 -  Big-O notation is simply how programmers describe algorithms
 
-- It's determined by how a function responds to different inputs - how much slower is something if we input 1000 vs 1
+-  It's determined by how a function responds to different inputs - how much slower is something if we input 1000 vs 1
 
-- It's about figuring out the approximate worst-case performance of doing something
+-  It's about figuring out the approximate worst-case performance of doing something
 
-- You'd read O(n) as "Order of N"
+-  You'd read O(n) as "Order of N"
+
+-  Often  "worst case" stipulation is implied. But sometimes you can impress your interviewer by saying it explicitly.
+    -  i.e., O(1) is the (worst case) runtime
 
 #### Types of Big-O Notation:
 
 ##### O(1) - Constant Time
-- Always take the same amount of time to be executed no matter how big our input
-- Best case scenario for a function
+-  Always take the same amount of time to be executed no matter how big our input
+-  Best case scenario for a function
 
 ```
 public static void printFirstItem(int[] items) {
@@ -47,12 +50,12 @@ This method runs in O(n) time, where n is the number of items in the array. If t
 
 ---------------
 ##### O(log n) - Logarithmic Time Complexity
-- The time it takes to run the algorithm is proportional to the logarithm of the input size *n*
+-  The time it takes to run the algorithm is proportional to the logarithm of the input size *n*
 ---------------
 ##### O(n^2) - Quadratic Time
-- The time it takes to execute is proportional to the square of the input size
-    - For example, if we wanted to find everyone combinition of [1, 2, 3] we'd get back [(1,1) (1,2), (1,3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
-    - This is an O(n^2) function because for every number in the array we have to do n more operations
+-  The time it takes to execute is proportional to the square of the input size
+    -  For example, if we wanted to find everyone combinition of [1, 2, 3] we'd get back [(1,1) (1,2), (1,3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
+    -  This is an O(n^2) function because for every number in the array we have to do n more operations
 
 ```
 public static void printAllPossibleOrderedPairs(int[] items) {
@@ -83,3 +86,5 @@ Similarly:
 -  O((n + 30) ∗ (n + 5)) is O(n^2)
 
 >  We can get away with this because the less significant terms quickly become, well, less significant as n gets big. 
+
+--------------------
