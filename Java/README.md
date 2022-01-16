@@ -180,15 +180,15 @@ public class FreshJuiceTest {
 
 # Recursion vs Iterative
 -  A program is called **recursive** when an entity calls itself
-        -  Function calls itself
-        -  For functions
+    -  Function calls itself
+    -  For functions
 -  A program is call **iterative** when there is a loop (or repetition)
-        -  A set of instructions repeatedly executed
-        -  For loops
+    -  A set of instructions repeatedly executed
+    -  For loops
 
 |  | Recursion | Iteration |
 | :---         |     :---:      |          :---: |
-| **Time Complexity* | Very high(generally exponential) time complexity | Relatively lower time complexity(generally polynomial-logarithmic) |
+| **Time Complexity** | Very high(generally exponential) time complexity | Relatively lower time complexity(generally polynomial-logarithmic) |
 | **Usage** | Used when code size needs to be small, and time complexity is not an issue. | Used when time complexity needs to be balanced against an expanded code size |
 | **Code Size** | Smaller code size | Larger Code Size |
 | **Termination** | Through base case, where there will be no function call | When the termination condition for the iterator ceases to be satisfied |
