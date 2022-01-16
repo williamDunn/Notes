@@ -179,13 +179,13 @@ public class FreshJuiceTest {
 -----------------------------
 
 # Recursion vs Iterative
--  A program is called recursive when an entity calls itself
--  A program is call iterative when there is a loop (or repetition)
+-  A program is called **recursive** when an entity calls itself
+-  A program is call **iterative** when there is a loop (or repetition)
 
 |  | Time Complexity | Usage |
 | :---         |     :---:      |          :---: |
-| Recursion | Can be found by finding the value of the nth recursive call in terms of the previous calls | very small length     |
-| Iteration | git diff       | git diff      |
+| Recursion | Very high(generally exponential) time complexity | Used when code size needs to be small, and time complexity is not an issue. |
+| Iteration | Relatively lower time complexity(generally polynomial-logarithmic) | Used when time complexity needs to be balanced against an expanded code size. |
 
 -----------------------------
 # Methods
