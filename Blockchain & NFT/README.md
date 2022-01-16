@@ -1,4 +1,4 @@
-#### Interplanetary File System (IPFS)
+### Interplanetary File System (IPFS)
 
 -  a distributed system for storing and accessing files, websites, applications, and data.
     -  (a distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another from any system.)
@@ -6,7 +6,7 @@
     -  good fit for NFTs because of content addressing
 
 
-#### Minting NFTs
+### Minting NFTs
 
 -  Minting an NFT is how your digital art becomes a part of the **Ethereum blockchain**- a public ledger that is unchangeable and tamper-proof
 -  Minting an NFT on a blockchain *mainnet* generally costs some amount of money
@@ -14,7 +14,7 @@
 -  **Lazy Minting** defers the cost of minting until the moment it's sold to its first buyer
 
 
-#### Blockchain
+### Blockchain
 
 -  The blockchain is a **decentralized distributed database** of immutable records
 -  **Principle** on which blockchain technology is based on:
@@ -31,3 +31,14 @@
     -  Distributed ledger
     -  Safer & secure ecosystem
     -  Minting
+
+-----------------------------------
+
+### Relevant Technologies
+
+-  **Solidity** is an object-oriented programming language for writing smart contracts (aka computer programs that run on the blockchain). It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum.
+
+-  **Solana** is a high-performance blockchain supporting builders around the world creating crypto apps that scale today.
+    -  better, faster and cheaper blockchain compared to Ethereum
+
+-  **Polygon** is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks
