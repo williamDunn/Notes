@@ -6,7 +6,7 @@
     -  good fit for NFTs because of content addressing
 
 
-### Minting NFTs
+### Minting(Creating) NFTs
 
 -  Minting an NFT is how your digital art becomes a part of the **Ethereum blockchain**- a public ledger that is unchangeable and tamper-proof
 -  Minting an NFT on a blockchain *mainnet* generally costs some amount of money
@@ -42,3 +42,12 @@
     -  better, faster and cheaper blockchain compared to Ethereum
 
 -  **Polygon** is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks
+    -  Can convert Ethereum into Polygon
+
+------------------------------------
+
+### Concepts
+
+-  **Web3** is the idea of a new iteration of the world wide web that's decentralized / moving away from DBs
+    -  Decentralized Autonomous Organizations (DAO)
+        -  A DAO is an organization represented by rules encoded as a computer program that is transparent, controlled by the organization members and not influenced by a central government
