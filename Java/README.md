@@ -179,6 +179,7 @@ public class FreshJuiceTest {
 -----------------------------
 
 # Recursion vs Iterative
+
 -  A program is called **recursive** when an entity calls itself
     -  *Definition*: Function calls itself
     -  *Application*: For functions
@@ -192,6 +193,8 @@ public class FreshJuiceTest {
 | **Usage** | Used when code size needs to be small, and time complexity is not an issue. | Used when time complexity needs to be balanced against an expanded code size |
 | **Code Size** | Smaller code size | Larger Code Size |
 | **Termination** | Through base case, where there will be no function call | When the termination condition for the iterator ceases to be satisfied |
+
+-  Infinite Repetition in recursion can lead to CPU crash but in iteration, it will stop when memory is exhausted
 
 -----------------------------
 # Methods
