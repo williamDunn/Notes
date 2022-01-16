@@ -120,15 +120,15 @@ https://www.atlassian.com/devops/devops-tools
 #### CI/CD lifecycle
 -  Plan
 -  Build
- -  Using tools like docker & kubernetes to provision dev environments
-   -  "it worked on my machine" no longer a problem, now it works on everyone's machines
+  -  Using tools like docker & kubernetes to provision dev environments
+    -  "it worked on my machine" no longer a problem, now it works on everyone's machines
 -  Continuous integration and deployment
- -  Practice of checking in code to a shared repo and testing it
-   -  Detecting problems early, fix them, and allows quick rollout of new features
+  -  Practice of checking in code to a shared repo and testing it
+    -  Detecting problems early, fix them, and allows quick rollout of new features
 -  Monitor
- -  Server monitoring and application performance monitoring
+  -  Server monitoring and application performance monitoring
 -  Operate
- -  Monitoring & problem tracking
+  -  Monitoring & problem tracking
 -  Continuous feedback
 
 #### Typical CI/CD pipeline
