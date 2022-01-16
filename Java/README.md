@@ -232,8 +232,20 @@ You can call static methods like this: Foo.method1(). If you try that with metho
 If your method does something that doesn't depend on the individual characteristics of its class, make it static (it will make the program's footprint smaller). Otherwise, it should be non-static.
 
 -----------------------------
+# Abstract Class
 
-# Abstract Class vs Interface
+**What is an abstract class?**
+-  An abstract class is a class that is declared abstract
+-  A class can only have concrete methods, even a single abstract method makes it an abstract class
+
+**How is it different than a regular one?**
+-  Abstract classes can't be instantiated using new keyword, classes can (Object o = new Object)
+
+## Abstract Class vs Interface
+
+-  An abstract class allows you to create functionality that subclasses can implement or override
+-  An interface allows you to define functionality, not implement it
+-  A class can extend only one abstract class, it can take advantage of multiple interfaces
 
 ##### Abstract Class
 -  Used for Common Properties
@@ -242,7 +254,9 @@ If your method does something that doesn't depend on the individual characterist
     -  instantiated class is when you make an instance of that parent class in memory
 
 ##### Interface
+-  It is a collection of abstract methods
 -  Used for Common Methods
+-  A class implements an interface, thereby inheriting the abstract methods of the interface
 
 <img src="abstractVsInterface.PNG" height="300">
 
@@ -413,7 +427,7 @@ An object copy creates a copy of the object itself
 Ways to copy an object
 -  Using a copy constructor
 -  Using a **clone() method**
-        -  Object cloning refers to the creation of an exact copy of an object. It creates a new instance of the class of the current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
+    -  Object cloning refers to the creation of an exact copy of an object. It creates a new instance of the class of the current object and initializes all its fields with exactly the contents of the corresponding fields of this object.
 
 ### Types of object copies
 
@@ -428,7 +442,7 @@ To create a **shallow** copy, only copy the main object and have your new shallo
 
 ### Deep
 -  A deep copy is a fully indepdent copy of an object
-        -  because of this, both main objects (original & copy) can be changed independently without reflecting any changes on the other
+    -  because of this, both main objects (original & copy) can be changed independently without reflecting any changes on the other
 
 
 To create a **deep** copy, copy the entirety of the main object along with its inner-objects/variables
