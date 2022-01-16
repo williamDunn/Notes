@@ -180,11 +180,11 @@ public class FreshJuiceTest {
 
 # Recursion vs Iterative
 -  A program is called **recursive** when an entity calls itself
-    -  Function calls itself
-    -  For functions
+    -  *Definition*: Function calls itself
+    -  *Application*: For functions
 -  A program is call **iterative** when there is a loop (or repetition)
-    -  A set of instructions repeatedly executed
-    -  For loops
+    -  *Definition*: A set of instructions repeatedly executed
+    -  *Application*: For loops
 
 |  | Recursion | Iteration |
 | :---         |     :---:      |          :---: |
