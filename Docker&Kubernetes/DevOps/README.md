@@ -2,7 +2,20 @@
 
  - The bridge between Development and Operations
  - With the purpose of automating a project to ensure smooth code releases
- - Aimed at increased productivity and quality of product development
+ - Aimed at increased productivity and quality of product development (CI/CD)
+   - Through automation (creating environments, testing, delivering code, and deploying it the production environment)
+   - Monitoring & feedback
+
+#### Benefits of DevOps
+-  Technical Benefits
+  - Continuous software delivery
+  - Less complex problems to manage
+  - Early detection and faster correction of defects
+
+-  Business Benefits
+  -  Faster delivery of features
+  -  Stable operating environments
+  -  Improved communication and collaboration between the teams
 
 ### What is a DevOps Engineer
 
@@ -10,12 +23,18 @@
 
 ## DevOps Tools
 
--  Version Control System tools. Eg.: git.
--  Continuous Integration tools. Eg.: Jenkins\
+https://www.atlassian.com/devops/devops-tools
+
+-  Version Control System tools. Eg.: git
+-  Infrastucture as Code. Eg.: Terraform
+-  Continuous Integration tools. Eg.: Jenkins
 -  Continuous Testing tools. Eg.: Selenium
 -  Configuration Management and Deployment tools. Eg.:Puppet, Chef, Ansible
 -  Continuous Monitoring tool. Eg.: Nagios
 -  Containerization tools. Eg.: Docker
+-  Container Orchestration tools. Eg.: Kubernetes, AWS ECS(Elastic Container Service)
+
+---------------------------------
 
 ## DevOps Lifecycle
 -  Plan 
@@ -36,6 +55,30 @@
    -  Application performance is monitored. Changes are made to meet the end-user requirements.
 
 <img src="devOpsLifecycle.PNG" height="300">
+-----------------------------------------
+
+## Infrastructure as Code (IaC)
+-  IaC is the managing and provisioning of infrastructure through code instead of through manual processes
+-  approach to design, provide, develop and maintain their cloud infrastructure
+
+#### Why does IaC matter for DevOps?
+-  IaC is an important part of implementing DevOps practices and continuous integration/continuous delivery (CI/CD)
+  -  IaC takes away the majority of provisioning work from developers, who can execute a script to have their infrastructure ready to go
+
+#### Benefits of IaC:
+-  Cost reduction
+-  Increase in speed of deployments
+-  Reduce errors
+-  Improve infrastructure
+-  consistency
+-  Eliminate configuration drift
+-  IaC tool examples
+
+#### As it relates to Configuration Management
+-  Writing code to manage configuration, deployment, and automatic provisioning
+-  Managing data centers with machine-readable definition files, rather than physical hardware configuration
+-  Ensuring all your servers and other infrastructure components are provisioned consistently and effortlessly
+-  Administering cloud computing environments, also known as infrastructure as a service (IaaS)
 -----------------------------------------
 
 ## Configuration Management
@@ -69,7 +112,40 @@
 ---------------------
 
 ## CI/CD
--  Continuous Integration / Continous Deployment
+-  Continuous Integration / Continous Delivery / Continuous Deployment
+
+**Jenkins** is one of the most popular DevOps tools used to create CI/CD pipelines
+-  Build, test, deploy
+
+#### CI/CD lifecycle
+-  Plan
+-  Build
+  -  Using tools like docker & kubernetes to provision dev environments
+    -  "it worked on my machine" no longer a problem, now it works on everyone's machines
+-  Continuous integration and deployment
+  -  Practice of checking in code to a shared repo and testing it
+    -  Detecting problems early, fix them, and allows quick rollout of new features
+-  Monitor
+  -  Server monitoring and application performance monitoring
+-  Operate
+  -  Monitoring & problem tracking
+-  Continuous feedback
+
+<img src="CICDlifeCycle.png" height="200">
+
+#### Typical CI/CD pipeline
+-  Build
+  -  the stage where the application is compiled
+-  Test
+  -  stage where code is tested (automation saves both time & effort here)
+-  Release
+  -  stage where application is delivered to a repository
+-  Deploy
+  -  stage where code is deployed to production
+-  Validation and Compliance
+  -  ensuring the quality of images w/ security scanning tools
+
+<img src="CICDpipeline.png" height="200">
 
 #### Continuous Integration (CI)
 -  Integrating/Merging code into a shared repository, which is then validated by automated tests
@@ -84,10 +160,8 @@
 #### Continuous Delivery (CD)
 -  the tested code from continuous integration is automatically deployed in various environments by a manual trigger.
 
------------------------
-
-## Infrastructure as Code
--  Infrastructure as Code (IaC) is the managing and provisioning of infrastructure through code instead of through manual processes.
+#### Continuous Deployment
+-  continuous deployment automates releasing an app to production
 
 ---------------------
 
@@ -99,13 +173,55 @@
   -  an administrative protocol that lets users have access and control the remote servers over the internet to work using the command line
   -  SSH also has a mechanism for remote user authentication, input communication between the client and the host, and sending the output back to the client.
 
-
 #### Provisioning Defined
 -  used when creating environments/resources and storage, an example phrase goes like this: "we need to provision a staging environment"
 
+#### Linux
+-  Linux many times is used as a base for all the CI/CD tools to run on and interact with
+
+#### Cloud
+-  Cloud allows the integration of CI/CD with containers
+
+#### AWS
+-  Role of AWS in DevOps
+  -  Flexible services
+  -  Built for scale
+  -  Automation
+  -  Security
+  -  Large partner ecosystem
+
+-  ECS ( Elastic Container Service)
+  -  a container orchestration platform, and a managed service that operates it and provisions hardware resources
+  -  Advantages of ECS:
+    -  Serverless infrastructure (allows you to operate containers without having to directly manage virtual machines)
+    -  Built-in security
+    -  AWS integration
+    -  Spot instances
+
+#### Bash Scripting / Python
+-  Used to create scripts to automate processes (i.e., automate rebuilding an image)
+
+#### Terraform
+-  IaC Tool
+-  File extension (.tf)
+-  Provision resources in the cloud
+-  Build, Change, & Version infrastructure safely & efficiently with code (HCL - HashiCorp Language)
+
+#### Production Readiness Review (PRR)
+-  Verifies that production design, planning, and other preparations for producing the system have progress to a point where a commitment can be made without risk
+
+#### Crash Loop
+-  Common error in Kubernetes, indicating a pod constantly crashing in an endless loop
+-  Common causes:
+  -  Insufficient resources,
+  -  locked database,
+  -  setup error,
+  -  misconfigurations,
+  -  etc.
+
 ---------------------------------------
 
-Important DevOps KPIs (Key Performance Indicators)
+#### Important DevOps KPIs (Key Performance Indicators)
 
 -  Meantime to failure recovery
   -  This is the average time taken to recover from a failure.
