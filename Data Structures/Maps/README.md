@@ -8,11 +8,12 @@
 
 <img src="Maps2.PNG" height="200">
 
+-------------
+
 Map implementations that Java offers
 
 <img src="Maps.PNG" height="400">
 
--------------
 #### General-purpose map implentations:
 -  HashMap
     -  If you want maximum speed and don't care about iteration order
