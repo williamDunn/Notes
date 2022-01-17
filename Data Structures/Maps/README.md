@@ -138,6 +138,23 @@ System.out.println(map.values());  //returns:  [Person[name=Alex', Person[name=A
 --------------------------------------------------
 # Hash 101
 
+A **hash method** takes data (like a string, or a file’s contents) and outputs a hash, a fixed-size string or number. 
+
+i.e.
+>  DF7CE038E2FA96EDF39206F898DF134D
+
+-  hash can be thought of as a "fingerprint."
+    -  We can trust that a given file will always have the same hash, but we can't go from the hash back to the original file
+
+#### Some uses for hashing
+
+1)  **Hash Maps**
+    -  Basic idea: we want an array-like data structure with constant-time lookups, but we want to look up values based on arbitrary "keys," not just sequential "indices."
+        -  We could allocate an array, and use a hash method to translate keys into array indices
+2)  **Preventing man-in-the-middle attacks*
+    -  Compare website's downloaded file hash with your own
+        -  If it doesn't match, your internet service provider or someone else might have injected malware or tracking software into your download  
+
 **Hash Maps are built on arrays**
 
 All we need is a function to convert a key into an array index (an integer). That function is called a hashing function. 
