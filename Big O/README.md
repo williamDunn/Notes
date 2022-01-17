@@ -1,4 +1,4 @@
-# Big-O
+# Big-O / Time Complexity
 --------
 https://www.bigocheatsheet.com/
 
@@ -78,6 +78,8 @@ Here we're nesting two loops. If our array has n items, our outer loop runs n ti
 
 >  Why can we get away with this? For big O notation we're looking at what happens as n gets arbitrarily large. As n gets really big, adding 100 or dividing by 2 has a decreasingly significant effect. 
 
+(Sometimes the constants matter - If we have a script that takes 5 hours to run, an optimization that divides the runtime by 5 might not affect big O, but it still saves you 4 hours of waiting)
+
 **Drop the Less Significant Terms**
 - Even if our runtime is O(n+n^2), we just call it O(n^2). Even if it was O(n^2 / 2 + 100n), it would still be O(n^2)
 
@@ -88,3 +90,6 @@ Similarly:
 >  We can get away with this because the less significant terms quickly become, well, less significant as n gets big. 
 
 --------------------
+
+#### Space Complexity
+
