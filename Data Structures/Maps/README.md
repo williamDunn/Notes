@@ -9,11 +9,12 @@ Other names:
 
 
 ------------
--  A collection of key value pairs
+<img src="hashTableQuickRef.PNG" height="400">
+
+-  A collection of (key, value) pairs
 -  A map connot contain duplicate keys
 -  Each key can map to at most one value
 
-<img src="hashTableQuickRef.PNG" height="500">
 
 <img src="Maps2.PNG" height="200">
 
