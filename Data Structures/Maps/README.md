@@ -1,5 +1,7 @@
 # Maps / Hash Table
 
+<img src="hashTable.PNG" height="200">
+
 Other names:
 -  hash, 
 -  hash map, 
