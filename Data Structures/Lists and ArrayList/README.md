@@ -1,4 +1,4 @@
-## Lists and ArrayList
+## Lists and ArrayList / Dynamic Array
 
 -  An ordered collection (aka sequence)
 -  Allows duplicates
@@ -9,6 +9,9 @@
     -  Stack
     -  Vector
     -  Others
+
+
+<img src="arrayList.PNG" height="200">
 
 -------------------
 
