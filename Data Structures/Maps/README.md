@@ -1,4 +1,7 @@
-# Maps
+# Maps / Hash Table
+
+Other names:
+-  hash, hash map, map, unordered map, dictionary 
 ------------
 -  A collection of key value pairs
 -  A map connot contain duplicate keys
