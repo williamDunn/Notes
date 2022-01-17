@@ -111,3 +111,32 @@ public static void deleteNode(LinkedListNode nodeToDelete) {
     }
 }
 ```
+
+### Reverse a Linked List
+-  O(n) time and O(1) space. We pass over the list only once, and maintain a constant number of variables in memory. 
+-  In-place method - meaning modifying the list itself so changes last after the method is done.
+
+```
+public static LinkedListNode reverse(LinkedListNode headOfList) {
+    LinkedListNode currentNode = headOfList;
+    LinkedListNode previousNode = null;
+    LinkedListNode nextNode = null;
+
+    // until we have 'fallen off' the end of the list
+    while (currentNode != null) {
+
+        // copy a pointer to the next element
+        // before we overwrite currentNode.next
+        nextNode = currentNode.next;
+
+        // reverse the 'next' pointer
+        currentNode.next = previousNode;
+
+        // step forward in the list
+        previousNode = currentNode;
+        currentNode = nextNode;
+    }
+
+    return previousNode;
+}
+```
