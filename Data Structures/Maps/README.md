@@ -4,6 +4,8 @@
 -  A map connot contain duplicate keys
 -  Each key can map to at most one value
 
+<img src="hashTableQuickRef.PNG" height="500">
+
 <img src="Maps2.PNG" height="200">
 
 Map implementations that Java offers
@@ -28,9 +30,6 @@ Map implementations that Java offers
 #### Concurrent Map Implentations:
 -  ConcurrentMap
    -  A highly concurrent, high-performance implmentation backed up by a hash table (intended as a drop-in replacement for Hastable; also supports all the legacy methods peculiar to Hashtable)
--------------
-
-<img src="hashTableQuickRef.PNG" height="500">
 
 -------------
 #### Code Examples
