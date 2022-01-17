@@ -7,6 +7,12 @@ Other names:
 -  unordered map, 
 -  dictionary 
 
+Java has two hash table classes: *HashTable* and *HashMap*. In general you should use a HashMap
+
+>  While both classes use keys to look up values, there are some important differences, including:
+>    A HashTable doesn't allow null keys or values; a HashMap does.
+>    A HashTable is synchronized to prevent multiple threads from accessing it at once; a HashMap isn't.
+
 
 ------------
 <img src="hashTableQuickRef.PNG" height="400">
@@ -144,6 +150,27 @@ To look up the value for a given key, we just run the key through our hashing fu
 <img src="hashing.PNG" height="350">
 
 >  The hashing methods used in modern systems get pretty complicated—the one we used here is a simplified example.
+
+**Hash Collisions**
+-  When two keys hash to the same index in the array
+
+<img src="hashCollision.PNG" height="350">
+
+**How to deal with Hash Collisions**
+
+instead of storing the actual values in our array, let's have each array slot hold a pointer to a linked list holding the values for all the keys that hash to that index
+
+### When hash table operations cost O(n) time
+
+**Hash Collisions**
+-  Absolute worst case (*Unlikely, but could*)
+    -  If *all* our keys caused hash collisions, we'd be at risk of having to walk through all of our values for a single lookup
+**Dynamic array resizing**
+To mitigate hash collisions as the hash map gets larger
+-  we could expand our underlying array
+    -  This requires allocating a larger array and rehashing all of the existing keys to figure out their new position—*O(n) time*. 
+
+------------------------------------------------
 
 Hashfunctions & Hashcode
 
