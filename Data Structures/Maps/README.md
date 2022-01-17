@@ -135,13 +135,13 @@ System.out.println(map.values());  //returns:  [Person[name=Alex', Person[name=A
 
 All we need is a function to convert a key into an array index (an integer). That function is called a hashing function. 
 
-<img src="hashingFunction.PNG" height="200">
+<img src="hashingFunction.PNG" height="350">
 
 To look up the value for a given key, we just run the key through our hashing function to get the index to go to in our underlying array to grab the value. 
 
 **How do hashing methods work? (Simple proof of concept)
 
-<img src="hashing.PNG" height="200">
+<img src="hashing.PNG" height="350">
 
 >  The hashing methods used in modern systems get pretty complicated—the one we used here is a simplified example.
 
