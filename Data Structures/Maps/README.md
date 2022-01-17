@@ -10,8 +10,9 @@ Other names:
 Java has two hash table classes: *HashTable* and *HashMap*. In general you should use a HashMap
 
 >  While both classes use keys to look up values, there are some important differences, including:
->    A HashTable doesn't allow null keys or values; a HashMap does.
->    A HashTable is synchronized to prevent multiple threads from accessing it at once; a HashMap isn't.
+>  
+>    -  A HashTable doesn't allow null keys or values; a HashMap does.
+>    -  A HashTable is synchronized to prevent multiple threads from accessing it at once; a HashMap isn't.
 
 
 ------------
