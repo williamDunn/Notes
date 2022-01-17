@@ -22,6 +22,6 @@ Linear vs Non-linear
 
 Java Collection
 ---------------
-List
-Set
-Map
+-  List
+-  Set
+-  Map
