@@ -25,3 +25,9 @@ Java Collection
 -  List
 -  Set
 -  Map
+
+
+In Place vs Out of Place
+------------------------
+-  An **in-place method** modifies data structures or objects outside of its own stack frame ↴ (i.e.: stored on the process heap or in the stack frame of a calling function). Because of this, the changes made by the method remain after the call completes. 
+-  An **out-of-place method** doesn't make any changes that are visible to other methods. Usually, those methods copy any data structures or objects before manipulating and changing them. 
