@@ -8,7 +8,7 @@
 
 Example: tic-tac-toe game
 
-```
+```java
 char[][] board = new char[3][3];
 
 for (int i = 0; i < 3; i++)
@@ -27,7 +27,7 @@ returns:
 
 [[-, -, -], [-, -, -], [-, -, -]]
 
-```
+```java
 board[0][0] = '0';
 board[1][0] = '0';
 board[2][0] = '0';
@@ -42,7 +42,7 @@ returns:
 
 
 ##### Creating an inline array
-```
+```java
 char[][] boardTwo = new char[][]{
   new char[] {'0', '-', '-'},
   new char[] {'0', '-', '-'},
