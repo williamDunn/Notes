@@ -114,27 +114,46 @@ public class Employee {
 
 (tutorialspoint.com/java/java_variable_types.htm)
 
---------------------------------
+-----------------------------------------------------------------------
 
 # Access Modifiers
+
+**What do they do?**:
+Access Modifiers control the access level
+
+Non-Access Modifiers *don't* control access level, but provide other functionality
+
 -  Access Modifiders
     -  default, public, protected, private
 -  Non-access Modifiers
     -  final, abstract, strictfp
 
+##### Default
+-  The code is only accessible in the same package
+
 ##### Public 
--  Everyone can see it
+-  accessible for all classes
 
 ##### Private 
--  only class in which it is declared can see it
+-  only accessible within the declared class
+
+##### Protected 
+-   The code is accessible in the same package and subclasses
 
 ##### Package Private 
 -  Can only be seen and used by the package in which it is declared (this is the default in Java)
 
-##### Protected 
--   Package Private + can be seen by subclasses or package members
+/////////
+
+##### Final
+-  The class cannot be inherited by other classes
+
+##### Abstract
+-  The class cannot be used to create objects
+
 
 --------------------------------
+
 # Enumerations
 
 Use Enums where there's a fixed range of values that a variable can be
@@ -155,6 +174,33 @@ public class FreshJuiceTest {
       System.out.println("Size: " + juice.size);
    }
 }
+```
+
+-----------------------------------------------------
+
+## Constructors
+
+-  A constructor in Java is a **special method** that is used to initialize objects. 
+-  The constructor is called when an object of a class is created. 
+-  It can be used to set initial values for object attributes:
+
+```
+public class Main {
+  int modelYear;
+  String modelName;
+
+  public Main(int year, String name) {
+    modelYear = year;
+    modelName = name;
+  }
+
+  public static void main(String[] args) {
+    Main myCar = new Main(1969, "Mustang");
+    System.out.println(myCar.modelYear + " " + myCar.modelName);
+  }
+}
+
+// Outputs 1969 Mustang
 ```
 
 -----------------------------
@@ -196,7 +242,9 @@ public class FreshJuiceTest {
 
 -  Infinite Repetition in recursion can lead to CPU crash but in iteration, it will stop when memory is exhausted
 
+
 -----------------------------
+
 # Methods
 
 ```
