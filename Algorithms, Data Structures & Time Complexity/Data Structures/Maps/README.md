@@ -56,7 +56,7 @@ Map implementations that Java offers
 
 Creating a map & Adding elements:
 
-```
+```java
 Map<Integer, Person> map = new HashMap<>();
 
 // if there is a key duplicate it will overwrite the first
@@ -68,7 +68,7 @@ map.put(3, new Person("Alexander"));
 
 Prints outs:
 
-```
+```java
 System.out.println(map);  // returns:  {1=Person[name=Alex], 2=Person[name=Alexa], 3=Person[name=Alexander]}
 
 
@@ -91,7 +91,7 @@ System.out.println(map.values());  // returns:  [Person[name=Alex', Person[name=
 
 Loop through:
 
-```
+```java
 //loop through map
 
 map.entrySet().forEach(System.out::println);
@@ -123,7 +123,7 @@ map.forEach((key, person) -> {
 
 Remove a key / getOrDefault
 
-```
+```java
 //to remove a key
 
 map.remove(3);
