@@ -25,9 +25,14 @@ e.g., when working with Collection objects, such as ArrayList, where primitive t
 the following methods are used to get the value associated with the corresponding wrapper object:
 -  intValue()
 -  byteValue()
+-  shortValue()
+-  longValue()
+-  floatValue()
+-  doubleValue()
+-  charValue()
+-  booleanValue()
   
-  
-```
+```java
 public class Main {
   public static void main(String[] args) {
     Integer myInt = 5;
