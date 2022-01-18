@@ -13,7 +13,7 @@
     - Each Node contains reference to next node and reference to previous node
 - LinkedLists are implementations of the Queue interface
 
-```
+```java
 LinkedList<Person> linkedList = new LinkedList<>();
 
 linkedList.add(new Person("Alex", 21));
@@ -54,7 +54,7 @@ while(personListIterator.hasPrevious())
 
 ### Remove from linked list
 
-```
+```java
 linkedList.remove("insertItemHere");
 ```
 
@@ -68,7 +68,7 @@ Add implementations/parameters:
 -----------
 ### InterviewCake - Deleting a Node
 
-```
+```java
   public class LinkedListNode {
 
     public int value;
@@ -116,7 +116,7 @@ public static void deleteNode(LinkedListNode nodeToDelete) {
 -  O(n) time and O(1) space. We pass over the list only once, and maintain a constant number of variables in memory. 
 -  In-place method - meaning modifying the list itself so changes last after the method is done.
 
-```
+```java
 public static LinkedListNode reverse(LinkedListNode headOfList) {
     LinkedListNode currentNode = headOfList;
     LinkedListNode previousNode = null;
