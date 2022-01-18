@@ -178,7 +178,7 @@ public class FreshJuiceTest {
 
 -----------------------------------------------------
 
-## Constructors
+# Constructors
 
 -  A constructor in Java is a **special method** that is used to initialize objects. 
 -  The constructor is called when an object of a class is created. 
@@ -245,7 +245,7 @@ public class Main {
 
 -----------------------------
 
-# Methods
+# Method Breakdown
 
 ```
 public static int methodName(int a, int b) {
@@ -267,10 +267,18 @@ int a, int b / parameters
 method body
 -  defines what the method does with the statements
 
-## Static vs Non-Static
+----------------------------------------------------------
+
+# Static vs Non-Static
+-  a static methods can be accessed without creating an object of the class
+-  public methods can only be accessed by objects
+
+//////////////
+
 -  A **static method** belongs to a class
 -  A **Non-static** (AKA instance) method belongs to each object that is generated from that class
 
+https://www.w3schools.com/java/java_modifiers.asp
 https://www.youtube.com/watch?v=ZXQFGiGtoo4
 
 Example:
