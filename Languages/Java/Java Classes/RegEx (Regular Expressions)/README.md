@@ -11,7 +11,7 @@ https://www.geeksforgeeks.org/regular-expressions-in-java/
 
 -----------
 
-```
+```java
 // Java program Illustrating Working of split() Method
 // by Splitting a text by a given pattern
  
