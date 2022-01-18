@@ -13,6 +13,7 @@ String methods
 >  0 is the first position in a string, 1 is the second, 2 is the third ...
 >  
 >  String txt = "Please locate where 'locate' occurs!";
+>  
 >  System.out.println(txt.indexOf("locate")); // Outputs 7
 
 -  
