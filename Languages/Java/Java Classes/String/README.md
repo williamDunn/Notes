@@ -10,6 +10,7 @@ String methods
 -  toLowerCase()
 -  indexOf():  returns the index (the position) of the first occurrence of a specified text in a string (including whitespace)
 >  Java counts positions from zero.
+>  
 >  0 is the first position in a string, 1 is the second, 2 is the third ...
 >  
 >  String txt = "Please locate where 'locate' occurs!";
