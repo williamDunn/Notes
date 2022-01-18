@@ -53,7 +53,7 @@ To achieve encapsulation you must:
 -  Getters & Setters
 -  declare class variables/attributes as private ( AKA encapsulating our properties within the object)
 
-```
+```java
 public class Person {
   private String name; // private = restricted access
 
@@ -101,7 +101,7 @@ public class Person {
 -  Useful for **code reusability**: reuse attributes and methods of an existing class when you create a new class.
 
 
-```
+```java
 class Animal {
   public void animalSound() {
     System.out.println("The animal makes a sound");
