@@ -272,6 +272,7 @@ method body
 # Static vs Non-Static
 -  a static methods can be accessed without creating an object of the class
 -  public methods can only be accessed by objects
+-  Static methods are difficult to test and mock, so are generally avoided
 
 //////////////
 
