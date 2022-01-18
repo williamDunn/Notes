@@ -11,7 +11,7 @@ Advantages:
 -  Fast enough when working with small data sets
 -  Easy to implement
 
-```
+```java
 class bubbleSortExample 
 {
     // An optimized version of Bubble Sort
@@ -82,7 +82,7 @@ When to use:
 -  When a simple sorting implementation is desired.
 -  When the array to be sorted is relatively small.
 
-```
+```java
 class SelectionSort
 {
     void sort(int arr[])
@@ -140,7 +140,7 @@ When to use:
 -  Useful when dealing with linked lists
 -  Works with both small and large datasets
 
-```
+```java
 class MergeSort 
 {
     // Merges two subarrays of arr[].
@@ -256,7 +256,7 @@ Advantages:
 -  doesn't require extra storage (whereas merge sort does)
 -  it's fast
 
-```
+```java
 class GFG{
     
 // A utility function to swap two elements
