@@ -20,6 +20,7 @@ There are **4 basic OOP concepts**:
 3. Inheritance
 4. Polymorphism
 
+-----------------------------------
 
 # Abstraction
 
@@ -31,6 +32,12 @@ There are **4 basic OOP concepts**:
 
 -  Calling a method, don't need to worry about the code in the method
     
+    
+**How to achieve Abstraction:**
+
+-  Abstraction can be achieved with either abstract classes or interfaces
+
+
 --------------------------------------------------------------------------------------------------------------------
 
 # Encapsulation
