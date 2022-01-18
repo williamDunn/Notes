@@ -42,7 +42,7 @@ RIGHT (outer) join:
 
 Example:
 
-```
+```sql
 CREATE PROCEDURE *Name*
 AS
 Select *
@@ -50,7 +50,7 @@ From *TableName*
 GO;
 ```
 
-```
+```sql
 EXEC *NAME*
 ```
 
@@ -64,7 +64,7 @@ EXEC *NAME*
 -  Indexing a table or view is one of the best ways to improve the performance of queries and applications
 
 Creating an index
-```
+```sql
 CREATE INDEX idx_pname
 ON Persons (LastName, FirstName); 
 ```
