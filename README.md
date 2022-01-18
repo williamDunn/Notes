@@ -1,3 +1,22 @@
+## Procedural programming & Object Oriented Programming
+
+-  **Procedural programming** is about writing procedures or methods that perform operations on the data
+-  **Object-oriented programming** is about creating objects that contain both data and methods
+
+----------------------------------
+
+**Compiled vs Interpreted Language**
+
+Compiled
+-  In this language, compilation errors prevent the code from compiling.
+-  Types of compiled language – C, C++, C#, CLEO, COBOL, etc.
+
+Interpreted (line by line)
+-  In this languages, all the debugging occurs at run-time.
+-  Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
+
+------------------------------------
+
 Programmer's (Quick) Checklist
 ------------------------------
 
@@ -28,18 +47,6 @@ Programmer's (Quick) Checklist
 -  Is your I/O as specified? (e.g., your prompts, output formats etc.)?
 -  Are there any specific requirements that need to be met?
 
-----------------------------------
-
-**Compiled vs Interpreted Language**
-
-Compiled
--  In this language, compilation errors prevent the code from compiling.
--  Types of compiled language – C, C++, C#, CLEO, COBOL, etc.
-
-Interpreted (line by line)
--  In this languages, all the debugging occurs at run-time.
--  Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
-
-------------------------------------
+---------------------------------------
 
 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
