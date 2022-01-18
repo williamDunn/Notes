@@ -19,7 +19,7 @@
     -  HashSet 
         -  Backed by hash map
 
-```
+```java
 Set<Ball> balls = new HashSet<>();
 
 balls.add(new Ball("blue"));
