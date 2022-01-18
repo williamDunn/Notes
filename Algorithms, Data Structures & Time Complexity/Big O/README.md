@@ -27,7 +27,7 @@ https://www.bigocheatsheet.com/
 -  Always take the same amount of time to be executed no matter how big our input
 -  Best case scenario for a function
 
-```
+```java
 public static void printFirstItem(int[] items) {
     System.out.println(items[0]);
 }
@@ -39,7 +39,7 @@ This method runs in O(1) time relative to its input. The input array could be 1 
 - The time it takes to execute the algorithm is directly proprtional to the input size *n*
 - If we were to check an array 1 by 1, the time to check would correspond directly to the amount of items in the array
 
-```
+```java
 public static void printAllItems(int[] items) {
     for (int item : items) {
         System.out.println(item);
@@ -57,7 +57,7 @@ This method runs in O(n) time, where n is the number of items in the array. If t
     -  For example, if we wanted to find everyone combinition of [1, 2, 3] we'd get back [(1,1) (1,2), (1,3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)]
     -  This is an O(n^2) function because for every number in the array we have to do n more operations
 
-```
+```java
 public static void printAllPossibleOrderedPairs(int[] items) {
     for (int firstItem : items) {
         for (int secondItem : items) {
@@ -100,7 +100,7 @@ Sometimes we want to optimize for using less memory instead of (or in addition t
 
 This method takes O(1) space (we use a fixed number of variables): 
 
-```
+```java
 public static void sayHiNTimes(int n) {
     for (int i = 0; i < n; i++) {
         System.out.println("hi");
@@ -109,7 +109,7 @@ public static void sayHiNTimes(int n) {
 ```
 This method takes O(n) space (the size of hiArray scales with the size of the input): 
 
-```
+```java
 public static String[] arrayOfHiNTimes(int n) {
     String[] hiArray = new String[n];
     for (int i = 0; i < n; i++) {
@@ -121,7 +121,7 @@ public static String[] arrayOfHiNTimes(int n) {
 
 **Usually when we talk about space complexity, we're talking about additional space**, so we don't include space taken up by the inputs. For example, this method takes constant space even though the input has *n* items: 
 
-```
+```java
 public static int getLargestItem(int[] items) {
     int largest = Integer.MIN_VALUE;
     for (int item : items) {
