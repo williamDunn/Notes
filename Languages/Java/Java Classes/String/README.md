@@ -33,6 +33,7 @@ https://www.w3schools.com/java/java_ref_string.asp
 
 ## Parsing a String
 
+### Looping through w/ chatAt(i)
 ```
 // Java program to Convert a String
 // to a Character array using Naive Approach
@@ -61,6 +62,8 @@ public class GFG {
 }
 ```
 
+
+### Using toCharArray()
 ```
 // Java program to Convert a String
 // to a Character array using toCharArray()
@@ -86,23 +89,37 @@ public class GFG {
 }
 ```
 
+
+### Using RegEx split()
 ```
-public class StringTest {
-    public static void main(String args []){
+public class StringTest 
+{
+    public static void main(String args [])
+    {
         String source1 = "March032021";
         String [] returnedArray1 = source1.split("\\d+");
-        for(String str1 :  returnedArray1){
+        for(String str1 :  returnedArray1)
+        {
             System.out.println(" Output1 : "+str1);
         }
-        String source2 = "950-003-123-900-456 : 11 _343-1 789----";
-        String [] returnedArray2 = source2.split("-",4);
-        for(String str2 :  returnedArray2){
-            System.out.println(" Output2 : "+str2);
-        }
-
     }
 }
 
+```
+
+### Using Scanner hasNext()
+```
+import java.util.Scanner;
+public class StringTest {
+    public static void main (String args[]){
+        String text = "John Evans was born on 25-08-1980";
+        Scanner scanner = new Scanner(text);
+        scanner.useDelimiter("born");
+        while (scanner.hasNext()){
+            System.out.println("Output is : "+scanner.next());
+        }
+    }
+}
 ```
 
 -----------------------------------------
