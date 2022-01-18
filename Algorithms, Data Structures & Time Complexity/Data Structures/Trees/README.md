@@ -3,7 +3,7 @@
 
 First, create a node class that will represent a node in a tree
 
-```
+```java
 class Node {
     int value;
     Node left;
@@ -19,7 +19,7 @@ class Node {
 
 #### Insertion:
 
-```
+```java
 public void add(int value) {
     root = add(root, value);
 }
@@ -44,7 +44,7 @@ private Node add(Node current, int value) {
 #### Deletion:
 
 
-```
+```java
 public void delete(int value) {
         root = delete(root, value);
     }
@@ -86,7 +86,7 @@ public void delete(int value) {
 
 #### Searching
 
-```
+```java
 public boolean containsNode(int value) {
     return containsNode(root, value);
 }
@@ -111,7 +111,7 @@ private boolean containsNode(Node current, int value) {
 ### DFS in-order
 -  The in-order traversal consists of first visiting the left sub-tree, then the root node, and finally the right sub-tree
 -  In the case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order. To get nodes of BST in non-increasing order, a variation of Inorder traversal where Inorder traversal s reversed can be used. 
-```
+```java
 public void inOrderTraversal(Node node) {
     if (node != null) {
         inOrderTraversal(node.left);
@@ -125,7 +125,7 @@ public void inOrderTraversal(Node node) {
 -  Pre-order traversal visits first the root node, then the left subtree, and finally the right subtree
 -  Preorder traversal is used to create a copy of the tree
 
-```
+```java
 public void preOrderTraversal(Node node) {
     if (node != null) {
         print(node.value);
@@ -139,7 +139,7 @@ public void preOrderTraversal(Node node) {
 -  Post-order traversal visits the left subtree, the right subtree, and the root node at the end
 -  Postorder traversal is used to delete the tree.
 
-```
+```java
 public void postOrderTraversal(Node node) {
     if (node != null) {
         postOrderTraversal(node.left);
