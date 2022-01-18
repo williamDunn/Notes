@@ -6,7 +6,7 @@ SQL is a language used specifically to do things with data. Things like selectin
 --------------------------------
 Standard SQL statement:
 
-```
+```sql
 SQL commands:
 
 Select:
