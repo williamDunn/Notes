@@ -2,7 +2,7 @@
 -------------------------
 
 ### Double to int - Type Casting
-```
+```java
 public class DoubleToIntExample1
 {  
   public static void main(String args[])
@@ -17,12 +17,12 @@ public class DoubleToIntExample1
 ### Convert Integer/Double/Float/Boolean/Character/Object to String
 
 -  String.valueOf()
-```
+```java
 double d = 12.3;
 String s = String.valueOf(d);  
 ```
 -  Double.toString()
-```
+```java
 double d = 89.7;  
 String s = Double.toString(d);  
 ```
@@ -30,7 +30,7 @@ String s = Double.toString(d);
 ### String to Double/Float/Integer
 
 -  Double.parseDouble()
-```
+```java
 String s = "23.6";  
 double d = Double.parseDouble("23.6");  
 ```
@@ -39,7 +39,7 @@ double d = Double.parseDouble("23.6");
 
 ### Converting StringBuilder Object to String (& Reversing the String)
 
-```
+```java
 public class ObjectToStringExample2
 {  
   public static void main(String args[])
