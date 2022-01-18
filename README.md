@@ -5,13 +5,13 @@
 
 ----------------------------------
 
-**Compiled vs Interpreted Language**
+## Compiled vs Interpreted Language
 
-Compiled
+**Compiled**
 -  In this language, compilation errors prevent the code from compiling.
 -  Types of compiled language – C, C++, C#, CLEO, COBOL, etc.
 
-Interpreted (line by line)
+**Interpreted** (line by line)
 -  In this languages, all the debugging occurs at run-time.
 -  Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc.
 
