@@ -91,5 +91,44 @@ Similarly:
 
 --------------------
 
-#### Space Complexity
+## Space Complexity
 
+Sometimes we want to optimize for using less memory instead of (or in addition to) using less time
+
+-  simply look at the total size (relative to the size of the input) of any new variables we're allocating
+
+
+This method takes O(1) space (we use a fixed number of variables): 
+
+```
+public static void sayHiNTimes(int n) {
+    for (int i = 0; i < n; i++) {
+        System.out.println("hi");
+    }
+}
+```
+This method takes O(n) space (the size of hiArray scales with the size of the input): 
+
+```
+public static String[] arrayOfHiNTimes(int n) {
+    String[] hiArray = new String[n];
+    for (int i = 0; i < n; i++) {
+        hiArray[i] = "hi";
+    }
+    return hiArray;
+}
+```
+
+**Usually when we talk about space complexity, we're talking about additional space**, so we don't include space taken up by the inputs. For example, this method takes constant space even though the input has *n* items: 
+
+```
+public static int getLargestItem(int[] items) {
+    int largest = Integer.MIN_VALUE;
+    for (int item : items) {
+        if (item > largest) {
+            largest = item;
+        }
+    }
+    return largest;
+}
+```
