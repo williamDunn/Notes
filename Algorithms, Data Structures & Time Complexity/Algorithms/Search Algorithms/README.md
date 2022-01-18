@@ -16,7 +16,7 @@ How it works:
 -  Else (x is smaller) recur for the left half.
 
 Recusive Implementation
-```
+```java
 class BinarySearch {
     // Returns index of x if it is present in arr[l..
     // r], else return -1
@@ -63,7 +63,7 @@ class BinarySearch {
 ```
 
 Iterative Implementation:
-```
+```java
 class BinarySearch {
     // Returns index of x if it is present in arr[],
     // else return -1
@@ -121,7 +121,7 @@ Algorithm:
 -  Mark the current node as visited and print the node.
 -  Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.
 
-```
+```java
 // This class represents a
 // directed graph using adjacency
 // list representation
@@ -215,7 +215,7 @@ Algorithm:
 -  Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.
 -  Run a loop from 0 to the number of vertices and check if the node is unvisited in the previous DFS, call the recursive function with the current node.
 
-```
+```java
 // This class represents a
 // directed graph using adjacency
 // list representation
@@ -302,7 +302,7 @@ Complexity Analysis:
 -  In breadth-first search, we start at the root and explore each neighbor before going on to any of their children
     -  We go wide before we go deep (hence the name)
 
-```
+```java
 // This class represents a directed graph using adjacency list
 // representation
 class Graph
