@@ -17,15 +17,17 @@ public class DoubleToIntExample1
 ### Convert int/double/float/Object to String
 
 -  String.valueOf()
+```
+double d = 12.3;
+String s = String.valueOf(d);  
+```
 -  Integer.toString()
 ```
-long i = 9993939399L;           //L is the suffix for long  
-String s = String.valueOf(i);   //Now it will return "9993939399"  
+double d = 89.7;  
+String s = Double.toString(d);  
 ```
-```
-long i = 9993939399L;  
-String s = Long.toString(i);    //Now it will return "9993939399"  
-```
+
+### Parse 
 
 -------------------------------
 
