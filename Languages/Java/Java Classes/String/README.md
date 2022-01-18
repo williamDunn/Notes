@@ -10,18 +10,18 @@ String methods
 -  toLowerCase()
 -  indexOf():  returns the index (the position) of the first occurrence of a specified text in a string (including whitespace)
 >  Java counts positions from zero - 0 is the first position in a string, 1 is the second, 2 is the third ...
-```
+```java
 String txt = "Please locate where 'locate' occurs!";
 System.out.println(txt.indexOf("locate")); // Outputs 7
 ```
 
 String Concatenation
 -  The + operator can be used between strings to combine them. This is called concatenation:
-```
+```java
 System.out.println(firstName + " " + lastName);
 ```
 -  You can also use the concat() method to concatenate two strings:
-```
+```java
 System.out.println(firstName.concat(lastName));
 ```
 
@@ -34,7 +34,7 @@ https://www.w3schools.com/java/java_ref_string.asp
 ## Parsing a String
 
 ### Looping through w/ chatAt(i)
-```
+```java
 // Java program to Convert a String
 // to a Character array using Naive Approach
   
@@ -64,7 +64,7 @@ public class GFG {
 
 
 ### Using toCharArray()
-```
+```java
 // Java program to Convert a String
 // to a Character array using toCharArray()
   
@@ -91,7 +91,7 @@ public class GFG {
 
 
 ### Using RegEx split()
-```
+```java
 public class StringTest 
 {
     public static void main(String args [])
@@ -108,7 +108,7 @@ public class StringTest
 ```
 
 ### Using Scanner hasNext()
-```
+```java
 import java.util.Scanner;
 public class StringTest {
     public static void main (String args[]){
