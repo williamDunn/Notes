@@ -21,7 +21,7 @@ There are **4 basic OOP concepts**:
 4. Polymorphism
 
 
-## Abstraction
+# Abstraction
 
 -  Data abstraction is the process of hiding certain details and showing only essential information to the user
 
@@ -31,8 +31,9 @@ There are **4 basic OOP concepts**:
 
 -  Calling a method, don't need to worry about the code in the method
     
-    
-## Encapsulation
+--------------------------------------------------------------------------------------------------------------------
+
+# Encapsulation
 * Keeping fields in a class private, then providing access to them via public methods
     * Why?
     * to re-use objects without allowing open acccess to the data system-wide
@@ -40,15 +41,17 @@ There are **4 basic OOP concepts**:
 -  ie. Getters & Setters
 -  Encapsulating our properties within the object by setting properties to private
 
+--------------------------------------------------------------------------------------------------------------------
 
-## Inheritance
+# Inheritance
 * Allows you to create new classes that share attributes and methods of existing classes
 
 -  Code Reusability
 -  Ability to add more functionality when needed through child class
     
+--------------------------------------------------------------------------------------------------------------------    
     
-## Polymorphism
+# Polymorphism
 * Objects of different types can be accessed through the same interface (with it's own independent implementations)
     * Method overriding
          -  Overriding means 2 methods with the same method name and parameters
