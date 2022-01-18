@@ -13,6 +13,8 @@ The Scanner class is used to get user input, and it is found in the java.util pa
 -  nextLong() 	    Reads a long value from the user
 -  nextShort() 	    Reads a short value from the user
 
+----------------
+
 ```
 import java.util.Scanner;
 
