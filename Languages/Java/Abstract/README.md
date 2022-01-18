@@ -30,7 +30,7 @@
 
 An abstract method belongs to an abstract class, and it does not have a body. The body is provided by the subclass:
 
-```
+```java
 // Abstract class
 abstract class Animal {
   // Abstract method (does not have a body)
@@ -64,7 +64,7 @@ class Main {
 
 -  An interface is a completely "abstract class" that is used to group related methods with empty bodies
 
-```
+```java
 // interface
 interface Animal {
   public void animalSound(); // interface method (does not have a body)
@@ -85,7 +85,7 @@ Java does not support "multiple inheritance" (a class can only inherit from one 
 
 **Multiple Interfaces & Implementation**:
 
-```
+```java
 interface FirstInterface {
   public void myMethod(); // interface method
 }
