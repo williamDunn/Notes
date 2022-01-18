@@ -7,8 +7,11 @@ Abstraction can be achieved with either abstract classes or interfaces
 -  An abstract class allows you to create functionality that can subclasses can implement or override
 -  An interface allows you to define functionality, not implement it
 
+
 -  A class can extend only one abstract class
 -  A class can implement multiple interfaces
+
+
 --------------------
 
 # Abstract Class/Methods
