@@ -30,8 +30,8 @@ There are **4 basic OOP concepts**:
     * Simple: objects, classes, variables, method(parameters)
     * Complexity: How a method is implemented, Calculations to perform to create a result
 
--  Calling a method, don't need to worry about the code in the method
-    
+
+i.e., Calling a method, don't need to worry about the code in the method
     
 **How to achieve Abstraction:**
 
