@@ -4,7 +4,7 @@
 
 >  To access the inner class, create an object of the outer class, and then create an object of the inner class:
 
-```
+```java
 class OuterClass {
   int x = 10;
 
