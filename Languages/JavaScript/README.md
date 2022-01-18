@@ -37,7 +37,7 @@ setTimeout()
 
 Syntax
 
-```
+```js
 let timeout;
 
 function myFunction() {
@@ -68,7 +68,7 @@ function alertFunc() {
 
 Syntax
 
-```
+```js
 async function myFunction() {
   return "Hello";
 }
