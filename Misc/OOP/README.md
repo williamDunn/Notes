@@ -41,13 +41,34 @@ There are **4 basic OOP concepts**:
 --------------------------------------------------------------------------------------------------------------------
 
 # Encapsulation
-* Keeping fields in a class private, then providing access to them via public methods
-    * Why?
-    * to re-use objects without allowing open acccess to the data system-wide
+- The meaning of encapsulation is to make sure that "sensitive" data is hidden from users
 
--  ie. Getters & Setters
--  Encapsulating our properties within the object by setting properties to private
+**Why?**
+-  Better control of class attributes and methods
+      -  Class attributes can be made **read-only** (if you only use the get method), or **write-only** (if you only use the set method)
+-  Flexible: the programmer can change one part of the code without affecting other parts
+-  **Increased security of data**
 
+To achieve encapsulation you must:
+-  Getters & Setters
+-  declare class variables/attributes as private ( AKA encapsulating our properties within the object)
+
+```
+public class Person {
+  private String name; // private = restricted access
+
+  // Getter
+  public String getName() {
+    return name;
+  }
+
+  // Setter
+  public void setName(String newName) {
+    this.name = newName;
+  }
+}
+
+```
 --------------------------------------------------------------------------------------------------------------------
 
 # Inheritance
@@ -57,8 +78,9 @@ There are **4 basic OOP concepts**:
 -  Ability to add more functionality when needed through child class
 
 >  Notes:
->  -  To inherit from a class, use the extends keyword.
+>  -  To inherit from a class, use the *extends* keyword.
 >     -  If you don't want other classes to inherit from a class, use the final keyword
+>     
 >  Terminology:
 >  -  subclass (child) - the class that inherits from another class
 >  -  superclass (parent) - the class being inherited from
