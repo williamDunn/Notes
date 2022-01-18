@@ -25,7 +25,7 @@ Expressions are limited. They have to immediately return a value, and they canno
 
 Code Examples:
 
-```
+```java
 import java.util.ArrayList;
 
 public class Main {
@@ -42,7 +42,7 @@ public class Main {
 
 
 
-```
+```java
 interface StringFunction {
   String run(String str);
 }
