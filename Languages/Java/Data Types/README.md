@@ -19,7 +19,7 @@
 
 ---------------
 
-#### Numbers
+### Numbers
 
 **Integer types** - stores whole numbers, positive or negative, without decimals
 -  byte, short, int, & long
