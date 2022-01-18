@@ -15,7 +15,7 @@ O(N)
 
 ------------
 Arrays come from this package:
-```
+```java
 import java.util.Arrays;
 ```
 
@@ -32,7 +32,7 @@ returns:
 
 [purple, blue, null, null, null]
 
-```
+```java
 System.out.println(colors[0]);
 System.out.println(colors[1]);
 System.out.println(colors[2]);
@@ -51,7 +51,7 @@ null
 
 null
 
-```
+```java
 colors[2] = "yellow";
 System.out.println(Arrays.toString(colors));
 ```
@@ -63,14 +63,14 @@ returns:
 
 If you know the size of your array and the elements in them, you can define it this way:
 (once you define the array you cannot change it's size)
-```
+```java
 int[] numbers = {100, 200};
 ```
 
 looping through arrays:
 
 for loop -
-```
+```java
 for (int i = 0; i < colors.length; i++) 
 {
 System.out.println(colors[i];
@@ -78,7 +78,7 @@ System.out.println(colors[i];
 ```
 
 reverse for loop -
-```
+```java
 for (int i = colors.length - 1; i >= 0; i--) 
 {
 System.out.println(colors[i]);
@@ -88,7 +88,7 @@ System.out.println(colors[i]);
 
 Enhanced for loop -
 
-```
+```java
 for (String color : colors)
 {
 System.out.println(color);
@@ -96,12 +96,12 @@ System.out.println(color);
 ```
 
 Using stream -
-```
+```java
 Arrays.stream(colors).forEach(System.out::println)
 ```
 
 Arrays utilize the Arrays Utility Class
 Has many utility methods
-```
+```java
 Arrays.____
 ```
