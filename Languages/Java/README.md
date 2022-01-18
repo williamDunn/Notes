@@ -1,7 +1,7 @@
 # Variables
 
 Declaring a variable
-```
+```java
 int a;
 ```
 
