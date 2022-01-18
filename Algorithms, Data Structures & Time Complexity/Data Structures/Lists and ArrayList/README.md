@@ -18,7 +18,7 @@
 ### A list can contain multiple data types
 i.e.
 
-```
+```java
 List colors = new ArrayList();
 		
 //if you want to add values to your list
@@ -38,14 +38,14 @@ Returns:
 To fix this we use "<>" to declare the type
 i.e.
 
-```
+```java
 List<String> colors = new ArrayList<>();
 ```
 
 --------------------
 
 ### to print a List, check the size, check if it contains a certain element
-```
+```java
 colors.add("blue");
 colors.add("purple");
 colors.add("yellow");
@@ -67,7 +67,7 @@ System.out.println(colors.contains("pink"));
 
 ### Remove an element
 
-```
+```java
 //Removes element at 3rd position
 colors.remove(2);
 ```
@@ -75,7 +75,7 @@ colors.remove(2);
 ----------------
 
 ### Methods to loop through a list
-```
+```java
 //Using a for loop
 for (String color : colors) 
 {
@@ -103,7 +103,7 @@ yellow
 
 ----------
 ### Creating an unmodifiable list
-```
+```java
 List<String> colorsUnmodifiable = List.of(
 	"blue",
 	"yellow"
