@@ -2,3 +2,5 @@
 -  A Web MVC Framework for building web applications
 -  Contains lots of configuration files for various capabilities
 -  it is an HTTP oriented web application development framework
+
+The Spring Web model-view-controller (MVC) framework is designed around a DispatcherServlet that handles all the HTTP requests and responses
