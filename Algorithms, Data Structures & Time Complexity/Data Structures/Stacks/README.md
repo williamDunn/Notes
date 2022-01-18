@@ -20,7 +20,7 @@
 
  ------------------------
  ## Creating a stack and using stack methods
-```
+```java
 Stack<Integer> stack = new Stack<>();
 
 //adds element to the stack (remember LIFO)
@@ -42,13 +42,13 @@ System.out.println(stack.empty());
 ```
 
 How to check if a stack contains a certain element (returns true or false)
-```
+```java
 //returns true
 System.out.println(stack.contains(1));
 ```
 
 How to check how far a certain element is from the top (if doesn't exist - returns a -1)
-```
+```java
 //returns 2 (element 1 is 2 spots away from the top)
 System.out.println(stack.search(1));
 
