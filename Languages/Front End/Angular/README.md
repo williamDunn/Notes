@@ -96,6 +96,6 @@ Pipes
 -  good way to format string, currency amounts, dates and other display data
 -  Angular has several built-in pipes and you can create your own
     -  angular.io/guide/pipes
-```
+```html
 <h2>{{hero.name | uppercase}} Details</h2>
 ```
