@@ -14,20 +14,26 @@ public class DoubleToIntExample1
 }  
 ```
 
-### Convert int/double/float/Object to String
+### Convert Integer/Double/Float/Character/Object to String
 
 -  String.valueOf()
 ```
 double d = 12.3;
 String s = String.valueOf(d);  
 ```
--  Integer.toString()
+-  Double.toString()
 ```
 double d = 89.7;  
 String s = Double.toString(d);  
 ```
 
-### Parse 
+### String to Double/Float/Integer
+
+-  Double.parseDouble()
+```
+String s = "23.6";  
+double d = Double.parseDouble("23.6");  
+```
 
 -------------------------------
 
