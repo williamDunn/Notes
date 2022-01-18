@@ -12,7 +12,7 @@ Components - the fundamental building blocks of Angular applications
 
 ## Class File (.ts)
 
-```
+```typescript
 import { Component, OnInit } from '@angular/core';
 
 @Component({
