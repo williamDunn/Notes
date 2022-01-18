@@ -50,12 +50,12 @@ ngOnInit() is a lifecycle hook (a component instance has a lifecycle that starts
 ## Angular Application Creation
 
 Creating a new Angular workspace (CLI)
-```
+```cl
 ng new angular-workspace1
 ```
 
 Serving the application
-```
+```cl
 cd angular-workspace1
 ng serve --open
 ```
@@ -64,7 +64,7 @@ ng serve --open
 
 Generating a new component
 
- ```
+ ```cl
  ng generate component newComponent
  ```
  creates a new folder, src/app/newComponent, and generates the three component files along with a test file
