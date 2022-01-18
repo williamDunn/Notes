@@ -44,7 +44,7 @@ Where should the test be located?
 
 ### Example for developing a JUnit 5 test for another class
 
-```
+```java
 package com.vogella.junit5;
 
 public class Calculator {
