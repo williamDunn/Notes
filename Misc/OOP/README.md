@@ -53,8 +53,15 @@ There are **4 basic OOP concepts**:
 # Inheritance
 * Allows you to create new classes that share attributes and methods of existing classes
 
--  Code Reusability
+-  It is useful for **code reusability**: reuse attributes and methods of an existing class when you create a new class.
 -  Ability to add more functionality when needed through child class
+
+>  Notes:
+>  -  To inherit from a class, use the extends keyword.
+>     -  If you don't want other classes to inherit from a class, use the final keyword
+>  Terminology:
+>  -  subclass (child) - the class that inherits from another class
+>  -  superclass (parent) - the class being inherited from
     
 --------------------------------------------------------------------------------------------------------------------    
     
