@@ -53,7 +53,7 @@ There are a few different ways to store graphs. Let's take this graph as an exam
 
 - A list of all edges in the graph:
 
-```
+```java
 int[][] graph = {{0, 1}, {1, 2}, {1, 3}, {2, 3}};
 ```
 
@@ -65,7 +65,7 @@ Since node 3 has edges to nodes 1 and 2, {1, 3} and {2, 3} are in the edge list.
 
 - A list where the index represents the node and the value at that index is a list of the node's neighbors: 
 
-```
+```java
 int[][] graph = {
     {1},
     {0, 2, 3},
@@ -78,7 +78,7 @@ Since node 3 has edges to nodes 1 and 2, graph[3] has the adjacency list {1, 2}.
 
 We could also use a hash map where the keys represent the node and the values are the lists of neighbors. 
 
-```
+```java
 Map<Integer, List<Integer>> graph = new HashMap<>() {
     {
         put(0, Arrays.asList(1));
@@ -95,7 +95,7 @@ This would be useful if the nodes were represented by strings, objects, or other
 
 - A matrix of 0s and 1s indicating whether node x connects to node y (0 means no, 1 means yes). 
 
-```
+```java
 int[][] graph = {
     {0, 1, 0, 0},
     {1, 0, 1, 1},
@@ -128,7 +128,7 @@ Since node 3 has edges to nodes 1 and 2, graph[3][1] and graph[3][2] have value 
 
 ## Coding Implementation:
 
-```
+```java
 class Graph {
  
     // A utility function to add an edge in an
