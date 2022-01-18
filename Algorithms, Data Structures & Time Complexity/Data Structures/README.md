@@ -33,7 +33,7 @@ In Place vs Out of Place
 -  An **out-of-place method** doesn't make any changes that are visible to other methods. Usually, those methods copy any data structures or objects before manipulating and changing them. 
 
 
-```
+```java
 public static void squareArrayInPlace(int[] intArray) {
 
     for (int i = 0; i < intArray.length; i++) {
