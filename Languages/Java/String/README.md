@@ -1,11 +1,11 @@
-## Strings
+# Strings
 
 String Class is Immutable
 
 String methods
 https://www.w3schools.com/java/java_ref_string.asp
 
--------------------
+-----------------------------------------
 
 ## StringBuilder Class
 -  Alternative to string class (along with StringBuffer)
@@ -22,3 +22,6 @@ https://www.w3schools.com/java/java_ref_string.asp
 -  StringBuilder(CharSequence seq): Constructs a string builder that contains the same characters as the specified CharSequence.
      
 -  StringBuilder(String str): Constructs a string builder initialized to the contents of the specified string. 
+
+
+https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/
