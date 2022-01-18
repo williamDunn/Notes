@@ -22,12 +22,10 @@
 
 ---------------------
 
--  **Abstract class**: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
--  **Abstract method**: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
-
----------------------
-
-If a class has even one abstract class in it, it becomes an abstract class
+>  Notes:
+>  -  **Abstract class**: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+>  -  **Abstract method**: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+>  If a class has even one abstract class in it, it becomes an abstract class
 
 An abstract method belongs to an abstract class, and it does not have a body. The body is provided by the subclass:
 
@@ -77,9 +75,9 @@ interface Animal {
 
 **What's the use of an interface?**
 
-Java does not support "multiple inheritance" (a class can only inherit from one superclass). 
+**To achieve security** - hide certain details and only show the important details of an object (Interface).
 
-However, it can be achieved with interfaces, because the class can implement multiple interfaces. 
+Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can implement multiple interfaces. 
 
 >  Note: To implement multiple interfaces, separate them with a comma (see example below).
 
