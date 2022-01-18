@@ -9,9 +9,7 @@ String methods
 -  toUpperCase()
 -  toLowerCase()
 -  indexOf():  returns the index (the position) of the first occurrence of a specified text in a string (including whitespace)
->  Java counts positions from zero.
->  
->  0 is the first position in a string, 1 is the second, 2 is the third ...
+>  Java counts positions from zero:  0 is the first position in a string, 1 is the second, 2 is the third ...
 ```
 String txt = "Please locate where 'locate' occurs!";
 System.out.println(txt.indexOf("locate")); // Outputs 7
@@ -28,6 +26,7 @@ System.out.println(firstName.concat(lastName));
 ```
 
 https://www.w3schools.com/java/java_strings.asp
+
 https://www.w3schools.com/java/java_ref_string.asp
 
 -----------------------------------------
