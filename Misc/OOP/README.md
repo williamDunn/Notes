@@ -5,6 +5,7 @@
 -  a class is a template for objects, and an object is an instance of a class.
       -  When the individual objects are created, they inherit all the variables and methods from the class.
 
+
 **Advantage of OOP** (over precedural progamming)
 
 -  OOP is faster and easier to execute
@@ -13,7 +14,7 @@
 -  OOP makes it possible to create full reusable applications with less code and shorter development time
 
 -----------------------------------
-There are 4 basic OOP concepts:
+There are **4 basic OOP concepts**:
 1. Abstraction
 2. Encapsulation
 3. Inheritance
@@ -21,6 +22,9 @@ There are 4 basic OOP concepts:
 
 
 ## Abstraction
+
+-  Data abstraction is the process of hiding certain details and showing only essential information to the user
+
 * Simple things to represent complexity
     * Simple: objects, classes, variables, method(parameters)
     * Complexity: How a method is implemented, Calculations to perform to create a result
