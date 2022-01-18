@@ -14,7 +14,7 @@ public class DoubleToIntExample1
 }  
 ```
 
-### Convert Integer/Double/Float/Character/Object to String
+### Convert Integer/Double/Float/Boolean/Character/Object to String
 
 -  String.valueOf()
 ```
