@@ -22,7 +22,7 @@ remove()
 
 
 
-```
+```java
 Queue<Person> supermarket = new LinkedList<>();
 
   supermarket.add(new Person("Alex", 21));
