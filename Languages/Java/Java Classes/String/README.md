@@ -31,6 +31,82 @@ https://www.w3schools.com/java/java_ref_string.asp
 
 -----------------------------------------
 
+## Parsing a String
+
+```
+// Java program to Convert a String
+// to a Character array using Naive Approach
+  
+import java.util.*;
+  
+public class GFG {
+  
+    public static void main(String args[])
+    {
+        String str = "GeeksForGeeks";
+  
+        // Creating array of string length
+        char[] ch = new char[str.length()];
+  
+        // Copy character by character into array
+        for (int i = 0; i < str.length(); i++) {
+            ch[i] = str.charAt(i);
+        }
+  
+        // Printing content of array
+        for (char c : ch) {
+            System.out.println(c);
+        }
+    }
+}
+```
+
+```
+// Java program to Convert a String
+// to a Character array using toCharArray()
+  
+import java.util.*;
+  
+public class GFG {
+  
+    public static void main(String args[])
+    {
+  
+        String str = "GeeksForGeeks";
+  
+        // Creating array and Storing the array
+        // returned by toCharArray()
+        char[] ch = str.toCharArray();
+  
+        // Printing array
+        for (char c : ch) {
+            System.out.println(c);
+        }
+    }
+}
+```
+
+```
+public class StringTest {
+    public static void main(String args []){
+        String source1 = "March032021";
+        String [] returnedArray1 = source1.split("\\d+");
+        for(String str1 :  returnedArray1){
+            System.out.println(" Output1 : "+str1);
+        }
+        String source2 = "950-003-123-900-456 : 11 _343-1 789----";
+        String [] returnedArray2 = source2.split("-",4);
+        for(String str2 :  returnedArray2){
+            System.out.println(" Output2 : "+str2);
+        }
+
+    }
+}
+
+```
+
+-----------------------------------------
+
 ## StringBuilder Class
 -  Alternative to string class (along with StringBuffer)
 -  creates a mutable sequence of characters
