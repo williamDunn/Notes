@@ -9,8 +9,8 @@ String methods
 -  toUpperCase()
 -  toLowerCase()
 -  indexOf()
- -  Java counts positions from zero.
-  -  0 is the first position in a string, 1 is the second, 2 is the third ...
+  -  Java counts positions from zero.
+    -  0 is the first position in a string, 1 is the second, 2 is the third ...
 
 https://www.w3schools.com/java/java_ref_string.asp
 
