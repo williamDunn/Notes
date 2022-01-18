@@ -88,8 +88,47 @@ public class Person {
 --------------------------------------------------------------------------------------------------------------------    
     
 # Polymorphism
-* Objects of different types can be accessed through the same interface (with it's own independent implementations)
-    * Method overriding
+-  Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+-  Polymorphism uses intherited methods to perform different tasks. This allows us to perform a single action in different ways
+    - Method overriding
          -  Overriding means 2 methods with the same method name and parameters
-    * Method overloading
+    - Method overloading
          -  Overloading occurs when 2 or more methods in one class have the same name but different parameters
+
+**Why and when to use inheritance and polymorphism?**
+
+-  Useful for **code reusability**: reuse attributes and methods of an existing class when you create a new class.
+
+
+```
+class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class Pig extends Animal {
+  public void animalSound() {
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Dog extends Animal {
+  public void animalSound() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();  // Create a Animal object
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+
+```
