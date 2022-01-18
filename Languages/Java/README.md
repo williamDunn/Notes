@@ -6,7 +6,7 @@ int a;
 ```
 
 Initializing a variable
-```
+```java
 int a = 10;
 ```
 
@@ -16,7 +16,7 @@ int a = 10;
     -  only visible within / scope limited to the declared method, constructor, or block
 -  there is no default values for local variables, so they should declared and initialized before first use
 -  access modifiers cannot be used for local variables
-```
+```java
 public class Test {
 
 //age is a local variable, only existing within the scope of the method
@@ -47,7 +47,7 @@ public class Test {
 -  can be accessed directly by calling the variable name inside the class
     -  however, within stat methods (when instance variables are given accessibility), they should be called using the fully qualified name
         -  ObjectReference.VariableName
-```
+```java
 public class Employee {
 
    // this instance variable is visible for any child class.
@@ -96,7 +96,7 @@ public class Employee {
     - ie. ClassName.VariableName
 - when declaring class variables as public static final, variable names must be in all upper case
     - if the static variables aren't public and final, naming syntax is the same as instance and local variables 
-```
+```java
 public class Employee {
 
    // salary  variable is a private static variable
@@ -160,7 +160,7 @@ Use Enums where there's a fixed range of values that a variable can be
 -  A static variable won't inforce that it must be one of those values, whereas an Enum would
 -  can be declared as their own or inside a class
 
-```
+```java
 class FreshJuice {
    enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
    FreshJuiceSize size;
@@ -247,7 +247,7 @@ public class Main {
 
 # Method Breakdown
 
-```
+```java
 public static int methodName(int a, int b) {
    // method body
 }
@@ -283,7 +283,7 @@ https://www.youtube.com/watch?v=ZXQFGiGtoo4
 
 Example:
 
-```
+```java
 class Foo {
     int i;
 
@@ -416,7 +416,7 @@ If your method does something that doesn't depend on the individual characterist
 
 #### Java Exception Handling Example
 
-```
+```java
 public class JavaExceptionExample{  
   public static void main(String args[]){  
    try{  
@@ -433,7 +433,7 @@ public class JavaExceptionExample{
 
 ## Sorting Custom Object by implementating Comparable Interface in Java
 
-```
+```java
 // Java program to sort student
 // data according to their names
   
