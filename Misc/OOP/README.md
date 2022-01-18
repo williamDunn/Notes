@@ -1,8 +1,16 @@
 # Object Oriented Programming (OOP)
 
 -  Classes and objects are the two main aspects of object-oriented programming
-   -  a class is a template for objects, and an object is an instance of a class.
+
+-  a class is a template for objects, and an object is an instance of a class.
       -  When the individual objects are created, they inherit all the variables and methods from the class.
+
+**Advantage of OOP** (over precedural progamming)
+
+-  OOP is faster and easier to execute
+-  OOP provides a clear structure for the programs
+-  OOP reduces boilerplate code, and makes the code easier to maintain, modify and debug
+-  OOP makes it possible to create full reusable applications with less code and shorter development time
 
 -----------------------------------
 There are 4 basic OOP concepts:
