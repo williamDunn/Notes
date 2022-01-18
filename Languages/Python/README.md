@@ -3,7 +3,7 @@
 -  Tuple items are ordered, unchangeable/immutable, and allow duplicate values.
 -  Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
 
-```
+```python
 thistuple = ("apple", "banana", "cherry")
 print(thistuple)
 ```
@@ -13,7 +13,7 @@ print(thistuple)
 -  List items are ordered, changeable, and allow duplicate values.
 -  List items are indexed, the first item has index [0], the second item has index [1] etc.
 
-```
+```python
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 ```
@@ -25,7 +25,7 @@ print(thislist)
 **Syntax**
 range(start, stop, step) 
 
-```
+```python
 # Create a sequence of numbers from 0 to 5, and print each item in the sequence:
 x = range(6)
 for n in x:
