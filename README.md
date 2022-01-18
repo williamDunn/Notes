@@ -49,4 +49,6 @@ Programmer's (Quick) Checklist
 
 ---------------------------------------
 
+https://www.markdownguide.org/extended-syntax/
+
 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
