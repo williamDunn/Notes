@@ -12,10 +12,15 @@
       -  The way it works is by having every class declare the dependencies it needs
           - Spring will look at the declaration and inject those dependencies to make sure that every object has references to all the other instances they require (called **dependency injection**)
 2)  Spring offers various **Data Access APIs and mechanisms** for:
+
     a)  Connectivity
+    
     b)  Querying
+    
     c)  Transaction Management
+    
     d)  Etc.
+    
 -  Replaces the standard Java way of database connectivity using JDBC (Java database connectivity)
 
 3)  Web framework called **Spring MVC**
