@@ -2,6 +2,15 @@
 
 ----------------------
 
+### Divid and Conquer Algorithm
+In Divide and Conquer algorithms, divide the algorithm into two parts; 
+-  the first parts divide the problem on hand into smaller subproblems of the same type. 
+-  Then, in the second part, these smaller problems are solved and then added together (combined) to produce the problem’s final solution.
+
+i.e., 
+-  Merge sort
+-  Quick sort
+
 ### Greedy Algorithms
 
 A **greedy algorithm** builds up a solution by choosing the option that looks the best at every step.
