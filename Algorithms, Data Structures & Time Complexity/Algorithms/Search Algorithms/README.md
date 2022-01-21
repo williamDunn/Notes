@@ -1,5 +1,7 @@
 ## Binary Search
 
+-  we can only use binary search if the input array is already sorted
+
 Runtime: O(log(n) (Recursive), best case time: O(1) (Iterative) when the central index would match the desired value
 
 Worst case scenario: value at either extremity of the list, or not in the the list at all
@@ -14,6 +16,14 @@ How it works:
 -  If x matches with the middle element, we return the mid index.
 -  Else If x is greater than the mid element, then x can only lie in the right half subarray after the mid element. So we recur for the right half.
 -  Else (x is smaller) recur for the left half.
+
+---------------------------------------------------------
+
+InterviewCake: A binary search algorithm finds an item in a sorted array in O(lg(n)) time. 
+
+1)  **Start with the middle number: is it bigger or smaller than our target number?** Since the array is sorted, this tells us if the target would be in the left half or the right half of our array
+2)  **We've effectively divided the problem in half.** We can "rule out" the whole half of the array that we know doesn't contain the target number.  
+3)  **Repeat the same approach (of starting in the middle) on the new half-size problem.** Then do it again and again, until we either find the number or "rule out" the whole set. 
 
 Recusive Implementation
 ```java
@@ -107,6 +117,7 @@ class BinarySearch {
     }
 }
 ```
+------------------------------------------------------------------------
 
 # Graph Search
 
