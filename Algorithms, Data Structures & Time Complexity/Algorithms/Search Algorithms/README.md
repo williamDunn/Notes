@@ -74,47 +74,45 @@ class BinarySearch {
 
 Iterative Implementation:
 ```java
-class BinarySearch {
-    // Returns index of x if it is present in arr[],
-    // else return -1
-    int binarySearch(int arr[], int x)
-    {
-        int l = 0, r = arr.length - 1;
-        while (l <= r) {
-            int m = l + (r - l) / 2;
+public static boolean binarySearch(int target, int[] nums) {
+    // see if target appears in nums
 
-            // Check if x is present at mid
-            if (arr[m] == x)
-                return m;
+    // we think of floorIndex and ceilingIndex as "walls" around
+    // the possible positions of our target, so by -1 below we mean
+    // to start our wall "to the left" of the 0th index
+    // (we *don't* mean "the last index")
+    int floorIndex = -1;
+    int ceilingIndex = nums.length;
 
-            // If x greater, ignore left half
-            if (arr[m] < x)
-                l = m + 1;
+    // if there isn't at least 1 index between floor and ceiling,
+    // we've run out of guesses and the number must not be present
+    while (floorIndex + 1 < ceilingIndex) {
 
-            // If x is smaller, ignore right half
-            else
-                r = m - 1;
+        // find the index ~halfway between the floor and ceiling
+        // we use integer division, so we'll never get a "half index"
+        int distance = ceilingIndex - floorIndex;
+        int halfDistance = distance / 2;
+        int guessIndex = floorIndex + halfDistance;
+
+        int guessValue = nums[guessIndex];
+
+        if (guessValue == target) {
+            return true;
         }
 
-        // if we reach here, then element was
-        // not present
-        return -1;
+        if (guessValue > target) {
+
+            // target is to the left, so move ceiling to the left
+            ceilingIndex = guessIndex;
+
+        } else {
+
+            // target is to the right, so move floor to the right
+            floorIndex = guessIndex;
+        }
     }
 
-    // Driver method to test above
-    public static void main(String args[])
-    {
-        BinarySearch ob = new BinarySearch();
-        int arr[] = { 2, 3, 4, 10, 40 };
-        int n = arr.length;
-        int x = 10;
-        int result = ob.binarySearch(arr, x);
-        if (result == -1)
-            System.out.println("Element not present");
-        else
-            System.out.println("Element found at "
-                               + "index " + result);
-    }
+    return false;
 }
 ```
 ------------------------------------------------------------------------
