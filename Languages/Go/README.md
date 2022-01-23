@@ -15,7 +15,7 @@ Advantages:
 
 (in our command prompt) type
 
-```cli
+```cl
 go build fileName.go
 ```
 
