@@ -46,14 +46,15 @@ go run fileName.go
 ## Basic Go Structure
 
 ```
-package main 
+(1)package main 
  
-import "fmt" 
+(2)import "fmt" 
  
-func main () {
+(3)func main () {
   fmt.Println("Hello World") 
 }
 ```
+## 1
 
 *Package Declaration*: every Go program starts with one
 -  the package declaration informs the compiler whether to create an executable or library
@@ -68,6 +69,7 @@ Programs that have the package declaration *package main* will create an executa
 Go generally ignores blank lines (whitespace - new lines, spaces, and tabs)
 
   
+## 2
 
 *Import statement*: the *import* keyword allows us to bring in and use code from other packages
 -  package name must be enclosed with double quotes "
@@ -82,3 +84,35 @@ we only import the packages we need, in turn our program runs faster
 -  they group related code together
 -  allow code to be reusable
 -  make it easier to maintain
+
+## 3
+
+function : a reusable block of code
+-  a *main* function is special, a file that has a *package main* declaration will automatically run the *main* function
+```
+func main () {
+    fmt.Println("Hello World") 
+}
+```
+
+-------------------------------
+
+## Importing multiple packages
+
+We can add multiple *import* statements
+
+```go
+import "package1"
+import "package2"
+```
+
+or
+
+we can use a single import and a pair of parentheses that contain our packages
+
+```go
+import (
+  "package1"
+  "package2"
+)
+```
