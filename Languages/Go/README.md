@@ -28,7 +28,7 @@ ls
 
 to execute the file, call
 
-```
+```console
 ./fileName
 ```
 
@@ -37,7 +37,7 @@ to execute the file, call
 use the *go run* command - combines both the compilation and execution of code
 -  unlike *go build*, *go run* will NOT create an executable file in our current folder
 
-```
+```console
 go run fileName.go
 ```
 
@@ -45,12 +45,15 @@ go run fileName.go
 
 ## Basic Go Structure
 
-```
-(1)package main 
+```go
+// 1
+package main 
  
-(2)import "fmt" 
- 
-(3)func main () {
+// 2
+import "fmt" 
+
+// 3
+func main () {
   fmt.Println("Hello World") 
 }
 ```
