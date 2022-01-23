@@ -62,7 +62,7 @@ func main () {
 *Package Declaration*: every Go program starts with one
 -  the package declaration informs the compiler whether to create an executable or library
   -  a library doesn't outright run/execute code - it is a collection of code that can be used in other programs
-```
+```go
 package main
 ```
 Programs that have the package declaration *package main* will create an executable file
@@ -76,7 +76,7 @@ Go generally ignores blank lines (whitespace - new lines, spaces, and tabs)
 
 *Import statement*: the *import* keyword allows us to bring in and use code from other packages
 -  package name must be enclosed with double quotes "
-```
+```go
 import "fmt"
 ```
 we only import the packages we need, in turn our program runs faster
@@ -92,7 +92,7 @@ we only import the packages we need, in turn our program runs faster
 
 function : a reusable block of code
 -  a *main* function is special, a file that has a *package main* declaration will automatically run the *main* function
-```
+```go
 func main () {
     fmt.Println("Hello World") 
 }
@@ -118,4 +118,23 @@ import (
   "package1"
   "package2"
 )
+```
+
+You can also provide an *alias* to a package by including the name before the file
+-  including an alias will make it easier to refer to a package without needing to type out the whole package name
+
+```go
+import (
+  p1 "package1"
+  "package2"
+)
+```
+
+now you can call functions from package1 by using p1
+```go
+p1.SampleFunc()
+```
+instead of
+```go
+package1.SampleFunc()
 ```
