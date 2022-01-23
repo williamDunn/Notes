@@ -34,7 +34,7 @@ print("Hello world!")
 
 -------------------------
 
-## Variables
+# Variables
 
 **Creating a variable**:
 ```python
@@ -53,7 +53,7 @@ x = "Sally" # x is now of type str
 print(x)
 ```
 
-### Casting
+## Casting
 -  to specify a data type of a variable
 
 ```python
@@ -62,7 +62,7 @@ y = int(3)    # y will be 3
 z = float(3)  # z will be 3.0 
 ```
 
-### Get Type
+## Get Type
 -  you can get the data type of variable with the *type()* function
 
 ```python
@@ -71,6 +71,53 @@ y = "John"
 print(type(x))  # returns:  <class 'int'>
 print(type(y))  # returns:  <class 'str'>
 ```
+
+## String Variables can be Single or Double quotes
+-  String variables can b e declared with either single or double quotes
+```python
+x = "John"
+# is the same as
+x = 'John'
+```
+
+## Case-Sensitive
+-  Variable names are case-sensitive
+
+```python
+a = 4
+A = "Sally"
+#A will not overwrite a 
+```
+
+## Many values to multiple variables
+
+```python
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
+
+## One value to multiple variables
+
+```python
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+```
+
+## Unpack a Collection
+-  If you have a collection of values in a list, tuple etc. Python allows you extract the values into variables. This is called *unpacking*.
+
+```python
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+```
+
 -------------------------
 
 #### Tuple
