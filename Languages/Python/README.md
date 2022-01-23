@@ -39,8 +39,10 @@ y = "John"
 print(x)
 print(y)
 ``
+
 -  Variables do not need to be declared with any particular **type**
-  - variables can even change type after they've been set 
+    - variables can even change type after they've been set 
+ 
 ``python
 x = 4       # x is of type int
 x = "Sally" # x is now of type str
