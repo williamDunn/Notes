@@ -40,3 +40,42 @@ use the *go run* command - combines both the compilation and execution of code
 ```
 go run fileName.go
 ```
+
+----------------------
+
+## Basic Go Structure
+
+```
+package main 
+ 
+import "fmt" 
+ 
+func main () {
+  fmt.Println("Hello World") 
+}
+```
+
+*Package Declaration*: every Go program starts with one
+-  the package declaration informs the compiler whether to create an executable or library
+  -  a library doesn't outright run/execute code - it is a collection of code that can be used in other programs
+```
+package main
+```
+Programs that have the package declaration *package main* will create an executable file
+
+
+Go generally ignores blank lines (whitespace - new lines, spaces, and tabs)
+
+
+*Import statement*: the *import* keyword allows us to bring in and use code from other packages
+-  package name must be enclosed with double quotes "
+```
+import "fmt"
+```
+we only import the packages we need, in turn our program runs faster
+
+
+Packages serve important roles in Go
+-  they group related code together
+-  allow code to be reusable
+-  make it easier to maintain
