@@ -11,7 +11,7 @@ Advantages:
 
 -------------------
 
-#### Compiling .go files
+### Compiling .go files
 
 (in our command prompt) type
 
@@ -30,4 +30,13 @@ to execute the file, call
 
 ```
 ./fileName
+```
+
+### Running .go files
+
+use the *go run* command - combines both the compilation and execution of code
+-  unlike *go build*, *go run* will NOT create an executable file in our current folder
+
+```
+go run fileName.go
 ```
