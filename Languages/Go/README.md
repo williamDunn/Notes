@@ -15,13 +15,13 @@ Advantages:
 
 (in our command prompt) type
 
-```cl
+```console
 go build fileName.go
 ```
 
 ls (list files) command to see original Go program and executable file
 
-```cli
+```console
 ls
 ```
 >  fileName fileName.go
