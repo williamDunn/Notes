@@ -138,3 +138,19 @@ instead of
 ```go
 package1.SampleFunc()
 ```
+
+-------------------------
+
+$$ Command to see information about a certain package or function within the package
+
+i.e, time package, now function within the time package
+
+```console
+go doc packageName
+```
+
+or
+
+```console
+go doc packageName.functionName
+```
