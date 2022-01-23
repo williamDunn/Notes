@@ -63,11 +63,11 @@ package main
 ```
 Programs that have the package declaration *package main* will create an executable file
 
--
+  
 
 Go generally ignores blank lines (whitespace - new lines, spaces, and tabs)
 
--
+  
 
 *Import statement*: the *import* keyword allows us to bring in and use code from other packages
 -  package name must be enclosed with double quotes "
@@ -76,7 +76,7 @@ import "fmt"
 ```
 we only import the packages we need, in turn our program runs faster
 
--
+  
 
 **Packages serve important roles in Go**
 -  they group related code together
