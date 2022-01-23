@@ -13,7 +13,7 @@ Advantages:
 
 ## Compiling .go files
 
-(in our command prompt) type
+Build an executable file
 
 ```console
 go build fileName.go
