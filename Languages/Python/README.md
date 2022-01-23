@@ -32,22 +32,46 @@ more than just one line
 print("Hello world!")
 ```
 
+-------------------------
+
+## Variables
+
 **Creating a variable**:
-``python
+```python
 x = 5
 y = "John"
 print(x)
 print(y)
-``
+```
 
 -  Variables do not need to be declared with any particular **type**
     - variables can even change type after they've been set 
  
-``python
+```python
 x = 4       # x is of type int
 x = "Sally" # x is now of type str
 print(x)
-``
+```
+
+### Casting
+-  to specify a data type of a variable
+
+```python
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0 
+```
+
+### Get Type
+-  you can get the data type of variable with the *type()* function
+
+```python
+x = 5
+y = "John"
+print(type(x))  # returns:  <class 'int'>
+print(type(y))  # returns:  <class 'str'>
+```
+-------------------------
 
 #### Tuple
 
