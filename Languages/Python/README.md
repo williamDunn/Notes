@@ -1,3 +1,26 @@
+# Python
+
+-  an interpreted high-level general-purpose programming language
+
+Used for:
+-  web development (server-side),
+-  software development,
+-  mathematics,
+-  system scripting.
+
+---------------------
+**Commenting out code**:
+```python
+# Use a hashtag
+```
+
+**How to print**:
+```python
+print("Hello world!")
+```
+
+
+
 #### Tuple
 
 -  Tuple items are ordered, unchangeable/immutable, and allow duplicate values.
