@@ -23,7 +23,7 @@ https://www.bigocheatsheet.com/
 
 #### Types of Big-O Notation:
 
-<img src="timeComplexityExplained.png" height="150">
+<img src="timeComplexityExplained.png" height="250">
 
 ##### O(1) - Constant Time
 -  Always take the same amount of time to be executed no matter how big our input
