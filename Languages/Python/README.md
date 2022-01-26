@@ -109,8 +109,9 @@ print(z)
 
 ## User Input
 -  Assign variables with user input using the **input()** method
-    -  ```python
-likes_snakes = input("Do you like snakes? ")```
+```python
+likes_snakes = input("Do you like snakes? ")
+```
 
 ---------------------------------------
 
