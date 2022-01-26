@@ -107,6 +107,12 @@ print(y)
 print(z)
 ```
 
+## User Input
+-  Assign variables with user input using the **input()** method
+    -  ```python likes_snakes = input("Do you like snakes? ")```
+
+---------------------------------------
+
 ## Unpack a Collection
 -  If you have a collection of values in a list, tuple etc. Python allows you extract the values into variables. This is called *unpacking*.
 
