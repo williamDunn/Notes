@@ -2,15 +2,15 @@
 --------
 https://www.bigocheatsheet.com/
 
+https://towardsdatascience.com/essential-programming-time-complexity-a95bb2608cac
+
 #### What is it?
 
--  Big O notation is the language we use for talking about how long an algorithm takes to run
+-  Big O notation is the language programmers use for describing how long an algorithm takes to run
     -  With big O notation we express the runtime in terms of how quickly it grows relative to the input, as the input gets arbitrarily large. 
         1)  how quickly the runtime goes
         2)  relative to input
         3)  as the input gets arbitrarily large
-
--  Big-O notation is simply how programmers describe algorithms
 
 -  It's determined by how a function responds to different inputs - how much slower is something if we input 1000 vs 1
 
@@ -22,6 +22,12 @@ https://www.bigocheatsheet.com/
     -  i.e., O(1) is the (worst case) runtime
 
 #### Types of Big-O Notation:
+
+1)  O(1) - Constant time
+2)  O(log n) - Logarithmic time
+3)  O(n) - Linear time
+4)  O(n^2) - Quadratic time
+5)  O(2^n) - Exponential time
 
 <img src="timeComplexityExplained.png" height="250">
 
@@ -51,8 +57,9 @@ public static void printAllItems(int[] items) {
 This method runs in O(n) time, where n is the number of items in the array. If the array has 10 items, we have to print 10 times. If it has 1,000 items, we have to print 1,000 times.
 
 ---------------
-##### O(log n) - Logarithmic Time Complexity
+##### O(log n) - Logarithmic Time
 -  The time it takes to run the algorithm is proportional to the logarithm of the input size *n*
+-  Generally associated with algorithms that divide problems in half every time, known as “Divide and Conquer”
 ---------------
 ##### O(n^2) - Quadratic Time
 -  The time it takes to execute is proportional to the square of the input size
@@ -69,7 +76,11 @@ public static void printAllPossibleOrderedPairs(int[] items) {
 }
 ```
 Here we're nesting two loops. If our array has n items, our outer loop runs n times and our inner loop runs n times for each iteration of the outer loop, giving us n^2 total prints. Thus this method runs in O(n^2) time. If the array has 10 items, we have to print 100 times. If it has 1,000 items, we have to print 1,000,000 times.
-
+----------------
+##### O(2^n) - Exponential Time
+-  Should be avoided
+-  Growth rate doubles with each addition to the input *n*
+-  Usually seen in brute force algorithms
 ----------------
 
 ### Calculating time complexity
