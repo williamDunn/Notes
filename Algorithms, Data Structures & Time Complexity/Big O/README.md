@@ -83,7 +83,7 @@ Here we're nesting two loops. If our array has n items, our outer loop runs n ti
 -  Usually seen in brute force algorithms
 ----------------
 
-# Calculating time complexity
+## Calculating time complexity
 
 **Drop the constants**
 -  O(2n), we just call O(n)
@@ -104,7 +104,7 @@ Similarly:
 
 --------------------
 
-## Space Complexity
+# Space Complexity
 
 Sometimes we want to optimize for using less memory instead of (or in addition to) using less time
 
