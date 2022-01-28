@@ -2,7 +2,10 @@
 -  Allows us to work with a collection of data in sequential order
 -  Can contain any data types
 -  One list can contain multiple data types
-create list
+
+-------------
+
+**create** list
 ```python
 example_list = []
 example_list2 = [1, 2, 3]
@@ -10,19 +13,19 @@ example_list3 = ["will", "me", "i"]
 example_list4 = [1, 2, 3.1, "will", True]
 ```
 
-add to a list
+**add** to a list
 ```python
 example_list.append(5)
 ```
 
-remove from a list
+**remove** from a list
 ```python
 example_list.remove(5)
 ```
 
-print a list
+**print** a list
 ```python
 print(example_list3)
 ```
-Will output:
+will **output**:
 >  ["will", "me", "i"]
