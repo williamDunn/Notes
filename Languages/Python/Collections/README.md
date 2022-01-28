@@ -13,12 +13,13 @@ example_list3 = ["will", "me", "i"]
 example_list4 = [1, 2, 3.1, "will", True]
 ```
 
-**add** to a list
+**add** to a list - **append()**
+-  adds to end of list
 ```python
 example_list.append(5)
 ```
 
-**remove** from a list
+**remove** from a list - **remove()**
 ```python
 example_list.remove(5)
 ```
@@ -27,5 +28,5 @@ example_list.remove(5)
 ```python
 print(example_list3)
 ```
-will **output**:
+**output**:
 >  ["will", "me", "i"]
