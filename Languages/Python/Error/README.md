@@ -10,3 +10,9 @@
 -  when the Python interpreter sees a word it does not recognize
   -  Code that contains something that looks like a variable but was never defined will throw a *NameError*
 
+**TypeError**
+-  when an operation is applied to a variable of an inappropriate type
+  -  i.e.
+```python
+piggy_bank = '2' + 0.25
+```
