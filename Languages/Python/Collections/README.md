@@ -7,7 +7,7 @@
 
 **create** list
 ```python
-example_list = []
+example_list1 = []
 example_list2 = [1, 2, 3]
 example_list3 = ["will", "me", "i"]
 example_list4 = [1, 2, 3.1, "will", True]
@@ -16,17 +16,17 @@ example_list4 = [1, 2, 3.1, "will", True]
 **add** to a list - **append()**
 -  adds to end of list
 ```python
-example_list.append(5)
+example_list1.append(5)
 ```
 
 **remove** from a list - **remove()**
 ```python
-example_list.remove(5)
+example_list1.remove(5)
 ```
 
-**print** a list
+**print** a list - **print()**
 ```python
 print(example_list3)
 ```
-**output**:
+*output*:
 >  ["will", "me", "i"]
