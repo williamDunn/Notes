@@ -16,3 +16,6 @@
 ```python
 piggy_bank = '2' + 0.25
 ```
+
+**LogicError**
+-  Errors found by the programmer when the program isn’t doing what it is intending to do.
