@@ -1,9 +1,9 @@
 # Terraform
 
--  *Provisioning tool* for:
-    -  building,
-    -  changing,
-    -  and versioning infrastructure
+-  **Provisioning tool** for:
+    -  *building*,
+    -  *changing*,
+    -  and *versioning* infrastructure
 
 # Terraform Fundamentals
 
