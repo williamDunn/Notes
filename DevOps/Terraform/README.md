@@ -1,6 +1,6 @@
 # Terraform
 
--  **Provisioning tool** for:
+-  *Provisioning tool* for:
     -  building,
     -  changing,
     -  and versioning infrastructure
