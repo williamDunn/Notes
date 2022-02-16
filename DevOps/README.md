@@ -12,4 +12,4 @@
 ### Automation
 -  The goal is to automate as much of the software delivery process as possible
     -  Meaning you manage your infrastructure through code (a concept known as **infrastructure as code**)
-        -  instead of clicking around a web page or manually executing shell commands
+        -  As opposed to clicking around a web page or manually executing shell commands
