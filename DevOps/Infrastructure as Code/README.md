@@ -25,4 +25,4 @@
 >  
 >  -  You can use popular, general purpose programming languages and you can write the code however you want
 
->  Because of this, programmers end up writing custom code in their own different style and methods
+>  Because of this, programmers end up writing custom code in their own different style and methods, which then becomes difficult to read due to a lack of structure
