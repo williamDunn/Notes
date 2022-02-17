@@ -35,6 +35,12 @@
 >  i.e., Chef, Puppet, Ansible, SaltStack, etc.
 
 #### Advantages:
--  Coding Conventions
-    -  Enforces a consistent, predictable structure
-        -  including: documentation, file layout, clearly named parameters, secrets management, and so on
+-  **Coding Conventions**
+    -  *Enforces a consistent, predictable structure*
+        -  including: *documentation*, *file layout*, *clearly named parameters*, *secrets management*, and so on
+-  **Idempotence** / **Idempotent Code**
+    -  *Code that works correctly no matter how many times you run it*
+        -  Writing an ad hoc sciprt that works once isn't too difficult, writing one that works correctly even if you it over and over again is a lot more difficult
+-  **Distribution**
+    -  *Designed for managing large numbers of remote servers*
+        -  i.e., *rolling deployment* updates servers in batches (updating 2 servers at a time, until all 5 are done)
