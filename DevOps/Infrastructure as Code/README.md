@@ -24,5 +24,5 @@
 >  Advantage/disadvantage:
 >  
 >  -  You can use popular, general purpose programming languages and you can write the code however you want
->
->  The negative side is that you need to write completely custom code for every task, where each developer will end up using their own style and do something different.
+
+>  Because of this, programmers end up writing custom code in their own different style and methods
