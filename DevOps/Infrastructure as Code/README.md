@@ -21,8 +21,8 @@
 -  The most straightforward approach to automating anything
     -  You take *whatever task you were doing manually*, *break it down into descrete steps*, *use a scripting language to define each of those steps in code*, and *execute that script on your server*
 
->  Advantage/disadvantage:
->  
+#### Advantage/disadvantage:
+
 >  -  You can use popular, general purpose programming languages and you can write the code however you want
 
 >  Because of this, programmers end up writing **custom code** in their own different style and methods, which then becomes **difficult to read due to a lack of structure**
@@ -31,4 +31,10 @@
 ----------------------------
 
 ## Configuration Management Tools
--  Designed to install and manage software on existing servers
+-  Designed to **install and manage software on existing servers**
+>  i.e., Chef, Puppet, Ansible, SaltStack, etc.
+
+#### Advantages:
+-  Coding Conventions
+        -  Enforces a consistent, predictable structure
+                -  including: documentation, file layout, clearly named parameters, secrets management, and so on
