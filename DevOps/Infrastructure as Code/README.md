@@ -36,5 +36,5 @@
 
 #### Advantages:
 -  Coding Conventions
-        -  Enforces a consistent, predictable structure
-                -  including: documentation, file layout, clearly named parameters, secrets management, and so on
+    -  Enforces a consistent, predictable structure
+        -  including: documentation, file layout, clearly named parameters, secrets management, and so on
