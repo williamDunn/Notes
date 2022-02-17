@@ -25,4 +25,10 @@
 >  
 >  -  You can use popular, general purpose programming languages and you can write the code however you want
 
->  Because of this, programmers end up writing custom code in their own different style and methods, which then becomes **difficult to read due to a lack of structure**
+>  Because of this, programmers end up writing **custom code** in their own different style and methods, which then becomes **difficult to read due to a lack of structure**
+
+>  Whereas *tools that are purpose built for IAC* **provide** concise **APIs from completing complicated tasks** and usually **enforce a particular structure for your code**
+----------------------------
+
+## Configuration Management Tools
+-  Designed to install and manage software on existing servers
