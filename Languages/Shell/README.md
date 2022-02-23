@@ -36,15 +36,12 @@
 ## Copying, moving, and removing files and directories from the command line
 
 **cp** : copies files or directories
-> *Copy contents of source file -> destination file*:
-> 
-> cp source.txt destination.txt
-
-> *Copy a file to destination directory*:
-> 
-> cp source.txt destination/
-
-
+-  *Copy contents of source file -> destination file*:
+        -  cp source.txt destination.txt
+- *Copy a file to destination directory*: 
+        -  cp source.txt destination/ 
+- *Copy multiple files into a directory*:
+        -  cp file1.txt file2.txt my_directory/
 ------------------
 
 ## Helper Commands
