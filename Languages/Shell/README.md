@@ -30,7 +30,7 @@
 **echo "Hello Command Line" >> hello_cli.txt** : create a file named hello_cli.txt and add *Hello Command Line* to that file
 
 **cat** : view contents of individual file in terminal
-> cat hello_cli.txt : print the contents of the hello_cli.txt file to the terminal
+-  cat hello_cli.txt : print the contents of the hello_cli.txt file to the terminal
 
 ------------------
 
@@ -57,6 +57,22 @@
     -  rm unwanted_file.txt
 -  *Remove a directory (and all of its child directories)*:
     -  rm -r unwanted_directory
+
+------------------
+
+## Input/Output Redirection
+
+Through *redirection* you can direct input and the output of a command to and from other files and programs, and chain commands together in a pipeline
+
+>  *standard input* (stdin), **information inputted into the terminal** through keyboard or input device
+>  
+>  *standard output* (stdout), **information outputted** after a process is run
+>  
+>  *standard error* (stderr), **error message outputted** by a failed process
+>  
+
+>  **redirection** *reroutes* stdin, stdout, and stderr *to* or *from a different location*
+
 ------------------
 
 ## Wildcards
@@ -66,6 +82,9 @@ Special characters like * to select groups of files
     -  cp * my_directory/
 -  *Copy all files starting with "w" and ending with ".txt"* in the current working directory and copies them to my_directory/
     -  cp w*.txt my_directory/
+
+------------------
+
 ## Helper Commands
 
 **clear** : clear your terminal
