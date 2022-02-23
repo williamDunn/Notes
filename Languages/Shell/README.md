@@ -37,11 +37,11 @@
 
 **cp** : copies files or directories
 -  *Copy contents of source file -> destination file*:
-        -  cp source.txt destination.txt
+    -  cp source.txt destination.txt
 - *Copy a file to destination directory*: 
-        -  cp source.txt destination/ 
+    -  cp source.txt destination/ 
 - *Copy multiple files into a directory*:
-        -  cp file1.txt file2.txt my_directory/
+    -  cp file1.txt file2.txt my_directory/
 ------------------
 
 ## Helper Commands
