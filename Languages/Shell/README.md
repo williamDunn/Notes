@@ -44,6 +44,10 @@
     -  cp file1.txt file2.txt my_directory/
 ------------------
 
+## Wildcards
+
+Special characters like *** to select groups of files
+
 ## Helper Commands
 
 **clear** : clear your terminal
