@@ -57,7 +57,6 @@
     -  rm unwanted_file.txt
 -  *Remove a directory (and all of its child directories)*:
     -  rm -r unwanted_directory
--  
 ------------------
 
 ## Wildcards
