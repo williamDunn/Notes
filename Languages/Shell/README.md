@@ -37,9 +37,11 @@
 
 **cp** : copies files or directories
 > *Copy contents of source file -> destination file*:
+> 
 > cp source.txt destination.txt
 
 > *Copy a file to destination directory*:
+> 
 > cp source.txt destination/
 
 
