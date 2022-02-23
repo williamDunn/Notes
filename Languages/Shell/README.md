@@ -4,12 +4,17 @@
 
 ## Navigation Commands
 
+*options* : modify the behavior of commands
 **--** : long name version
 
 **-** : short name version
 
 
 **ls** : list files
+-  **-a** : includes hidden files and directories
+-  **-l** : lists in long format, as well as the file permissions
+    -  **-alt** : includes hidden files and directories
+-  **-t** : orders files and directories by the time they were last modified
 
 **pwd** : print working directory / outputs the name of the directory you're currently in
 
