@@ -13,8 +13,9 @@
 **ls** : list files
 -  **-a** : includes hidden files and directories
 -  **-l** : lists in long format, as well as the file permissions
-    -  **-alt** : includes hidden files and directories
+    -  **-al** : includes hidden files and directories
 -  **-t** : orders files and directories by the time they were last modified
+    - **alt** : includes hidden files 
 
 **pwd** : print working directory / outputs the name of the directory you're currently in
 
