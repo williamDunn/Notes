@@ -75,12 +75,28 @@ Through *redirection* you can direct input and the output of a command to and fr
 
 >  **redirection** *reroutes* stdin, stdout, and stderr *to* or *from a different location*
 
-**>** : redirects a standard output to a file
+**>** : redirects a standard output to a file / overwrites
 -  Redirecting a string into a file
     -  echo "Hello" > hello.txt
     -  cat hello.txt
--  Redirect standard output of *cat deserts.txt* -> forests.txt
+-  Redirect standard output of *cat deserts.txt* -> forests.txt (overwrite a file's contents)
     -  cat deserts.txt > forests.txt
+
+**>>** : takes the standard output of the command on the left and appends it to the file on the right
+-  output data of *forests.txt* being **appended** to *deserts.txt*:
+    -  cat forests.txt >> deserts.txt
+
+**<** : takes the standard input from file on right and inputs it into the program on the left 
+-  cat < lakes.txt
+
+**|** : pipe, takes the standard output of the command on the left, and pipes it as a standard input to the command on the right
+
+>  "**Command to command**" redirection
+
+Multiple **|**s can be chained together, to pipe one output into another command, and so on and so forth
+
+-  *Pipe* cat volcanoes.txt into wordcount command, *pipe* wordcount results into cat _ volcanoes_count.txt
+        -  cat volcanoes.txt | wc | cat > volcanoes_count.txt
 ------------------
 
 ## Wildcards
