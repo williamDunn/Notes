@@ -79,7 +79,8 @@ Through *redirection* you can direct input and the output of a command to and fr
 -  Redirecting a string into a file
     -  echo "Hello" > hello.txt
     -  cat hello.txt
-
+-  Redirect standard output of *cat deserts.txt* -> forests.txt
+    -  cat deserts.txt > forests.txt
 ------------------
 
 ## Wildcards
