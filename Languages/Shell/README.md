@@ -50,6 +50,13 @@
     -  mv my_file_1.txt my_file_2.txt my_directory/
 -  *Rename a file*:
     -  mv file_origin.txt file_renamed.txt
+
+**rm** : delete files and directories
+-  *Remove a file*:
+    -  rm unwanted_file.txt
+-  *Remove a directory (and all of its child directories)*:
+    -  rm -r unwanted_directory
+-  
 ------------------
 
 ## Wildcards
