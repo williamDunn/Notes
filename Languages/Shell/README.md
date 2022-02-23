@@ -64,6 +64,8 @@
 
 Through *redirection* you can direct input and the output of a command to and from other files and programs, and chain commands together in a pipeline
 
+**echo** : accepts a standard input, and echoes back to the terminal a standard output
+
 >  *standard input* (stdin), **information inputted into the terminal** through keyboard or input device
 >  
 >  *standard output* (stdout), **information outputted** after a process is run
