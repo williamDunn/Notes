@@ -75,6 +75,11 @@ Through *redirection* you can direct input and the output of a command to and fr
 
 >  **redirection** *reroutes* stdin, stdout, and stderr *to* or *from a different location*
 
+**>** : redirects a standard output to a file
+-  Redirecting a string into a file
+    -  echo "Hello" > hello.txt
+    -  cat hello.txt
+
 ------------------
 
 ## Wildcards
