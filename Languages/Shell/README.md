@@ -28,7 +28,20 @@
 
 **echo "Hello Command Line" >> hello_cli.txt** : create a file named hello_cli.txt and add *Hello Command Line* to that file
 
-**cat hello_cli.txt** : print the contents of the hello_cli.txt file to the terminal
+**cat** : view contents of individual file in terminal
+> cat hello_cli.txt : print the contents of the hello_cli.txt file to the terminal
+
+------------------
+
+## Copying, moving, and removing files and directories from the command line
+
+**cp** : copies files or directories
+> *Copy contents of source file -> destination file*:
+> cp source.txt destination.txt
+
+> *Copy a file to destination directory*:
+> cp source.txt destination/
+
 
 ------------------
 
