@@ -38,16 +38,27 @@
 **cp** : copies files or directories
 -  *Copy contents of source file -> destination file*:
     -  cp source.txt destination.txt
-- *Copy a file to destination directory*: 
+- *Copy a file -> destination directory*: 
     -  cp source.txt destination/ 
-- *Copy multiple files into a directory*:
+- *Copy multiple files -> directory*:
     -  cp file1.txt file2.txt my_directory/
+
+**mv** : moves a file without making a copy
+-  *Move a file -> directory*:
+    -  mv my_file.txt my_directory/
+-  *Move multiple files -> directory*:
+    -  mv my_file_1.txt my_file_2.txt my_directory/
+-  *Rename a file*:
+    -  mv file_origin.txt file_renamed.txt
 ------------------
 
 ## Wildcards
 
-Special characters like *** to select groups of files
-
+Special characters like * to select groups of files
+-  *Copy all files* in the current working directory into another directory
+    -  cp * my_directory/
+-  *Copy all files starting with "w" and ending with ".txt"* in the current working directory and copies them to my_directory/
+    -  cp w*.txt my_directory/
 ## Helper Commands
 
 **clear** : clear your terminal
