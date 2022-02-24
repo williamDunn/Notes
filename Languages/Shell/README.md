@@ -92,7 +92,7 @@ Through *redirection* you can direct input and the output of a command to and fr
 
 ~ ~ ~ ~ ~ ~ ~ ~ 
 
-**<** : takes the standard input from file on right and inputs it into the program on the left 
+**<** : takes the standard input from file on right and inputs it into the program on the left (redirects input into a command)
 -  cat < lakes.txt
 
 ~ ~ ~ ~ ~ ~ ~ ~ 
@@ -167,3 +167,28 @@ Special characters like * to select groups of files
 *tab* : autocomplete your command
 
 *up/down arrows* : cycle through previous commands
+
+------------------
+
+# Configuring the Command Line Environment
+ 
+----------
+
+## Nano / Command line text editor
+
+Type *nano* in the command line to open up Nano
+-  type '*nano* hello.txt' to open up a text file in nano
+
+>  ctrl + O : to save a file
+>  
+>  ctrl + X : to exit nano
+>  
+>  ctrl + G : open help menu
+
+----------
+
+## Bash Profile
+>  A bash profile is a file used to store environment settings for your terminal
+
+-  Making changes in the bash profile available right away without having to restart a new terminal session: use *source*
+*source* ~/.bash_profile
