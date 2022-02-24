@@ -192,3 +192,10 @@ Type *nano* in the command line to open up Nano
 
 -  Making changes in the bash profile available right away without having to restart a new terminal session: use *source*
 *source* ~/.bash_profile
+
+------------
+
+## Aliases
+
+>  The **alias** command allows you to create keyboard shortcuts, or *aliases* for commonly used commands
+
