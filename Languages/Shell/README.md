@@ -134,7 +134,20 @@ Multiple **|**s can be chained together, to pipe one output into another command
 
 **sed** : stands for stream editor - accepts standard input and modifies it based on an expression, similar to "find and replace"
 -  *sed* searches forests.txt for the word, "snow", and replaces it with "rain" (*only replaces the first instance*)
-    -  sed 
+    -  sed 's/snow/rain/' forests.txt
+>  's/snow/rain/'
+>   
+>   **s**: stands for "substitution" - *always* used when using **sed** for substitution
+>   
+>   **snow**: the search string (or text to find)
+>   
+>   **rain**: the replacement string (or text to add in place)
+
+-  To replace all instances, use the expression *g*, meaning global
+    -  sed 's/snow/rain/g' forests.txt
+-  To rewrite a file, meaning actually replacing and saving use *-i*
+    -  sed -i 's/snow/rain/g' forests.txt
+
 ------------------
 
 ## Wildcards
