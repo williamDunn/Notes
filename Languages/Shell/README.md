@@ -190,7 +190,7 @@ Type *nano* in the command line to open up Nano
 ## Bash Profile
 >  A bash profile is a file used to store environment settings for your terminal
 
--  Making changes in the bash profile available right away without having to restart a new terminal session: use *source*
+-  Making changes in the bash profile available right away without having to restart a new terminal session: use **source**
 *source* ~/.bash_profile
 
 ------------
@@ -199,3 +199,8 @@ Type *nano* in the command line to open up Nano
 
 >  The **alias** command allows you to create keyboard shortcuts, or *aliases* for commonly used commands
 
+1.  Open ~/.bash_profile in nano
+2.  alias aliasName="commandName"
+-  alias ll="ls -la"
+-  alias hy="history"
+3.  source ~/.bash_profile
