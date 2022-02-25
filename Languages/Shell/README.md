@@ -204,3 +204,22 @@ Type *nano* in the command line to open up Nano
 -  alias ll="ls -la"
 -  alias hy="history"
 3.  source ~/.bash_profile
+
+------------
+
+## Environment Variables
+
+**Environment Variables** are variables that can be used across commands and programs, and hold information about the information
+-  i.e., **export USER="Jane Doe"**
+    -  *USER="Jane Doe"* sets the environment variable, USER, to "Jane Doe"
+    -  *export* makes the variable be available to all child sessions initiated from the session you are in
+    -  (At the command line) the command, *echo $USER* returns the value of the variable
+        -  *$* is always used when returning a variable's value
+
+**PS1 Environment Variables** define the makeup and style of the command prompt
+-  i.e., **export PS1=">> "**
+    -  Instead of '$', you'll have '>> '
+        -  >> echo "hello"
+
+**HOME Environment Variable**
+-  i.e., 
