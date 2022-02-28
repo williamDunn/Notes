@@ -238,3 +238,22 @@ Type *nano* in the command line to open up Nano
     -  **env**
 -  i.e., To select the value of a particular environment variable
     -  **env | grep PATH** (or you can replace PATH with PWD, PS1, HOME, etc.)
+
+------------------------
+
+## Linux Key Shortcuts
+
+CTRL + C --> Stops current command
+CTRL + Z --> Sleep program
+CTRL + A --> Goes to start of line
+CTRL + E --> Goes to end of line
+CTRL + U --> Cuts from start of line
+CTRL + K --> Cuts to end of line
+CTRL + Y --> Pastes Text
+CTRL + R --> Searches history
+CTRL + P --> Previous command in history
+CTRL + N --> Next command in history
+CTRL + L --> Clears the screen
+!! --> Repeats the last command
+!abc --> Runs last command starting with 'abc'
+!ls:p --> Prints last command starting with 'abc'
