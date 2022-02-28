@@ -2,7 +2,7 @@
 
 --------------------
 
-<img src="CLcheatsheet.PNG" height="500">
+<img src="CLcheatsheet.PNG" height="700">
 
 --------------------
 
