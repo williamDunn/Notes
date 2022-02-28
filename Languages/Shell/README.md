@@ -221,5 +221,15 @@ Type *nano* in the command line to open up Nano
     -  Instead of '$', you'll have '>> '
         -  >> echo "hello"
 
-**HOME Environment Variable**
--  i.e., 
+**HOME Environment Variable** displays the path of the home directory
+-  i.e., **echo $HOME** returns /c/Users/will
+
+**PATH Environment Variable** stores a list of directories serparated by a colon
+-  The **PATH** variable simply lists which directories contain scripts
+    -  i.e., scripts stored in the /bin directory such as: /bin/pwd, /bin/ls, etc.
+
+**env** command stands for "environment" - returns a list of the environment variables for the current user
+-  i.e., **env** command returns a number of variables (PATH, PWD, PS1, and HOME)
+    -  **env**
+-  i.e., To select the value of a particular environment variable
+    -  **env | grep PATH** (or you can replace PATH with PWD, PS1, HOME, etc.)
