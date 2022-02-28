@@ -2,6 +2,10 @@
 
 --------------------
 
+<img src="CLcheatsheet.PNG" height="500">
+
+--------------------
+
 ## Navigation Commands
 
 *options* : modify the behavior of commands
