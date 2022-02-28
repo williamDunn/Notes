@@ -18,6 +18,7 @@ https://education.github.com/git-cheat-sheet-education.pdf
 
 **git diff**: shows the difference between the working directory and the staging area
 -  i.e., git diff changes.txt
+-  git diff --stages : show staged changes
 
 **git commit**: permanently stores file changes from the staging area in the repository
 -  i.e., git commit -m "made changes"
@@ -52,7 +53,8 @@ https://education.github.com/git-cheat-sheet-education.pdf
   
 **git branch**: list all local branches
 -  git branch -d <branch>: delete branch
--
+-  git branch -m <old> <new>
+  
 ------------------------
 ## Backtracking
 
