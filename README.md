@@ -1,6 +1,8 @@
 ## Markdown Cheatsheet
 -  https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+---------------------------
+
 ## Procedural programming & Object Oriented Programming
 
 -  **Procedural programming** is about writing procedures or methods that perform operations on the data
