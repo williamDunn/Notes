@@ -44,6 +44,15 @@ https://education.github.com/git-cheat-sheet-education.pdf
 -  i.e., git stash (will store you current work temporarily for later use in a hidden directory)
 -  then 'git stash pop'
 
+**git push -u origin**: push to origin remote repo
+
+**git clone <url>**: Clone existing remote repo
+  
+**git <command> -help**: Get help for specific command
+  
+**git branch**: list all local branches
+-  git branch -d <branch>: delete branch
+-
 ------------------------
 ## Backtracking
 
