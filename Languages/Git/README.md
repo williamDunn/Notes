@@ -1,5 +1,10 @@
 # Git
 
+https://education.github.com/git-cheat-sheet-education.pdf
+------------------
+
+## Git Commands
+
 **git init**: creates a new Git repository
 
 **git status**: inspects the contents of the working directory and staging area
